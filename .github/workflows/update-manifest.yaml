@@ -28,36 +28,31 @@ jobs:
           BRANCH="${{ github.ref_name }}"
           BASE_URL="https://raw.githubusercontent.com/${REPO}/${BRANCH}"
 
+          # Start building JSON
+          echo '{"files": [' > index.json
+          
+          first=true
           # Find all JSON files except index.json itself
-          files=()
           while IFS= read -r -d '' file; do
             filename=$(basename "$file")
             if [ "$filename" != "index.json" ]; then
-              files+=("$file")
+              # Remove leading ./
+              clean_path="${file#./}"
+              if [ "$first" = true ]; then
+                first=false
+              else
+                echo ',' >> index.json
+              fi
+              echo '  {"filename": "'"$clean_path"'", "url": "'"${BASE_URL}/${clean_path}"'"}' >> index.json
             fi
           done < <(find . -name "*.json" -type f ! -path "./.git/*" ! -name "index.json" -print0 | sort -z)
 
-          # Build JSON array
-          json_files="["
-          first=true
-          for f in "${files[@]}"; do
-            if [ "$first" = true ]; then
-              first=false
-            else
-              json_files+=","
-            fi
-            # Remove leading ./
-            clean_path="${f#./}"
-            json_files+='{"filename":"'"$clean_path"'","url":"'"${BASE_URL}/${clean_path}"'"}'
-          done
-          json_files+="]"
+          # Close the files array and add updated_at
+          echo '],' >> index.json
+          echo '  "updated_at": "'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"' >> index.json
+          echo '}' >> index.json
 
-          # Write index.json with updated_at timestamp - FIXED
-          cat > index.json <<EOF
-          {"files": ${json_files}, "updated_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"}
-          EOF
-
-          # Pretty print
+          # Validate and pretty print
           python3 -m json.tool index.json > index.tmp.json && mv index.tmp.json index.json
 
       - name: Commit and push if changed
