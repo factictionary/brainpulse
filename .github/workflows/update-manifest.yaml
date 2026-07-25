@@ -5,6 +5,7 @@ on:
     branches: [ main, master ]
     paths:
       - '**.json'
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   update-manifest:
@@ -16,6 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Git
         run: |
@@ -43,7 +45,10 @@ jobs:
               else
                 echo ',' >> index.json
               fi
-              echo '  {"filename": "'"$clean_path"'", "url": "'"${BASE_URL}/${clean_path}"'"}' >> index.json
+              # Escape any special characters in filename and url
+              escaped_filename=$(printf '%s' "$clean_path" | sed 's/"/\\"/g')
+              escaped_url=$(printf '%s' "${BASE_URL}/${clean_path}" | sed 's/"/\\"/g')
+              echo '  {"filename": "'"$escaped_filename"'", "url": "'"$escaped_url"'"}' >> index.json
             fi
           done < <(find . -name "*.json" -type f ! -path "./.git/*" ! -name "index.json" -print0 | sort -z)
 
@@ -52,15 +57,26 @@ jobs:
           echo '  "updated_at": "'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"' >> index.json
           echo '}' >> index.json
 
+          # Show what we generated
+          echo "Generated JSON before pretty-print:"
+          cat index.json
+
           # Validate and pretty print
           python3 -m json.tool index.json > index.tmp.json && mv index.tmp.json index.json
+          
+          echo "Final index.json:"
+          cat index.json
 
       - name: Commit and push if changed
         run: |
-          if git diff --quiet HEAD -- index.json 2>/dev/null; then
+          if [ ! -f "index.json" ]; then
+            echo "index.json not found"
+            exit 1
+          elif ! git diff --quiet HEAD -- index.json 2>/dev/null; then
+            echo "index.json has changes, committing"
+            git add index.json
+            git commit -m "chore: update index.json manifest"
+            git push
+          else
             echo "No changes to index.json"
-            exit 0
           fi
-          git add index.json
-          git commit -m "chore: update index.json manifest"
-          git push
