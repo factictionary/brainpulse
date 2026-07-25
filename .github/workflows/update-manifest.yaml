@@ -5,7 +5,7 @@ on:
     branches: [ main, master ]
     paths:
       - '**.json'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
 
 jobs:
   update-manifest:
@@ -57,26 +57,60 @@ jobs:
           echo '  "updated_at": "'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"' >> index.json
           echo '}' >> index.json
 
-          # Show what we generated
-          echo "Generated JSON before pretty-print:"
-          cat index.json
-
           # Validate and pretty print
           python3 -m json.tool index.json > index.tmp.json && mv index.tmp.json index.json
           
-          echo "Final index.json:"
+          echo "Generated index.json:"
           cat index.json
 
       - name: Commit and push if changed
         run: |
+          # Check if index.json exists
           if [ ! -f "index.json" ]; then
-            echo "index.json not found"
+            echo "ERROR: index.json was not generated"
             exit 1
-          elif ! git diff --quiet HEAD -- index.json 2>/dev/null; then
-            echo "index.json has changes, committing"
+          fi
+
+          # Check if there are changes to commit
+          if git status --porcelain | grep -q "index.json"; then
+            echo "Changes detected in index.json"
+            
+            # Add the file
             git add index.json
-            git commit -m "chore: update index.json manifest"
-            git push
+            
+            # Check if we're on main or master branch
+            CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            echo "Current branch: $CURRENT_BRANCH"
+            
+            # Commit changes
+            git commit -m "chore: update index.json manifest [skip ci]"
+            
+            # Push with force-with-lease to avoid conflicts
+            git push --force-with-lease origin $CURRENT_BRANCH
+            
+            echo "Successfully committed and pushed index.json"
           else
             echo "No changes to index.json"
           fi
+
+      - name: Verify push
+        run: |
+          # Verify the file exists in the repo after push
+          echo "Current directory contents after push:"
+          ls -la
+          echo "Checking if index.json exists:"
+          if [ -f "index.json" ]; then
+            echo "✅ index.json exists locally"
+            echo "Contents:"
+            cat index.json
+          else
+            echo "❌ index.json not found locally"
+          fi
+          
+          # Check git status
+          echo "Git status:"
+          git status
+          
+          # Check git log
+          echo "Last commit:"
+          git log -1 --oneline
