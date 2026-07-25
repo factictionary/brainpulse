@@ -1,0 +1,13 @@
+{
+    "files": [
+        {
+            "filename": "feed.json",
+            "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/feed.json"
+        },
+        {
+            "filename": "quiz_questions.json",
+            "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/quiz_questions.json"
+        }
+    ],
+    "updated_at": "2026-07-25T15:29:59Z"
+}
