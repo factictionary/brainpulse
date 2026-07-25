@@ -1,0 +1,7624 @@
+{
+  "promoted_apps": [
+    {
+      "id": "app_1",
+      "name": "Your Other App",
+      "tagline": "Check out my other app on Google Play",
+      "icon_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/apps/app1_icon.png",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.yourcompany.app1",
+      "accent_color": "#7C5CFF"
+    }
+  ],
+  "items": [
+    {
+      "id": "quiz_geo_001",
+      "type": "quiz",
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Atlantic Ocean"
+        },
+        {
+          "id": "b",
+          "text": "Indian Ocean"
+        },
+        {
+          "id": "c",
+          "text": "Pacific Ocean"
+        },
+        {
+          "id": "d",
+          "text": "Arctic Ocean"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Pacific Ocean covers about 63 million square miles, larger than all land area combined.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_geo_002",
+      "type": "quiz",
+      "question": "Which country has the most natural lakes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "United States"
+        },
+        {
+          "id": "b",
+          "text": "Canada"
+        },
+        {
+          "id": "c",
+          "text": "Russia"
+        },
+        {
+          "id": "d",
+          "text": "Brazil"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Canada has over 3 million lakes, more than the rest of the world combined.",
+      "difficulty": "medium",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_geo_003",
+      "type": "quiz",
+      "question": "What is the smallest country in the world?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Monaco"
+        },
+        {
+          "id": "b",
+          "text": "Vatican City"
+        },
+        {
+          "id": "c",
+          "text": "San Marino"
+        },
+        {
+          "id": "d",
+          "text": "Liechtenstein"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Vatican City is only 0.17 square miles and is located within Rome, Italy.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_geo_004",
+      "type": "quiz",
+      "question": "Which river is the longest in the world?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amazon"
+        },
+        {
+          "id": "b",
+          "text": "Nile"
+        },
+        {
+          "id": "c",
+          "text": "Yangtze"
+        },
+        {
+          "id": "d",
+          "text": "Mississippi"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The Nile stretches about 6,650 km through northeastern Africa.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_geo_005",
+      "type": "quiz",
+      "question": "Mount Everest is located in which mountain range?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Andes"
+        },
+        {
+          "id": "b",
+          "text": "Rockies"
+        },
+        {
+          "id": "c",
+          "text": "Alps"
+        },
+        {
+          "id": "d",
+          "text": "Himalayas"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "Mount Everest is in the Himalayas, on the border of Nepal and Tibet.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_geo_006",
+      "type": "quiz",
+      "question": "What is the capital of France?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lyon"
+        },
+        {
+          "id": "b",
+          "text": "Marseille"
+        },
+        {
+          "id": "c",
+          "text": "Paris"
+        },
+        {
+          "id": "d",
+          "text": "Nice"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Paris has been the capital since 987 CE and is known as the City of Light.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_geo_007",
+      "type": "quiz",
+      "question": "Which desert is the largest in the world?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sahara"
+        },
+        {
+          "id": "b",
+          "text": "Arabian"
+        },
+        {
+          "id": "c",
+          "text": "Gobi"
+        },
+        {
+          "id": "d",
+          "text": "Antarctic"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The Antarctic Desert is the largest, covering about 5.5 million square miles.",
+      "difficulty": "hard",
+      "tags": [
+        "geography"
+      ],
+      "points": 15,
+      "timer_seconds": 20
+    },
+    {
+      "id": "quiz_geo_008",
+      "type": "quiz",
+      "question": "What is the deepest point in the ocean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mariana Trench"
+        },
+        {
+          "id": "b",
+          "text": "Puerto Rico Trench"
+        },
+        {
+          "id": "c",
+          "text": "Java Trench"
+        },
+        {
+          "id": "d",
+          "text": "Philippine Trench"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The Challenger Deep in the Mariana Trench reaches about 36,000 feet below sea level.",
+      "difficulty": "medium",
+      "tags": [
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_geo_009",
+      "type": "quiz",
+      "question": "Which African country has the most pyramids?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Egypt"
+        },
+        {
+          "id": "b",
+          "text": "Sudan"
+        },
+        {
+          "id": "c",
+          "text": "Ethiopia"
+        },
+        {
+          "id": "d",
+          "text": "Libya"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Sudan has over 200 pyramids, more than Egypt's approximately 100.",
+      "difficulty": "hard",
+      "tags": [
+        "geography"
+      ],
+      "points": 15,
+      "timer_seconds": 20
+    },
+    {
+      "id": "quiz_geo_010",
+      "type": "quiz",
+      "question": "What is the largest island in the world?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Australia"
+        },
+        {
+          "id": "b",
+          "text": "Greenland"
+        },
+        {
+          "id": "c",
+          "text": "New Guinea"
+        },
+        {
+          "id": "d",
+          "text": "Borneo"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Greenland is the world's largest island, covering about 836,000 square miles.",
+      "difficulty": "medium",
+      "tags": [
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_geo_011",
+      "type": "quiz",
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "China"
+        },
+        {
+          "id": "b",
+          "text": "South Korea"
+        },
+        {
+          "id": "c",
+          "text": "Japan"
+        },
+        {
+          "id": "d",
+          "text": "Thailand"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Japan is called Nippon or Nihon, meaning 'origin of the sun' in Japanese.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_geo_012",
+      "type": "quiz",
+      "question": "What is the capital of Canada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toronto"
+        },
+        {
+          "id": "b",
+          "text": "Vancouver"
+        },
+        {
+          "id": "c",
+          "text": "Ottawa"
+        },
+        {
+          "id": "d",
+          "text": "Montreal"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Ottawa became the capital in 1857, chosen by Queen Victoria.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_geo_013",
+      "type": "quiz",
+      "question": "Which U.S. state is the largest by area?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Texas"
+        },
+        {
+          "id": "b",
+          "text": "California"
+        },
+        {
+          "id": "c",
+          "text": "Alaska"
+        },
+        {
+          "id": "d",
+          "text": "Montana"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Alaska is more than twice the size of Texas, the second-largest state.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_geo_014",
+      "type": "quiz",
+      "question": "The Great Barrier Reef is off the coast of which country?",
+      "options": [
+        {
+          "id": "a",
+          "text": "New Zealand"
+        },
+        {
+          "id": "b",
+          "text": "Australia"
+        },
+        {
+          "id": "c",
+          "text": "Papua New Guinea"
+        },
+        {
+          "id": "d",
+          "text": "Indonesia"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The Great Barrier Reef stretches over 1,400 miles along Australia's northeast coast.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_geo_015",
+      "type": "quiz",
+      "question": "What is the longest river in Europe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Danube"
+        },
+        {
+          "id": "b",
+          "text": "Rhine"
+        },
+        {
+          "id": "c",
+          "text": "Volga"
+        },
+        {
+          "id": "d",
+          "text": "Thames"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Volga River in Russia flows about 2,300 miles.",
+      "difficulty": "medium",
+      "tags": [
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_geo_016",
+      "type": "quiz",
+      "question": "Which country has the most time zones?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Russia"
+        },
+        {
+          "id": "b",
+          "text": "United States"
+        },
+        {
+          "id": "c",
+          "text": "France"
+        },
+        {
+          "id": "d",
+          "text": "China"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "France has 12 time zones due to its overseas territories worldwide.",
+      "difficulty": "hard",
+      "tags": [
+        "geography"
+      ],
+      "points": 15,
+      "timer_seconds": 20
+    },
+    {
+      "id": "quiz_geo_017",
+      "type": "quiz",
+      "question": "What is the highest waterfall in the world?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Niagara Falls"
+        },
+        {
+          "id": "b",
+          "text": "Angel Falls"
+        },
+        {
+          "id": "c",
+          "text": "Victoria Falls"
+        },
+        {
+          "id": "d",
+          "text": "Iguazu Falls"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Angel Falls in Venezuela drops about 3,212 feet.",
+      "difficulty": "medium",
+      "tags": [
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_geo_018",
+      "type": "quiz",
+      "question": "Which continent has the most countries?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Asia"
+        },
+        {
+          "id": "b",
+          "text": "Africa"
+        },
+        {
+          "id": "c",
+          "text": "Europe"
+        },
+        {
+          "id": "d",
+          "text": "South America"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Africa has 54 recognized countries, the most of any continent.",
+      "difficulty": "medium",
+      "tags": [
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_geo_019",
+      "type": "quiz",
+      "question": "What is the capital of Brazil?",
+      "options": [
+        {
+          "id": "a",
+          "text": "São Paulo"
+        },
+        {
+          "id": "b",
+          "text": "Rio de Janeiro"
+        },
+        {
+          "id": "c",
+          "text": "Brasília"
+        },
+        {
+          "id": "d",
+          "text": "Salvador"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Brasília was purpose-built and became the capital in 1960.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_geo_020",
+      "type": "quiz",
+      "question": "Which sea is the saltiest on Earth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mediterranean Sea"
+        },
+        {
+          "id": "b",
+          "text": "Red Sea"
+        },
+        {
+          "id": "c",
+          "text": "Dead Sea"
+        },
+        {
+          "id": "d",
+          "text": "Black Sea"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Dead Sea has a salinity of about 34%, making it nearly 10 times saltier than the ocean.",
+      "difficulty": "easy",
+      "tags": [
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sci_021",
+      "type": "quiz",
+      "question": "What is the chemical symbol for gold?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Go"
+        },
+        {
+          "id": "b",
+          "text": "Gd"
+        },
+        {
+          "id": "c",
+          "text": "Au"
+        },
+        {
+          "id": "d",
+          "text": "Ag"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Au comes from the Latin word 'aurum' meaning gold.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sci_022",
+      "type": "quiz",
+      "question": "What planet is known as the Red Planet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Venus"
+        },
+        {
+          "id": "b",
+          "text": "Mars"
+        },
+        {
+          "id": "c",
+          "text": "Jupiter"
+        },
+        {
+          "id": "d",
+          "text": "Saturn"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Mars appears red due to iron oxide (rust) on its surface.",
+      "difficulty": "easy",
+      "tags": [
+        "science",
+        "space"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sci_023",
+      "type": "quiz",
+      "question": "What is the speed of light?",
+      "options": [
+        {
+          "id": "a",
+          "text": "300,000 km/s"
+        },
+        {
+          "id": "b",
+          "text": "150,000 km/s"
+        },
+        {
+          "id": "c",
+          "text": "1,000,000 km/s"
+        },
+        {
+          "id": "d",
+          "text": "100,000 km/s"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Light travels at approximately 299,792 km/s in a vacuum.",
+      "difficulty": "medium",
+      "tags": [
+        "science"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sci_024",
+      "type": "quiz",
+      "question": "What is the hardest natural substance on Earth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gold"
+        },
+        {
+          "id": "b",
+          "text": "Iron"
+        },
+        {
+          "id": "c",
+          "text": "Diamond"
+        },
+        {
+          "id": "d",
+          "text": "Platinum"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Diamond rates 10 on the Mohs hardness scale, the highest possible rating.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sci_025",
+      "type": "quiz",
+      "question": "Which gas do plants absorb from the atmosphere?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oxygen"
+        },
+        {
+          "id": "b",
+          "text": "Carbon Dioxide"
+        },
+        {
+          "id": "c",
+          "text": "Nitrogen"
+        },
+        {
+          "id": "d",
+          "text": "Hydrogen"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Plants use CO2 during photosynthesis to produce glucose and oxygen.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sci_026",
+      "type": "quiz",
+      "question": "What is the largest organ in the human body?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heart"
+        },
+        {
+          "id": "b",
+          "text": "Liver"
+        },
+        {
+          "id": "c",
+          "text": "Brain"
+        },
+        {
+          "id": "d",
+          "text": "Skin"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "The skin covers about 22 square feet and makes up roughly 16% of body weight.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sci_027",
+      "type": "quiz",
+      "question": "What particle has a negative charge?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proton"
+        },
+        {
+          "id": "b",
+          "text": "Neutron"
+        },
+        {
+          "id": "c",
+          "text": "Electron"
+        },
+        {
+          "id": "d",
+          "text": "Photon"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Electrons carry a negative charge and orbit the nucleus of an atom.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sci_028",
+      "type": "quiz",
+      "question": "What is the most abundant gas in Earth's atmosphere?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oxygen"
+        },
+        {
+          "id": "b",
+          "text": "Carbon Dioxide"
+        },
+        {
+          "id": "c",
+          "text": "Nitrogen"
+        },
+        {
+          "id": "d",
+          "text": "Argon"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sci_029",
+      "type": "quiz",
+      "question": "Which blood type is the universal donor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A+"
+        },
+        {
+          "id": "b",
+          "text": "B+"
+        },
+        {
+          "id": "c",
+          "text": "AB-"
+        },
+        {
+          "id": "d",
+          "text": "O-"
+        }
+      ],
+      "correct_option_id": "d",
+      "explanation": "O-negative can be donated to any blood type because it lacks A, B, and Rh antigens.",
+      "difficulty": "medium",
+      "tags": [
+        "science"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sci_030",
+      "type": "quiz",
+      "question": "What is the powerhouse of the cell?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nucleus"
+        },
+        {
+          "id": "b",
+          "text": "Mitochondria"
+        },
+        {
+          "id": "c",
+          "text": "Ribosome"
+        },
+        {
+          "id": "d",
+          "text": "Chloroplast"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Mitochondria produce ATP, the cell's main energy currency.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sci_031",
+      "type": "quiz",
+      "question": "How many elements are in the periodic table?",
+      "options": [
+        {
+          "id": "a",
+          "text": "92"
+        },
+        {
+          "id": "b",
+          "text": "108"
+        },
+        {
+          "id": "c",
+          "text": "118"
+        },
+        {
+          "id": "d",
+          "text": "126"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "As of 2024, there are 118 confirmed elements in the periodic table.",
+      "difficulty": "medium",
+      "tags": [
+        "science"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sci_032",
+      "type": "quiz",
+      "question": "What is the boiling point of water at sea level?",
+      "options": [
+        {
+          "id": "a",
+          "text": "90°C"
+        },
+        {
+          "id": "b",
+          "text": "100°C"
+        },
+        {
+          "id": "c",
+          "text": "110°C"
+        },
+        {
+          "id": "d",
+          "text": "120°C"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Water boils at 100°C (212°F) at standard atmospheric pressure.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sci_033",
+      "type": "quiz",
+      "question": "Which planet is closest to the Sun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Venus"
+        },
+        {
+          "id": "b",
+          "text": "Earth"
+        },
+        {
+          "id": "c",
+          "text": "Mercury"
+        },
+        {
+          "id": "d",
+          "text": "Mars"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Mercury orbits the Sun at an average distance of about 36 million miles.",
+      "difficulty": "easy",
+      "tags": [
+        "science",
+        "space"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sci_034",
+      "type": "quiz",
+      "question": "What is the study of fossils called?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Archaeology"
+        },
+        {
+          "id": "b",
+          "text": "Paleontology"
+        },
+        {
+          "id": "c",
+          "text": "Geology"
+        },
+        {
+          "id": "d",
+          "text": "Anthropology"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Paleontologists study fossils to understand ancient life and Earth's history.",
+      "difficulty": "medium",
+      "tags": [
+        "science"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sci_035",
+      "type": "quiz",
+      "question": "Which vitamin is produced when skin is exposed to sunlight?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vitamin A"
+        },
+        {
+          "id": "b",
+          "text": "Vitamin C"
+        },
+        {
+          "id": "c",
+          "text": "Vitamin D"
+        },
+        {
+          "id": "d",
+          "text": "Vitamin E"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "UVB rays trigger vitamin D synthesis in the skin.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sci_036",
+      "type": "quiz",
+      "question": "What is the main gas found in the Sun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oxygen"
+        },
+        {
+          "id": "b",
+          "text": "Hydrogen"
+        },
+        {
+          "id": "c",
+          "text": "Helium"
+        },
+        {
+          "id": "d",
+          "text": "Nitrogen"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The Sun is about 73% hydrogen and 25% helium by mass.",
+      "difficulty": "medium",
+      "tags": [
+        "science",
+        "space"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sci_037",
+      "type": "quiz",
+      "question": "What is the smallest unit of life?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Atom"
+        },
+        {
+          "id": "b",
+          "text": "Molecule"
+        },
+        {
+          "id": "c",
+          "text": "Cell"
+        },
+        {
+          "id": "d",
+          "text": "Organ"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The cell is the basic structural and functional unit of all living organisms.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sci_038",
+      "type": "quiz",
+      "question": "Which animal has the largest brain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elephant"
+        },
+        {
+          "id": "b",
+          "text": "Blue Whale"
+        },
+        {
+          "id": "c",
+          "text": "Human"
+        },
+        {
+          "id": "d",
+          "text": "Dolphin"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A blue whale's brain can weigh up to 15 pounds, the heaviest of any animal.",
+      "difficulty": "medium",
+      "tags": [
+        "science"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sci_039",
+      "type": "quiz",
+      "question": "What does DNA stand for?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deoxyribonucleic Acid"
+        },
+        {
+          "id": "b",
+          "text": "Dinucleic Acid"
+        },
+        {
+          "id": "c",
+          "text": "Double Nucleic Acid"
+        },
+        {
+          "id": "d",
+          "text": "Dynamic Nucleic Acid"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "DNA contains the genetic instructions for the development and function of living things.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sci_040",
+      "type": "quiz",
+      "question": "Which metal is liquid at room temperature?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Iron"
+        },
+        {
+          "id": "b",
+          "text": "Copper"
+        },
+        {
+          "id": "c",
+          "text": "Mercury"
+        },
+        {
+          "id": "d",
+          "text": "Lead"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Mercury is the only metal that is liquid at standard room temperature and pressure.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sci_041",
+      "type": "quiz",
+      "question": "What is the largest planet in our solar system?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saturn"
+        },
+        {
+          "id": "b",
+          "text": "Neptune"
+        },
+        {
+          "id": "c",
+          "text": "Jupiter"
+        },
+        {
+          "id": "d",
+          "text": "Uranus"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Jupiter is so large that over 1,300 Earths could fit inside it.",
+      "difficulty": "easy",
+      "tags": [
+        "science",
+        "space"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sci_042",
+      "type": "quiz",
+      "question": "How many teeth does an adult human have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "28"
+        },
+        {
+          "id": "b",
+          "text": "30"
+        },
+        {
+          "id": "c",
+          "text": "32"
+        },
+        {
+          "id": "d",
+          "text": "34"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Adults typically have 32 teeth, including wisdom teeth.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sci_043",
+      "type": "quiz",
+      "question": "What is the chemical formula for water?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CO2"
+        },
+        {
+          "id": "b",
+          "text": "H2O"
+        },
+        {
+          "id": "c",
+          "text": "O2"
+        },
+        {
+          "id": "d",
+          "text": "NaCl"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Water consists of two hydrogen atoms and one oxygen atom.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_sci_044",
+      "type": "quiz",
+      "question": "Which organ filters blood in the human body?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heart"
+        },
+        {
+          "id": "b",
+          "text": "Liver"
+        },
+        {
+          "id": "c",
+          "text": "Kidney"
+        },
+        {
+          "id": "d",
+          "text": "Lungs"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The kidneys filter about 120-150 quarts of blood daily to produce urine.",
+      "difficulty": "easy",
+      "tags": [
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sci_045",
+      "type": "quiz",
+      "question": "What causes the Earth's seasons?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Distance from Sun"
+        },
+        {
+          "id": "b",
+          "text": "Earth's tilt"
+        },
+        {
+          "id": "c",
+          "text": "Solar flares"
+        },
+        {
+          "id": "d",
+          "text": "Moon's gravity"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Earth's 23.5-degree axial tilt causes different parts to receive more sunlight throughout the year.",
+      "difficulty": "medium",
+      "tags": [
+        "science"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_hist_046",
+      "type": "quiz",
+      "question": "Who was the first President of the United States?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thomas Jefferson"
+        },
+        {
+          "id": "b",
+          "text": "John Adams"
+        },
+        {
+          "id": "c",
+          "text": "George Washington"
+        },
+        {
+          "id": "d",
+          "text": "Benjamin Franklin"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "George Washington served as the first U.S. President from 1789 to 1797.",
+      "difficulty": "easy",
+      "tags": [
+        "history"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_hist_047",
+      "type": "quiz",
+      "question": "In which year did the Titanic sink?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1910"
+        },
+        {
+          "id": "b",
+          "text": "1912"
+        },
+        {
+          "id": "c",
+          "text": "1914"
+        },
+        {
+          "id": "d",
+          "text": "1916"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The RMS Titanic sank on April 15, 1912, after hitting an iceberg.",
+      "difficulty": "easy",
+      "tags": [
+        "history"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_hist_048",
+      "type": "quiz",
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Michelangelo"
+        },
+        {
+          "id": "b",
+          "text": "Raphael"
+        },
+        {
+          "id": "c",
+          "text": "Leonardo da Vinci"
+        },
+        {
+          "id": "d",
+          "text": "Donatello"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Leonardo da Vinci painted the Mona Lisa between 1503 and 1519.",
+      "difficulty": "easy",
+      "tags": [
+        "history",
+        "art"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_hist_049",
+      "type": "quiz",
+      "question": "Which empire was ruled by Genghis Khan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Roman Empire"
+        },
+        {
+          "id": "b",
+          "text": "Mongol Empire"
+        },
+        {
+          "id": "c",
+          "text": "Ottoman Empire"
+        },
+        {
+          "id": "d",
+          "text": "Persian Empire"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Genghis Khan united Mongol tribes and created the largest contiguous land empire in history.",
+      "difficulty": "medium",
+      "tags": [
+        "history"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_hist_050",
+      "type": "quiz",
+      "question": "When did the Berlin Wall fall?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1987"
+        },
+        {
+          "id": "b",
+          "text": "1989"
+        },
+        {
+          "id": "c",
+          "text": "1991"
+        },
+        {
+          "id": "d",
+          "text": "1993"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The Berlin Wall fell on November 9, 1989, symbolizing the end of the Cold War.",
+      "difficulty": "medium",
+      "tags": [
+        "history"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_hist_051",
+      "type": "quiz",
+      "question": "Who was the first person to walk on the Moon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Buzz Aldrin"
+        },
+        {
+          "id": "b",
+          "text": "Yuri Gagarin"
+        },
+        {
+          "id": "c",
+          "text": "Neil Armstrong"
+        },
+        {
+          "id": "d",
+          "text": "Michael Collins"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Neil Armstrong stepped onto the Moon on July 20, 1969, saying 'That's one small step for man...'",
+      "difficulty": "easy",
+      "tags": [
+        "history",
+        "space"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_hist_052",
+      "type": "quiz",
+      "question": "Which ancient wonder of the world still stands today?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Colossus of Rhodes"
+        },
+        {
+          "id": "b",
+          "text": "Hanging Gardens"
+        },
+        {
+          "id": "c",
+          "text": "Great Pyramid of Giza"
+        },
+        {
+          "id": "d",
+          "text": "Lighthouse of Alexandria"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Great Pyramid of Giza was completed around 2560 BCE and remains largely intact.",
+      "difficulty": "easy",
+      "tags": [
+        "history"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_hist_053",
+      "type": "quiz",
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Christopher Marlowe"
+        },
+        {
+          "id": "b",
+          "text": "William Shakespeare"
+        },
+        {
+          "id": "c",
+          "text": "Ben Jonson"
+        },
+        {
+          "id": "d",
+          "text": "John Milton"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Shakespeare wrote Romeo and Juliet around 1594-1596.",
+      "difficulty": "easy",
+      "tags": [
+        "history",
+        "literature"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_hist_054",
+      "type": "quiz",
+      "question": "In which year did the French Revolution begin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1776"
+        },
+        {
+          "id": "b",
+          "text": "1789"
+        },
+        {
+          "id": "c",
+          "text": "1799"
+        },
+        {
+          "id": "d",
+          "text": "1804"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14.",
+      "difficulty": "medium",
+      "tags": [
+        "history"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_hist_055",
+      "type": "quiz",
+      "question": "Which civilization built Machu Picchu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aztec"
+        },
+        {
+          "id": "b",
+          "text": "Maya"
+        },
+        {
+          "id": "c",
+          "text": "Inca"
+        },
+        {
+          "id": "d",
+          "text": "Olmec"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Inca Empire built Machu Picchu in the 15th century in modern-day Peru.",
+      "difficulty": "medium",
+      "tags": [
+        "history"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_hist_056",
+      "type": "quiz",
+      "question": "Who invented the telephone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thomas Edison"
+        },
+        {
+          "id": "b",
+          "text": "Nikola Tesla"
+        },
+        {
+          "id": "c",
+          "text": "Alexander Graham Bell"
+        },
+        {
+          "id": "d",
+          "text": "Guglielmo Marconi"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Alexander Graham Bell was awarded the first U.S. patent for the telephone in 1876.",
+      "difficulty": "easy",
+      "tags": [
+        "history"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_hist_057",
+      "type": "quiz",
+      "question": "What was the name of the ship on which Charles Darwin sailed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beagle"
+        },
+        {
+          "id": "b",
+          "text": "Endeavour"
+        },
+        {
+          "id": "c",
+          "text": "Discovery"
+        },
+        {
+          "id": "d",
+          "text": "Victoria"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Darwin sailed on HMS Beagle from 1831 to 1836, leading to his theory of evolution.",
+      "difficulty": "medium",
+      "tags": [
+        "history",
+        "science"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_hist_058",
+      "type": "quiz",
+      "question": "Which U.S. state was the last to join the Union?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alaska"
+        },
+        {
+          "id": "b",
+          "text": "Hawaii"
+        },
+        {
+          "id": "c",
+          "text": "Arizona"
+        },
+        {
+          "id": "d",
+          "text": "New Mexico"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Hawaii became the 50th U.S. state on August 21, 1959.",
+      "difficulty": "easy",
+      "tags": [
+        "history"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_hist_059",
+      "type": "quiz",
+      "question": "Who was the longest-reigning British monarch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Queen Victoria"
+        },
+        {
+          "id": "b",
+          "text": "Queen Elizabeth II"
+        },
+        {
+          "id": "c",
+          "text": "King George III"
+        },
+        {
+          "id": "d",
+          "text": "King Henry VIII"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Queen Elizabeth II reigned for over 70 years from 1952 to 2022.",
+      "difficulty": "easy",
+      "tags": [
+        "history"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_hist_060",
+      "type": "quiz",
+      "question": "The Renaissance began in which country?",
+      "options": [
+        {
+          "id": "a",
+          "text": "France"
+        },
+        {
+          "id": "b",
+          "text": "England"
+        },
+        {
+          "id": "c",
+          "text": "Italy"
+        },
+        {
+          "id": "d",
+          "text": "Germany"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Renaissance began in Florence, Italy, in the 14th century.",
+      "difficulty": "medium",
+      "tags": [
+        "history",
+        "art"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_hist_061",
+      "type": "quiz",
+      "question": "Who discovered penicillin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Louis Pasteur"
+        },
+        {
+          "id": "b",
+          "text": "Alexander Fleming"
+        },
+        {
+          "id": "c",
+          "text": "Robert Koch"
+        },
+        {
+          "id": "d",
+          "text": "Joseph Lister"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Alexander Fleming discovered penicillin in 1928 from mold growing in a petri dish.",
+      "difficulty": "medium",
+      "tags": [
+        "history",
+        "science"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_hist_062",
+      "type": "quiz",
+      "question": "Which war was fought between the North and South in the United States?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Revolutionary War"
+        },
+        {
+          "id": "b",
+          "text": "Civil War"
+        },
+        {
+          "id": "c",
+          "text": "World War I"
+        },
+        {
+          "id": "d",
+          "text": "War of 1812"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The American Civil War was fought from 1861 to 1865.",
+      "difficulty": "easy",
+      "tags": [
+        "history"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_hist_063",
+      "type": "quiz",
+      "question": "Who was the first Emperor of Rome?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Julius Caesar"
+        },
+        {
+          "id": "b",
+          "text": "Augustus"
+        },
+        {
+          "id": "c",
+          "text": "Nero"
+        },
+        {
+          "id": "d",
+          "text": "Trajan"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Augustus, born Octavian, became the first Roman Emperor in 27 BCE.",
+      "difficulty": "medium",
+      "tags": [
+        "history"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_hist_064",
+      "type": "quiz",
+      "question": "In which year did the Internet become publicly available?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1983"
+        },
+        {
+          "id": "b",
+          "text": "1990"
+        },
+        {
+          "id": "c",
+          "text": "1993"
+        },
+        {
+          "id": "d",
+          "text": "1995"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The World Wide Web became publicly available in 1993, though the Internet existed earlier.",
+      "difficulty": "medium",
+      "tags": [
+        "history",
+        "technology"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_hist_065",
+      "type": "quiz",
+      "question": "Which ancient civilization invented paper?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Egyptians"
+        },
+        {
+          "id": "b",
+          "text": "Greeks"
+        },
+        {
+          "id": "c",
+          "text": "Chinese"
+        },
+        {
+          "id": "d",
+          "text": "Romans"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Paper was invented in China during the Han Dynasty around 105 CE by Cai Lun.",
+      "difficulty": "medium",
+      "tags": [
+        "history"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sport_066",
+      "type": "quiz",
+      "question": "How many rings are on the Olympic flag?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The five rings represent the five inhabited continents of the world.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sport_067",
+      "type": "quiz",
+      "question": "Which country won the first FIFA World Cup in 1930?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brazil"
+        },
+        {
+          "id": "b",
+          "text": "Argentina"
+        },
+        {
+          "id": "c",
+          "text": "Uruguay"
+        },
+        {
+          "id": "d",
+          "text": "Italy"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Uruguay won the first World Cup, defeating Argentina 4-2 in the final.",
+      "difficulty": "medium",
+      "tags": [
+        "sports"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sport_068",
+      "type": "quiz",
+      "question": "In tennis, what is the term for a score of zero?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nil"
+        },
+        {
+          "id": "b",
+          "text": "Love"
+        },
+        {
+          "id": "c",
+          "text": "Zero"
+        },
+        {
+          "id": "d",
+          "text": "Blank"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The term 'love' comes from the French word 'l'oeuf' meaning egg, symbolizing zero.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sport_069",
+      "type": "quiz",
+      "question": "Which NBA team has won the most championships?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chicago Bulls"
+        },
+        {
+          "id": "b",
+          "text": "Los Angeles Lakers"
+        },
+        {
+          "id": "c",
+          "text": "Boston Celtics"
+        },
+        {
+          "id": "d",
+          "text": "Golden State Warriors"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Boston Celtics have won 17 NBA championships, tied with the Lakers.",
+      "difficulty": "medium",
+      "tags": [
+        "sports"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sport_070",
+      "type": "quiz",
+      "question": "What is the length of a marathon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 miles"
+        },
+        {
+          "id": "b",
+          "text": "24 miles"
+        },
+        {
+          "id": "c",
+          "text": "26.2 miles"
+        },
+        {
+          "id": "d",
+          "text": "30 miles"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A marathon is exactly 26 miles and 385 yards (42.195 kilometers).",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sport_071",
+      "type": "quiz",
+      "question": "Which sport uses a shuttlecock?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tennis"
+        },
+        {
+          "id": "b",
+          "text": "Badminton"
+        },
+        {
+          "id": "c",
+          "text": "Squash"
+        },
+        {
+          "id": "d",
+          "text": "Table Tennis"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Badminton uses a shuttlecock, also called a birdie.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sport_072",
+      "type": "quiz",
+      "question": "How many periods are in a standard ice hockey game?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A standard ice hockey game has three 20-minute periods.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sport_073",
+      "type": "quiz",
+      "question": "Which country hosted the first modern Olympic Games in 1896?",
+      "options": [
+        {
+          "id": "a",
+          "text": "France"
+        },
+        {
+          "id": "b",
+          "text": "United Kingdom"
+        },
+        {
+          "id": "c",
+          "text": "Greece"
+        },
+        {
+          "id": "d",
+          "text": "Germany"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The first modern Olympics were held in Athens, Greece.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sport_074",
+      "type": "quiz",
+      "question": "What is the highest score possible in a single frame of bowling?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20"
+        },
+        {
+          "id": "b",
+          "text": "25"
+        },
+        {
+          "id": "c",
+          "text": "30"
+        },
+        {
+          "id": "d",
+          "text": "35"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A perfect frame with two strikes in the tenth frame can score 30 points.",
+      "difficulty": "medium",
+      "tags": [
+        "sports"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sport_075",
+      "type": "quiz",
+      "question": "In cricket, how many balls are in an over?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "An over in cricket consists of six legal deliveries bowled by one bowler.",
+      "difficulty": "medium",
+      "tags": [
+        "sports"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sport_076",
+      "type": "quiz",
+      "question": "Which golfer has won the most major championships?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiger Woods"
+        },
+        {
+          "id": "b",
+          "text": "Jack Nicklaus"
+        },
+        {
+          "id": "c",
+          "text": "Arnold Palmer"
+        },
+        {
+          "id": "d",
+          "text": "Phil Mickelson"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Jack Nicklaus won 18 major championships during his career.",
+      "difficulty": "medium",
+      "tags": [
+        "sports"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sport_077",
+      "type": "quiz",
+      "question": "What color is the jersey worn by the leader of the Tour de France?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Red"
+        },
+        {
+          "id": "b",
+          "text": "Green"
+        },
+        {
+          "id": "c",
+          "text": "Yellow"
+        },
+        {
+          "id": "d",
+          "text": "White"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The yellow jersey (maillot jaune) signifies the overall race leader.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sport_078",
+      "type": "quiz",
+      "question": "Which sport is known as 'the beautiful game'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Basketball"
+        },
+        {
+          "id": "b",
+          "text": "Tennis"
+        },
+        {
+          "id": "c",
+          "text": "Soccer"
+        },
+        {
+          "id": "d",
+          "text": "Rugby"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Soccer (football) is widely known as 'the beautiful game', coined by Pelé.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sport_079",
+      "type": "quiz",
+      "question": "How many players are on a baseball team on the field?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A baseball team fields 9 players at a time.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sport_080",
+      "type": "quiz",
+      "question": "Which boxer was known as 'The Greatest'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mike Tyson"
+        },
+        {
+          "id": "b",
+          "text": "Muhammad Ali"
+        },
+        {
+          "id": "c",
+          "text": "Floyd Mayweather"
+        },
+        {
+          "id": "d",
+          "text": "Joe Frazier"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Muhammad Ali called himself 'The Greatest' and is widely considered one of the best ever.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_sport_081",
+      "type": "quiz",
+      "question": "In which sport would you perform a slam dunk?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Volleyball"
+        },
+        {
+          "id": "b",
+          "text": "Basketball"
+        },
+        {
+          "id": "c",
+          "text": "Tennis"
+        },
+        {
+          "id": "d",
+          "text": "Soccer"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A slam dunk is when a player forces the ball through the hoop from above.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sport_082",
+      "type": "quiz",
+      "question": "Which country won the most gold medals at the 2024 Paris Olympics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "China"
+        },
+        {
+          "id": "b",
+          "text": "United States"
+        },
+        {
+          "id": "c",
+          "text": "Japan"
+        },
+        {
+          "id": "d",
+          "text": "Australia"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The United States topped the medal table at the 2024 Paris Olympics.",
+      "difficulty": "medium",
+      "tags": [
+        "sports"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sport_083",
+      "type": "quiz",
+      "question": "How many Grand Slam tennis tournaments are there?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The four Grand Slams are Wimbledon, US Open, French Open, and Australian Open.",
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_sport_084",
+      "type": "quiz",
+      "question": "What is the national sport of Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Karate"
+        },
+        {
+          "id": "b",
+          "text": "Judo"
+        },
+        {
+          "id": "c",
+          "text": "Sumo Wrestling"
+        },
+        {
+          "id": "d",
+          "text": "Kendo"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Sumo wrestling is considered Japan's national sport.",
+      "difficulty": "medium",
+      "tags": [
+        "sports"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sport_085",
+      "type": "quiz",
+      "question": "Which NFL team has won the most Super Bowls?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dallas Cowboys"
+        },
+        {
+          "id": "b",
+          "text": "Pittsburgh Steelers"
+        },
+        {
+          "id": "c",
+          "text": "New England Patriots"
+        },
+        {
+          "id": "d",
+          "text": "San Francisco 49ers"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The Pittsburgh Steelers have won 6 Super Bowls, tied with the Patriots.",
+      "difficulty": "medium",
+      "tags": [
+        "sports"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_math_086",
+      "type": "quiz",
+      "question": "What is 25% of 80?",
+      "options": [
+        {
+          "id": "a",
+          "text": "15"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "25"
+        },
+        {
+          "id": "d",
+          "text": "30"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "25% of 80 = 0.25 × 80 = 20.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_math_087",
+      "type": "quiz",
+      "question": "What is the square root of 144?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "12 × 12 = 144, so the square root of 144 is 12.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_math_088",
+      "type": "quiz",
+      "question": "What is the value of Pi (π) to two decimal places?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3.12"
+        },
+        {
+          "id": "b",
+          "text": "3.14"
+        },
+        {
+          "id": "c",
+          "text": "3.16"
+        },
+        {
+          "id": "d",
+          "text": "3.18"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Pi is approximately 3.14159..., so to two decimal places it is 3.14.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_math_089",
+      "type": "quiz",
+      "question": "What is 7 × 8?",
+      "options": [
+        {
+          "id": "a",
+          "text": "54"
+        },
+        {
+          "id": "b",
+          "text": "56"
+        },
+        {
+          "id": "c",
+          "text": "58"
+        },
+        {
+          "id": "d",
+          "text": "60"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "7 × 8 = 56.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_math_090",
+      "type": "quiz",
+      "question": "What is the next prime number after 7?",
+      "options": [
+        {
+          "id": "a",
+          "text": "9"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "11 is the next prime number after 7. (9 is divisible by 3.)",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_math_091",
+      "type": "quiz",
+      "question": "What is the sum of angles in a triangle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "90°"
+        },
+        {
+          "id": "b",
+          "text": "180°"
+        },
+        {
+          "id": "c",
+          "text": "270°"
+        },
+        {
+          "id": "d",
+          "text": "360°"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The interior angles of any triangle always add up to 180 degrees.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_math_092",
+      "type": "quiz",
+      "question": "What is 2 to the power of 10?",
+      "options": [
+        {
+          "id": "a",
+          "text": "512"
+        },
+        {
+          "id": "b",
+          "text": "1024"
+        },
+        {
+          "id": "c",
+          "text": "2048"
+        },
+        {
+          "id": "d",
+          "text": "4096"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "2^10 = 1024.",
+      "difficulty": "medium",
+      "tags": [
+        "math"
+      ],
+      "points": 12,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_math_093",
+      "type": "quiz",
+      "question": "What is the factorial of 5 (5!)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "100"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "150"
+        },
+        {
+          "id": "d",
+          "text": "200"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120.",
+      "difficulty": "medium",
+      "tags": [
+        "math"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_math_094",
+      "type": "quiz",
+      "question": "What is the area of a circle with radius 3? (Use π = 3.14)",
+      "options": [
+        {
+          "id": "a",
+          "text": "18.84"
+        },
+        {
+          "id": "b",
+          "text": "28.26"
+        },
+        {
+          "id": "c",
+          "text": "37.68"
+        },
+        {
+          "id": "d",
+          "text": "9.42"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Area = πr² = 3.14 × 9 = 28.26.",
+      "difficulty": "medium",
+      "tags": [
+        "math"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "quiz_math_095",
+      "type": "quiz",
+      "question": "What is the smallest two-digit prime number?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "11 is the smallest two-digit prime number. 10 is divisible by 2 and 5.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_math_096",
+      "type": "quiz",
+      "question": "What is 3/4 as a decimal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.5"
+        },
+        {
+          "id": "b",
+          "text": "0.6"
+        },
+        {
+          "id": "c",
+          "text": "0.75"
+        },
+        {
+          "id": "d",
+          "text": "0.8"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "3 divided by 4 equals 0.75.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_math_097",
+      "type": "quiz",
+      "question": "What is the cube root of 27?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "3 × 3 × 3 = 27, so the cube root of 27 is 3.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_math_098",
+      "type": "quiz",
+      "question": "If x + 5 = 12, what is x?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "x = 12 - 5 = 7.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_math_099",
+      "type": "quiz",
+      "question": "What is the greatest common divisor (GCD) of 24 and 36?",
+      "options": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "18"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The GCD of 24 and 36 is 12.",
+      "difficulty": "medium",
+      "tags": [
+        "math"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_math_100",
+      "type": "quiz",
+      "question": "What is 0.125 as a fraction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/6"
+        },
+        {
+          "id": "b",
+          "text": "1/8"
+        },
+        {
+          "id": "c",
+          "text": "1/10"
+        },
+        {
+          "id": "d",
+          "text": "1/12"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "0.125 = 125/1000 = 1/8.",
+      "difficulty": "medium",
+      "tags": [
+        "math"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_math_101",
+      "type": "quiz",
+      "question": "What is the perimeter of a square with side length 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "15"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "25"
+        },
+        {
+          "id": "d",
+          "text": "30"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Perimeter = 4 × side = 4 × 5 = 20.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_math_102",
+      "type": "quiz",
+      "question": "What is 9 squared?",
+      "options": [
+        {
+          "id": "a",
+          "text": "72"
+        },
+        {
+          "id": "b",
+          "text": "81"
+        },
+        {
+          "id": "c",
+          "text": "90"
+        },
+        {
+          "id": "d",
+          "text": "99"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "9² = 9 × 9 = 81.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_math_103",
+      "type": "quiz",
+      "question": "What is the median of the numbers 3, 7, 9, 12, 15?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "9"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The median is the middle number when arranged in order: 9.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_math_104",
+      "type": "quiz",
+      "question": "What is 45% of 200?",
+      "options": [
+        {
+          "id": "a",
+          "text": "80"
+        },
+        {
+          "id": "b",
+          "text": "85"
+        },
+        {
+          "id": "c",
+          "text": "90"
+        },
+        {
+          "id": "d",
+          "text": "95"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "45% of 200 = 0.45 × 200 = 90.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_math_105",
+      "type": "quiz",
+      "question": "How many sides does a hexagon have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A hexagon has 6 sides. 'Hexa' means six in Greek.",
+      "difficulty": "easy",
+      "tags": [
+        "math"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_movie_106",
+      "type": "quiz",
+      "question": "Who played Iron Man in the Marvel Cinematic Universe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chris Evans"
+        },
+        {
+          "id": "b",
+          "text": "Chris Hemsworth"
+        },
+        {
+          "id": "c",
+          "text": "Robert Downey Jr."
+        },
+        {
+          "id": "d",
+          "text": "Mark Ruffalo"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Robert Downey Jr. played Tony Stark/Iron Man from 2008 to 2019.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_movie_107",
+      "type": "quiz",
+      "question": "Which movie won the first Academy Award for Best Animated Feature?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toy Story"
+        },
+        {
+          "id": "b",
+          "text": "Shrek"
+        },
+        {
+          "id": "c",
+          "text": "Monsters, Inc."
+        },
+        {
+          "id": "d",
+          "text": "Finding Nemo"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Shrek won the first Best Animated Feature Oscar in 2002.",
+      "difficulty": "medium",
+      "tags": [
+        "movies"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_movie_108",
+      "type": "quiz",
+      "question": "What is the highest-grossing film of all time?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Titanic"
+        },
+        {
+          "id": "b",
+          "text": "Avatar"
+        },
+        {
+          "id": "c",
+          "text": "Avengers: Endgame"
+        },
+        {
+          "id": "d",
+          "text": "Star Wars: The Force Awakens"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Avatar (2009) is the highest-grossing film, earning over $2.9 billion worldwide.",
+      "difficulty": "medium",
+      "tags": [
+        "movies"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_movie_109",
+      "type": "quiz",
+      "question": "Who directed 'Jurassic Park'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "James Cameron"
+        },
+        {
+          "id": "b",
+          "text": "George Lucas"
+        },
+        {
+          "id": "c",
+          "text": "Steven Spielberg"
+        },
+        {
+          "id": "d",
+          "text": "Ridley Scott"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Steven Spielberg directed Jurassic Park, released in 1993.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_movie_110",
+      "type": "quiz",
+      "question": "Which animated film features a clownfish searching for his son?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shark Tale"
+        },
+        {
+          "id": "b",
+          "text": "Finding Nemo"
+        },
+        {
+          "id": "c",
+          "text": "The Little Mermaid"
+        },
+        {
+          "id": "d",
+          "text": "Moana"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Finding Nemo (2003) follows Marlin's journey to find his son Nemo.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_movie_111",
+      "type": "quiz",
+      "question": "What is the name of Harry Potter's owl?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Errol"
+        },
+        {
+          "id": "b",
+          "text": "Pigwidgeon"
+        },
+        {
+          "id": "c",
+          "text": "Hedwig"
+        },
+        {
+          "id": "d",
+          "text": "Fawkes"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Hedwig is Harry's snowy owl, given to him by Hagrid.",
+      "difficulty": "easy",
+      "tags": [
+        "movies",
+        "books"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_movie_112",
+      "type": "quiz",
+      "question": "Which actor played Jack Dawson in Titanic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Brad Pitt"
+        },
+        {
+          "id": "b",
+          "text": "Johnny Depp"
+        },
+        {
+          "id": "c",
+          "text": "Leonardo DiCaprio"
+        },
+        {
+          "id": "d",
+          "text": "Matt Damon"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Leonardo DiCaprio played Jack Dawson opposite Kate Winslet's Rose.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_movie_113",
+      "type": "quiz",
+      "question": "What is the name of the kingdom in 'Frozen'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arendelle"
+        },
+        {
+          "id": "b",
+          "text": "Corona"
+        },
+        {
+          "id": "c",
+          "text": "DunBroch"
+        },
+        {
+          "id": "d",
+          "text": "Motunui"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Arendelle is the Scandinavian-inspired kingdom ruled by Elsa and Anna.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_movie_114",
+      "type": "quiz",
+      "question": "Who composed the music for 'The Lion King'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hans Zimmer"
+        },
+        {
+          "id": "b",
+          "text": "John Williams"
+        },
+        {
+          "id": "c",
+          "text": "Alan Menken"
+        },
+        {
+          "id": "d",
+          "text": "Danny Elfman"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Hans Zimmer composed the score, while Elton John wrote the songs.",
+      "difficulty": "medium",
+      "tags": [
+        "movies"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_movie_115",
+      "type": "quiz",
+      "question": "Which film features the quote 'I'll be back'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rambo"
+        },
+        {
+          "id": "b",
+          "text": "Terminator"
+        },
+        {
+          "id": "c",
+          "text": "Die Hard"
+        },
+        {
+          "id": "d",
+          "text": "Rocky"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Arnold Schwarzenegger famously said 'I'll be back' as the Terminator in 1984.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_movie_116",
+      "type": "quiz",
+      "question": "What is the name of the school in Harry Potter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beauxbatons"
+        },
+        {
+          "id": "b",
+          "text": "Durmstrang"
+        },
+        {
+          "id": "c",
+          "text": "Hogwarts"
+        },
+        {
+          "id": "d",
+          "text": "Ilvermorny"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Hogwarts School of Witchcraft and Wizardry is located in Scotland.",
+      "difficulty": "easy",
+      "tags": [
+        "movies",
+        "books"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_movie_117",
+      "type": "quiz",
+      "question": "Which Pixar film is set inside the mind of an 11-year-old girl?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toy Story"
+        },
+        {
+          "id": "b",
+          "text": "Inside Out"
+        },
+        {
+          "id": "c",
+          "text": "Coco"
+        },
+        {
+          "id": "d",
+          "text": "Soul"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Inside Out (2015) explores the emotions inside Riley's mind.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_movie_118",
+      "type": "quiz",
+      "question": "Who played the Joker in 'The Dark Knight'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jared Leto"
+        },
+        {
+          "id": "b",
+          "text": "Joaquin Phoenix"
+        },
+        {
+          "id": "c",
+          "text": "Heath Ledger"
+        },
+        {
+          "id": "d",
+          "text": "Jack Nicholson"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Heath Ledger posthumously won an Oscar for his portrayal in 2008.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_movie_119",
+      "type": "quiz",
+      "question": "What is the name of the hobbit played by Elijah Wood in LOTR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Samwise"
+        },
+        {
+          "id": "b",
+          "text": "Frodo"
+        },
+        {
+          "id": "c",
+          "text": "Bilbo"
+        },
+        {
+          "id": "d",
+          "text": "Pippin"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Elijah Wood played Frodo Baggins, the ring-bearer.",
+      "difficulty": "easy",
+      "tags": [
+        "movies",
+        "books"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_movie_120",
+      "type": "quiz",
+      "question": "Which Disney princess has a raccoon as a sidekick?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ariel"
+        },
+        {
+          "id": "b",
+          "text": "Belle"
+        },
+        {
+          "id": "c",
+          "text": "Pocahontas"
+        },
+        {
+          "id": "d",
+          "text": "Mulan"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Pocahontas has Meeko the raccoon and Flit the hummingbird as sidekicks.",
+      "difficulty": "medium",
+      "tags": [
+        "movies"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_movie_121",
+      "type": "quiz",
+      "question": "What year was the first Star Wars movie released?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1975"
+        },
+        {
+          "id": "b",
+          "text": "1977"
+        },
+        {
+          "id": "c",
+          "text": "1979"
+        },
+        {
+          "id": "d",
+          "text": "1980"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Star Wars: A New Hope was released in 1977.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_movie_122",
+      "type": "quiz",
+      "question": "Who directed 'Pulp Fiction'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Martin Scorsese"
+        },
+        {
+          "id": "b",
+          "text": "Quentin Tarantino"
+        },
+        {
+          "id": "c",
+          "text": "Francis Ford Coppola"
+        },
+        {
+          "id": "d",
+          "text": "David Fincher"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Quentin Tarantino directed Pulp Fiction, released in 1994.",
+      "difficulty": "medium",
+      "tags": [
+        "movies"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_movie_123",
+      "type": "quiz",
+      "question": "Which movie features a dinosaur theme park?",
+      "options": [
+        {
+          "id": "a",
+          "text": "King Kong"
+        },
+        {
+          "id": "b",
+          "text": "Jurassic Park"
+        },
+        {
+          "id": "c",
+          "text": "Godzilla"
+        },
+        {
+          "id": "d",
+          "text": "The Lost World"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Jurassic Park features a theme park with cloned dinosaurs on Isla Nublar.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_movie_124",
+      "type": "quiz",
+      "question": "What is the name of Simba's father in The Lion King?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scar"
+        },
+        {
+          "id": "b",
+          "text": "Mufasa"
+        },
+        {
+          "id": "c",
+          "text": "Zazu"
+        },
+        {
+          "id": "d",
+          "text": "Rafiki"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Mufasa is Simba's father, voiced by James Earl Jones.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_movie_125",
+      "type": "quiz",
+      "question": "Which actress played Katniss Everdeen in The Hunger Games?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Emma Watson"
+        },
+        {
+          "id": "b",
+          "text": "Jennifer Lawrence"
+        },
+        {
+          "id": "c",
+          "text": "Shailene Woodley"
+        },
+        {
+          "id": "d",
+          "text": "Kristen Stewart"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Jennifer Lawrence starred as Katniss in all four Hunger Games films.",
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_126",
+      "type": "quiz",
+      "question": "What is the national animal of India?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lion"
+        },
+        {
+          "id": "b",
+          "text": "Elephant"
+        },
+        {
+          "id": "c",
+          "text": "Tiger"
+        },
+        {
+          "id": "d",
+          "text": "Peacock"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Bengal Tiger is India's national animal, symbolizing strength and grace.",
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_127",
+      "type": "quiz",
+      "question": "How many days are in a leap year?",
+      "options": [
+        {
+          "id": "a",
+          "text": "364"
+        },
+        {
+          "id": "b",
+          "text": "365"
+        },
+        {
+          "id": "c",
+          "text": "366"
+        },
+        {
+          "id": "d",
+          "text": "367"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "A leap year has 366 days, with February 29 as the extra day.",
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_gk_128",
+      "type": "quiz",
+      "question": "What is the currency of Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yuan"
+        },
+        {
+          "id": "b",
+          "text": "Won"
+        },
+        {
+          "id": "c",
+          "text": "Yen"
+        },
+        {
+          "id": "d",
+          "text": "Ringgit"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Japanese Yen (¥) is the official currency of Japan.",
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_129",
+      "type": "quiz",
+      "question": "Which is the largest planet in our solar system?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saturn"
+        },
+        {
+          "id": "b",
+          "text": "Uranus"
+        },
+        {
+          "id": "c",
+          "text": "Jupiter"
+        },
+        {
+          "id": "d",
+          "text": "Neptune"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Jupiter is the largest planet, with a diameter of about 139,820 km.",
+      "difficulty": "easy",
+      "tags": [
+        "general",
+        "space"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_130",
+      "type": "quiz",
+      "question": "What does 'HTTP' stand for?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HyperText Transfer Protocol"
+        },
+        {
+          "id": "b",
+          "text": "HighText Transfer Path"
+        },
+        {
+          "id": "c",
+          "text": "HyperText Transmission Process"
+        },
+        {
+          "id": "d",
+          "text": "HostText Transfer Protocol"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "HTTP is the foundation of data communication on the World Wide Web.",
+      "difficulty": "medium",
+      "tags": [
+        "general",
+        "technology"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_gk_131",
+      "type": "quiz",
+      "question": "Which is the tallest mountain in the world?",
+      "options": [
+        {
+          "id": "a",
+          "text": "K2"
+        },
+        {
+          "id": "b",
+          "text": "Mount Kilimanjaro"
+        },
+        {
+          "id": "c",
+          "text": "Mount Everest"
+        },
+        {
+          "id": "d",
+          "text": "Denali"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Mount Everest stands at 8,849 meters (29,032 feet) above sea level.",
+      "difficulty": "easy",
+      "tags": [
+        "general",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_132",
+      "type": "quiz",
+      "question": "What is the main ingredient in guacamole?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tomato"
+        },
+        {
+          "id": "b",
+          "text": "Avocado"
+        },
+        {
+          "id": "c",
+          "text": "Onion"
+        },
+        {
+          "id": "d",
+          "text": "Pepper"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Guacamole is primarily made from mashed avocados.",
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_gk_133",
+      "type": "quiz",
+      "question": "Which language has the most native speakers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "English"
+        },
+        {
+          "id": "b",
+          "text": "Spanish"
+        },
+        {
+          "id": "c",
+          "text": "Mandarin Chinese"
+        },
+        {
+          "id": "d",
+          "text": "Hindi"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Mandarin Chinese has over 900 million native speakers worldwide.",
+      "difficulty": "medium",
+      "tags": [
+        "general"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_gk_134",
+      "type": "quiz",
+      "question": "What is the largest mammal on Earth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "African Elephant"
+        },
+        {
+          "id": "b",
+          "text": "Blue Whale"
+        },
+        {
+          "id": "c",
+          "text": "Giraffe"
+        },
+        {
+          "id": "d",
+          "text": "Polar Bear"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "The Blue Whale can grow up to 100 feet long and weigh 200 tons.",
+      "difficulty": "easy",
+      "tags": [
+        "general",
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_135",
+      "type": "quiz",
+      "question": "Which element has the atomic number 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Helium"
+        },
+        {
+          "id": "b",
+          "text": "Oxygen"
+        },
+        {
+          "id": "c",
+          "text": "Hydrogen"
+        },
+        {
+          "id": "d",
+          "text": "Carbon"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Hydrogen is the lightest and most abundant element in the universe.",
+      "difficulty": "easy",
+      "tags": [
+        "general",
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_136",
+      "type": "quiz",
+      "question": "What is the largest continent by area?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Africa"
+        },
+        {
+          "id": "b",
+          "text": "North America"
+        },
+        {
+          "id": "c",
+          "text": "Asia"
+        },
+        {
+          "id": "d",
+          "text": "Europe"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Asia covers about 30% of Earth's total land area.",
+      "difficulty": "easy",
+      "tags": [
+        "general",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_137",
+      "type": "quiz",
+      "question": "How many letters are in the English alphabet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "25"
+        },
+        {
+          "id": "c",
+          "text": "26"
+        },
+        {
+          "id": "d",
+          "text": "27"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The modern English alphabet has 26 letters.",
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_gk_138",
+      "type": "quiz",
+      "question": "What is the national flower of Japan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rose"
+        },
+        {
+          "id": "b",
+          "text": "Lotus"
+        },
+        {
+          "id": "c",
+          "text": "Cherry Blossom"
+        },
+        {
+          "id": "d",
+          "text": "Orchid"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The cherry blossom (sakura) is Japan's national flower.",
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_139",
+      "type": "quiz",
+      "question": "Which planet is known as the Morning Star?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mars"
+        },
+        {
+          "id": "b",
+          "text": "Jupiter"
+        },
+        {
+          "id": "c",
+          "text": "Venus"
+        },
+        {
+          "id": "d",
+          "text": "Mercury"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Venus is often called the Morning Star or Evening Star due to its brightness.",
+      "difficulty": "medium",
+      "tags": [
+        "general",
+        "space"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_gk_140",
+      "type": "quiz",
+      "question": "What is the freezing point of water?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0°C"
+        },
+        {
+          "id": "b",
+          "text": "10°C"
+        },
+        {
+          "id": "c",
+          "text": "-10°C"
+        },
+        {
+          "id": "d",
+          "text": "5°C"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Water freezes at 0°C (32°F) at standard atmospheric pressure.",
+      "difficulty": "easy",
+      "tags": [
+        "general",
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 10
+    },
+    {
+      "id": "quiz_gk_141",
+      "type": "quiz",
+      "question": "Which country invented pizza?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greece"
+        },
+        {
+          "id": "b",
+          "text": "France"
+        },
+        {
+          "id": "c",
+          "text": "Italy"
+        },
+        {
+          "id": "d",
+          "text": "Spain"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Pizza originated in Naples, Italy, in the 18th century.",
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_142",
+      "type": "quiz",
+      "question": "What does 'CPU' stand for?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Central Processing Unit"
+        },
+        {
+          "id": "b",
+          "text": "Computer Power Unit"
+        },
+        {
+          "id": "c",
+          "text": "Central Power Unit"
+        },
+        {
+          "id": "d",
+          "text": "Core Processing Unit"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The CPU is the primary component of a computer that performs most processing.",
+      "difficulty": "easy",
+      "tags": [
+        "general",
+        "technology"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_gk_143",
+      "type": "quiz",
+      "question": "Which animal is known as the 'Ship of the Desert'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Horse"
+        },
+        {
+          "id": "b",
+          "text": "Camel"
+        },
+        {
+          "id": "c",
+          "text": "Elephant"
+        },
+        {
+          "id": "d",
+          "text": "Donkey"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Camels are called the 'Ship of the Desert' for their ability to travel long distances in arid conditions.",
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 12
+    },
+    {
+      "id": "quiz_gk_144",
+      "type": "quiz",
+      "question": "What is the largest bone in the human body?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spine"
+        },
+        {
+          "id": "b",
+          "text": "Skull"
+        },
+        {
+          "id": "c",
+          "text": "Femur"
+        },
+        {
+          "id": "d",
+          "text": "Tibia"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The femur (thigh bone) is the longest and strongest bone in the body.",
+      "difficulty": "easy",
+      "tags": [
+        "general",
+        "science"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "quiz_gk_145",
+      "type": "quiz",
+      "question": "Which ocean is the Bermuda Triangle located in?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pacific"
+        },
+        {
+          "id": "b",
+          "text": "Indian"
+        },
+        {
+          "id": "c",
+          "text": "Atlantic"
+        },
+        {
+          "id": "d",
+          "text": "Arctic"
+        }
+      ],
+      "correct_option_id": "c",
+      "explanation": "The Bermuda Triangle is in the western part of the North Atlantic Ocean.",
+      "difficulty": "easy",
+      "tags": [
+        "general",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_005",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/usa.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "United States"
+        },
+        {
+          "id": "b",
+          "text": "United Kingdom"
+        },
+        {
+          "id": "c",
+          "text": "Australia"
+        },
+        {
+          "id": "d",
+          "text": "New Zealand"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The Stars and Stripes has 50 stars and 13 stripes representing the original colonies.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_006",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/italy.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Italy"
+        },
+        {
+          "id": "b",
+          "text": "Mexico"
+        },
+        {
+          "id": "c",
+          "text": "Ireland"
+        },
+        {
+          "id": "d",
+          "text": "India"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Italy's flag has three vertical stripes of green, white, and red.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_007",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/south_korea.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "South Korea"
+        },
+        {
+          "id": "b",
+          "text": "North Korea"
+        },
+        {
+          "id": "c",
+          "text": "Japan"
+        },
+        {
+          "id": "d",
+          "text": "China"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "South Korea's flag features the Taegeuk symbol in the center and four trigrams in the corners.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_008",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/france.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "France"
+        },
+        {
+          "id": "b",
+          "text": "Netherlands"
+        },
+        {
+          "id": "c",
+          "text": "Russia"
+        },
+        {
+          "id": "d",
+          "text": "Luxembourg"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "France's flag has three vertical stripes: blue, white, and red.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_009",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/spain.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spain"
+        },
+        {
+          "id": "b",
+          "text": "Portugal"
+        },
+        {
+          "id": "c",
+          "text": "Mexico"
+        },
+        {
+          "id": "d",
+          "text": "Colombia"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Spain's flag has red-yellow-red horizontal stripes with the coat of arms on the yellow band.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_010",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/china.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "China"
+        },
+        {
+          "id": "b",
+          "text": "Vietnam"
+        },
+        {
+          "id": "c",
+          "text": "Turkey"
+        },
+        {
+          "id": "d",
+          "text": "Soviet Union"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "China's flag is red with five yellow stars in the canton.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_011",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/russia.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Russia"
+        },
+        {
+          "id": "b",
+          "text": "Slovakia"
+        },
+        {
+          "id": "c",
+          "text": "Slovenia"
+        },
+        {
+          "id": "d",
+          "text": "Serbia"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Russia's flag has three horizontal stripes: white, blue, and red.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_012",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/australia.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Australia"
+        },
+        {
+          "id": "b",
+          "text": "New Zealand"
+        },
+        {
+          "id": "c",
+          "text": "Fiji"
+        },
+        {
+          "id": "d",
+          "text": "United Kingdom"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Australia's flag features the Union Jack, the Commonwealth Star, and the Southern Cross.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_013",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/mexico.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mexico"
+        },
+        {
+          "id": "b",
+          "text": "Italy"
+        },
+        {
+          "id": "c",
+          "text": "Hungary"
+        },
+        {
+          "id": "d",
+          "text": "Iran"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Mexico's flag has green, white, and red vertical stripes with the national coat of arms in the center.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_014",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/argentina.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Argentina"
+        },
+        {
+          "id": "b",
+          "text": "Uruguay"
+        },
+        {
+          "id": "c",
+          "text": "Greece"
+        },
+        {
+          "id": "d",
+          "text": "Israel"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Argentina's flag has three horizontal bands of light blue and white with a golden sun in the center.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_015",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/turkey.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Turkey"
+        },
+        {
+          "id": "b",
+          "text": "Tunisia"
+        },
+        {
+          "id": "c",
+          "text": "Algeria"
+        },
+        {
+          "id": "d",
+          "text": "Morocco"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Turkey's flag is red with a white crescent moon and a white star.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_016",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/sweden.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sweden"
+        },
+        {
+          "id": "b",
+          "text": "Norway"
+        },
+        {
+          "id": "c",
+          "text": "Denmark"
+        },
+        {
+          "id": "d",
+          "text": "Finland"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Sweden's flag is blue with a yellow Nordic cross.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_017",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/greece.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greece"
+        },
+        {
+          "id": "b",
+          "text": "Israel"
+        },
+        {
+          "id": "c",
+          "text": "Uruguay"
+        },
+        {
+          "id": "d",
+          "text": "Finland"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Greece's flag has blue and white stripes with a blue cross in the canton.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_018",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/egypt.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Egypt"
+        },
+        {
+          "id": "b",
+          "text": "Iraq"
+        },
+        {
+          "id": "c",
+          "text": "Syria"
+        },
+        {
+          "id": "d",
+          "text": "Yemen"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Egypt's flag has red, white, and black horizontal stripes with the Eagle of Saladin in the center.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_019",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/south_africa.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "South Africa"
+        },
+        {
+          "id": "b",
+          "text": "Kenya"
+        },
+        {
+          "id": "c",
+          "text": "Ethiopia"
+        },
+        {
+          "id": "d",
+          "text": "Ghana"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "South Africa's flag has a unique Y-shaped design with six colors.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_020",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/saudi_arabia.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saudi Arabia"
+        },
+        {
+          "id": "b",
+          "text": "Iran"
+        },
+        {
+          "id": "c",
+          "text": "Pakistan"
+        },
+        {
+          "id": "d",
+          "text": "Afghanistan"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Saudi Arabia's flag is green with white Arabic script and a sword.",
+      "difficulty": "hard",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 15,
+      "timer_seconds": 20
+    },
+    {
+      "id": "flag_021",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/thailand.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thailand"
+        },
+        {
+          "id": "b",
+          "text": "Cambodia"
+        },
+        {
+          "id": "c",
+          "text": "Laos"
+        },
+        {
+          "id": "d",
+          "text": "Myanmar"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Thailand's flag has five horizontal stripes: red, white, blue, white, and red.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_022",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/indonesia.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Indonesia"
+        },
+        {
+          "id": "b",
+          "text": "Poland"
+        },
+        {
+          "id": "c",
+          "text": "Monaco"
+        },
+        {
+          "id": "d",
+          "text": "Singapore"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Indonesia's flag has two horizontal bands: red on top and white on the bottom.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_023",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/pakistan.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pakistan"
+        },
+        {
+          "id": "b",
+          "text": "Turkey"
+        },
+        {
+          "id": "c",
+          "text": "Algeria"
+        },
+        {
+          "id": "d",
+          "text": "Malaysia"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Pakistan's flag is green with a white crescent and star, and a white vertical stripe.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_024",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/norway.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Norway"
+        },
+        {
+          "id": "b",
+          "text": "Iceland"
+        },
+        {
+          "id": "c",
+          "text": "Faroe Islands"
+        },
+        {
+          "id": "d",
+          "text": "Denmark"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Norway's flag is red with a blue Nordic cross outlined in white.",
+      "difficulty": "hard",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 15,
+      "timer_seconds": 20
+    },
+    {
+      "id": "flag_025",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/portugal.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Portugal"
+        },
+        {
+          "id": "b",
+          "text": "Spain"
+        },
+        {
+          "id": "c",
+          "text": "Brazil"
+        },
+        {
+          "id": "d",
+          "text": "Angola"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Portugal's flag is vertically divided green and red with the national coat of arms.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_026",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/netherlands.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Netherlands"
+        },
+        {
+          "id": "b",
+          "text": "Luxembourg"
+        },
+        {
+          "id": "c",
+          "text": "Croatia"
+        },
+        {
+          "id": "d",
+          "text": "Paraguay"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The Netherlands' flag has three horizontal stripes: red, white, and blue.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_027",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/switzerland.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Switzerland"
+        },
+        {
+          "id": "b",
+          "text": "Denmark"
+        },
+        {
+          "id": "c",
+          "text": "Tonga"
+        },
+        {
+          "id": "d",
+          "text": "Georgia"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Switzerland's flag is a distinctive red square with a white cross.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_028",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/uk.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "United Kingdom"
+        },
+        {
+          "id": "b",
+          "text": "Australia"
+        },
+        {
+          "id": "c",
+          "text": "New Zealand"
+        },
+        {
+          "id": "d",
+          "text": "Fiji"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "The Union Jack combines the crosses of St. George, St. Andrew, and St. Patrick.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_029",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/israel.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Israel"
+        },
+        {
+          "id": "b",
+          "text": "Greece"
+        },
+        {
+          "id": "c",
+          "text": "Finland"
+        },
+        {
+          "id": "d",
+          "text": "Uruguay"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Israel's flag is white with two blue stripes and the Star of David in the center.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_030",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/vietnam.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vietnam"
+        },
+        {
+          "id": "b",
+          "text": "China"
+        },
+        {
+          "id": "c",
+          "text": "Turkey"
+        },
+        {
+          "id": "d",
+          "text": "Morocco"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Vietnam's flag is red with a large yellow star in the center.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_031",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/poland.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Poland"
+        },
+        {
+          "id": "b",
+          "text": "Indonesia"
+        },
+        {
+          "id": "c",
+          "text": "Monaco"
+        },
+        {
+          "id": "d",
+          "text": "Singapore"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Poland's flag has two horizontal bands: white on top and red on the bottom.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_032",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/ireland.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ireland"
+        },
+        {
+          "id": "b",
+          "text": "Italy"
+        },
+        {
+          "id": "c",
+          "text": "Mexico"
+        },
+        {
+          "id": "d",
+          "text": "Ivory Coast"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Ireland's flag has three vertical stripes: green, white, and orange.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_033",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/austria.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Austria"
+        },
+        {
+          "id": "b",
+          "text": "Latvia"
+        },
+        {
+          "id": "c",
+          "text": "Peru"
+        },
+        {
+          "id": "d",
+          "text": "Canada"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Austria's flag has three horizontal stripes: red, white, and red.",
+      "difficulty": "easy",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_034",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/denmark.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Denmark"
+        },
+        {
+          "id": "b",
+          "text": "Switzerland"
+        },
+        {
+          "id": "c",
+          "text": "Tonga"
+        },
+        {
+          "id": "d",
+          "text": "Georgia"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Denmark's flag is red with a white Nordic cross, the oldest national flag in use.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_035",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/finland.png",
+      "options": [
+        {
+          "id": "a",
+          "text": "Finland"
+        },
+        {
+          "id": "b",
+          "text": "Greece"
+        },
+        {
+          "id": "c",
+          "text": "Uruguay"
+        },
+        {
+          "id": "d",
+          "text": "Israel"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Finland's flag is white with a blue Nordic cross.",
+      "difficulty": "medium",
+      "tags": [
+        "flags",
+        "geography"
+      ],
+      "points": 12,
+      "timer_seconds": 18
+    },
+    {
+      "id": "emoji_006",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🍫🏭",
+      "answer": "Charlie and the Chocolate Factory",
+      "hints": [
+        "Based on a Roald Dahl book",
+        "Features a magical candy maker"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_007",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🦕🏝️",
+      "answer": "Jurassic Park",
+      "hints": [
+        "Features cloned dinosaurs",
+        "Directed by Steven Spielberg"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_008",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "❄️👸",
+      "answer": "Frozen",
+      "hints": [
+        "Disney animated film",
+        "Features the song 'Let It Go'"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_009",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🚀🌌",
+      "answer": "Interstellar",
+      "hints": [
+        "Directed by Christopher Nolan",
+        "About space travel and black holes"
+      ],
+      "difficulty": "medium",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_010",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🧙‍♂️💍",
+      "answer": "Lord of the Rings",
+      "hints": [
+        "Based on J.R.R. Tolkien's books",
+        "One ring to rule them all"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_011",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🚢❄️💔",
+      "answer": "Titanic",
+      "hints": [
+        "Based on a real disaster",
+        "Jack and Rose's love story"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_012",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🤖👦",
+      "answer": "A.I. Artificial Intelligence",
+      "hints": [
+        "Directed by Steven Spielberg",
+        "About a robot boy who wants to be real"
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "movies"
+      ],
+      "points": 20,
+      "timer_seconds": 30
+    },
+    {
+      "id": "emoji_013",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🧛‍♂️🩸",
+      "answer": "Twilight",
+      "hints": [
+        "Vampire romance series",
+        "Bella and Edward"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_014",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🦸‍♀️⚡",
+      "answer": "Wonder Woman",
+      "hints": [
+        "DC Comics superhero",
+        "Amazonian warrior princess"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_015",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🧸🍯",
+      "answer": "Winnie the Pooh",
+      "hints": [
+        "Based on A.A. Milne's stories",
+        "A bear who loves honey"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_016",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🍎💻",
+      "answer": "Apple",
+      "hints": [
+        "A fruit and a tech company",
+        "Steve Jobs co-founded it"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "technology"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_017",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🔥🦊",
+      "answer": "Firefox",
+      "hints": [
+        "A web browser",
+        "Mozilla's flagship product"
+      ],
+      "difficulty": "medium",
+      "tags": [
+        "technology"
+      ],
+      "points": 12,
+      "timer_seconds": 22
+    },
+    {
+      "id": "emoji_018",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🌙⭐",
+      "answer": "Moonstar",
+      "hints": [
+        "Celestial bodies",
+        "Two words combined"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "nature"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_019",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🧊☕",
+      "answer": "Iced Coffee",
+      "hints": [
+        "A cold beverage",
+        "Popular morning drink"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "food"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_020",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🐝🏠",
+      "answer": "Beehive",
+      "hints": [
+        "Where bees live",
+        "A structure made by bees"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "animals"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_021",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🌞🌻",
+      "answer": "Sunflower",
+      "hints": [
+        "A tall yellow flower",
+        "Follows the sun"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "nature"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_022",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🧊🧊🧊",
+      "answer": "Ice Ice Ice",
+      "hints": [
+        "Frozen water",
+        "Three of the same thing"
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "nature"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_023",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🎸🎤",
+      "answer": "Rockstar",
+      "hints": [
+        "A famous musician",
+        "Plays guitar and sings"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "music"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_024",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🐱👁️",
+      "answer": "Cat Eye",
+      "hints": [
+        "A shape of glasses",
+        "Also a type of gemstone"
+      ],
+      "difficulty": "medium",
+      "tags": [
+        "fashion"
+      ],
+      "points": 12,
+      "timer_seconds": 22
+    },
+    {
+      "id": "emoji_025",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🌊🏄",
+      "answer": "Surfing",
+      "hints": [
+        "A water sport",
+        "Riding ocean waves"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "sports"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_026",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🎂🎉",
+      "answer": "Birthday",
+      "hints": [
+        "A celebration",
+        "Happens once a year"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_027",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🚗🏎️",
+      "answer": "Race Car",
+      "hints": [
+        "A fast vehicle",
+        "Used in competitions"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_028",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🌧️☂️",
+      "answer": "Rain Umbrella",
+      "hints": [
+        "Used in wet weather",
+        "Protects from precipitation"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_029",
+      "type": "emoji_quiz",
+      "title": "Guess the phrase",
+      "emoji": "⏰🐷",
+      "answer": "Piggy Bank",
+      "hints": [
+        "Saves money",
+        "A container shaped like an animal"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_030",
+      "type": "emoji_quiz",
+      "title": "Guess the phrase",
+      "emoji": "🧠💡",
+      "answer": "Brainstorm",
+      "hints": [
+        "Generating ideas",
+        "A creative thinking session"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_031",
+      "type": "emoji_quiz",
+      "title": "Guess the phrase",
+      "emoji": "🌙🚶",
+      "answer": "Moonwalk",
+      "hints": [
+        "A famous dance move",
+        "Michael Jackson made it popular"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "music"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_032",
+      "type": "emoji_quiz",
+      "title": "Guess the phrase",
+      "emoji": "🔥🏠",
+      "answer": "Firehouse",
+      "hints": [
+        "Where firefighters work",
+        "A building for emergency services"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "general"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_033",
+      "type": "emoji_quiz",
+      "title": "Guess the phrase",
+      "emoji": "🌊🐴",
+      "answer": "Seahorse",
+      "hints": [
+        "A marine animal",
+        "The male carries the babies"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "animals"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_034",
+      "type": "emoji_quiz",
+      "title": "Guess the phrase",
+      "emoji": "🌙🐺",
+      "answer": "Werewolf",
+      "hints": [
+        "A mythical creature",
+        "Transforms under the full moon"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_035",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🐠🔍",
+      "answer": "Finding Nemo",
+      "hints": [
+        "Pixar animated film",
+        "A clownfish searches for his son"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_036",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🧙‍♂️⚡👓",
+      "answer": "Harry Potter",
+      "hints": [
+        "A boy wizard",
+        "Hogwarts School of Magic"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_037",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🤠🚀",
+      "answer": "Toy Story",
+      "hints": [
+        "Pixar's first feature film",
+        "Toys come to life"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_038",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🦇🃏",
+      "answer": "The Dark Knight",
+      "hints": [
+        "Batman faces the Joker",
+        "Heath Ledger's iconic role"
+      ],
+      "difficulty": "medium",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_039",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "👽🚲🌕",
+      "answer": "E.T. the Extra-Terrestrial",
+      "hints": [
+        "A friendly alien",
+        "Directed by Steven Spielberg"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_040",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🦁👑",
+      "answer": "The Lion King",
+      "hints": [
+        "Disney animated classic",
+        "Simba becomes king"
+      ],
+      "difficulty": "easy",
+      "tags": [
+        "movies"
+      ],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "vocab_005",
+      "type": "vocabulary",
+      "question": "What does 'serendipity' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A happy accident"
+        },
+        {
+          "id": "b",
+          "text": "A sad event"
+        },
+        {
+          "id": "c",
+          "text": "A planned meeting"
+        },
+        {
+          "id": "d",
+          "text": "A musical term"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Serendipity means finding something good without looking for it.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_006",
+      "type": "vocabulary",
+      "question": "What does 'epiphany' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A sudden realization"
+        },
+        {
+          "id": "b",
+          "text": "A type of bird"
+        },
+        {
+          "id": "c",
+          "text": "A religious holiday only"
+        },
+        {
+          "id": "d",
+          "text": "A musical instrument"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "An epiphany is a moment of sudden revelation or insight.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_007",
+      "type": "vocabulary",
+      "question": "What does 'benevolent' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Evil and cruel"
+        },
+        {
+          "id": "b",
+          "text": "Well-meaning and kindly"
+        },
+        {
+          "id": "c",
+          "text": "Very strong"
+        },
+        {
+          "id": "d",
+          "text": "Extremely fast"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Benevolent means well-meaning and kindly, wishing to do good.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 10,
+      "timer_seconds": 18
+    },
+    {
+      "id": "vocab_008",
+      "type": "vocabulary",
+      "question": "What does 'ambiguous' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Very clear"
+        },
+        {
+          "id": "b",
+          "text": "Open to multiple interpretations"
+        },
+        {
+          "id": "c",
+          "text": "Extremely loud"
+        },
+        {
+          "id": "d",
+          "text": "Perfectly balanced"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Ambiguous means having more than one possible meaning or interpretation.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_009",
+      "type": "vocabulary",
+      "question": "What does 'meticulous' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Careless"
+        },
+        {
+          "id": "b",
+          "text": "Showing great attention to detail"
+        },
+        {
+          "id": "c",
+          "text": "Very fast"
+        },
+        {
+          "id": "d",
+          "text": "Extremely large"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A meticulous person is very careful and precise in their work.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_010",
+      "type": "vocabulary",
+      "question": "What does 'nostalgia' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fear of the future"
+        },
+        {
+          "id": "b",
+          "text": "A sentimental longing for the past"
+        },
+        {
+          "id": "c",
+          "text": "A type of flower"
+        },
+        {
+          "id": "d",
+          "text": "A medical condition"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Nostalgia is a sentimental longing for happy times in the past.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 10,
+      "timer_seconds": 18
+    },
+    {
+      "id": "vocab_011",
+      "type": "vocabulary",
+      "question": "What does 'resilient' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Easily broken"
+        },
+        {
+          "id": "b",
+          "text": "Able to recover quickly"
+        },
+        {
+          "id": "c",
+          "text": "Very slow"
+        },
+        {
+          "id": "d",
+          "text": "Extremely heavy"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Resilient means able to withstand or recover quickly from difficulties.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_012",
+      "type": "vocabulary",
+      "question": "What does 'eloquent' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fluent and persuasive in speaking"
+        },
+        {
+          "id": "b",
+          "text": "Very tall"
+        },
+        {
+          "id": "c",
+          "text": "Extremely quiet"
+        },
+        {
+          "id": "d",
+          "text": "Difficult to understand"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "An eloquent speaker expresses ideas clearly and persuasively.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_013",
+      "type": "vocabulary",
+      "question": "What does 'paradox' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A simple truth"
+        },
+        {
+          "id": "b",
+          "text": "A statement that contradicts itself"
+        },
+        {
+          "id": "c",
+          "text": "A type of bird"
+        },
+        {
+          "id": "d",
+          "text": "A mathematical formula"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A paradox is a seemingly absurd or contradictory statement that may be true.",
+      "difficulty": "hard",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 15,
+      "timer_seconds": 22
+    },
+    {
+      "id": "vocab_014",
+      "type": "vocabulary",
+      "question": "What does 'altruistic' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Selfish"
+        },
+        {
+          "id": "b",
+          "text": "Selflessly concerned for others"
+        },
+        {
+          "id": "c",
+          "text": "Very wealthy"
+        },
+        {
+          "id": "d",
+          "text": "Extremely intelligent"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Altruistic means showing selfless concern for the well-being of others.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_015",
+      "type": "vocabulary",
+      "question": "What does 'esoteric' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intended for a small group"
+        },
+        {
+          "id": "b",
+          "text": "Very common"
+        },
+        {
+          "id": "c",
+          "text": "Extremely loud"
+        },
+        {
+          "id": "d",
+          "text": "Open to everyone"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Esoteric means intended for or understood by only a small number of people.",
+      "difficulty": "hard",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 15,
+      "timer_seconds": 22
+    },
+    {
+      "id": "vocab_016",
+      "type": "vocabulary",
+      "question": "What does 'pragmatic' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dealing with things sensibly"
+        },
+        {
+          "id": "b",
+          "text": "Overly emotional"
+        },
+        {
+          "id": "c",
+          "text": "Related to dreams"
+        },
+        {
+          "id": "d",
+          "text": "Extremely wealthy"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A pragmatic person focuses on practical outcomes rather than theory.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_017",
+      "type": "vocabulary",
+      "question": "What does 'candid' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Frank and honest"
+        },
+        {
+          "id": "b",
+          "text": "Secretive"
+        },
+        {
+          "id": "c",
+          "text": "Colorful"
+        },
+        {
+          "id": "d",
+          "text": "Slow-moving"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Candid means truthful and straightforward.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 10,
+      "timer_seconds": 18
+    },
+    {
+      "id": "vocab_018",
+      "type": "vocabulary",
+      "question": "What does 'ephemeral' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lasting a very short time"
+        },
+        {
+          "id": "b",
+          "text": "Extremely heavy"
+        },
+        {
+          "id": "c",
+          "text": "Related to the sky"
+        },
+        {
+          "id": "d",
+          "text": "Very loud"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Ephemeral comes from Greek 'ephemeros' meaning lasting only a day.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_019",
+      "type": "vocabulary",
+      "question": "What does 'ubiquitous' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rare and hard to find"
+        },
+        {
+          "id": "b",
+          "text": "Present everywhere"
+        },
+        {
+          "id": "c",
+          "text": "Ancient"
+        },
+        {
+          "id": "d",
+          "text": "Extremely small"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Ubiquitous describes something found everywhere at the same time.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_020",
+      "type": "vocabulary",
+      "question": "What does 'magnanimous' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Generous and forgiving"
+        },
+        {
+          "id": "b",
+          "text": "Very angry"
+        },
+        {
+          "id": "c",
+          "text": "Extremely small"
+        },
+        {
+          "id": "d",
+          "text": "Quick to judge"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Magnanimous means generous and forgiving, especially toward a rival.",
+      "difficulty": "hard",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 15,
+      "timer_seconds": 22
+    },
+    {
+      "id": "vocab_021",
+      "type": "vocabulary",
+      "question": "What does 'lucid' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Clear and easily understood"
+        },
+        {
+          "id": "b",
+          "text": "Very dark"
+        },
+        {
+          "id": "c",
+          "text": "Extremely loud"
+        },
+        {
+          "id": "d",
+          "text": "Difficult to see"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Lucid means expressed clearly and easy to understand.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_022",
+      "type": "vocabulary",
+      "question": "What does 'obfuscate' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To make clear"
+        },
+        {
+          "id": "b",
+          "text": "To deliberately make confusing"
+        },
+        {
+          "id": "c",
+          "text": "To speed up"
+        },
+        {
+          "id": "d",
+          "text": "To organize"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Obfuscate means to render obscure, unclear, or unintelligible.",
+      "difficulty": "hard",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 15,
+      "timer_seconds": 22
+    },
+    {
+      "id": "vocab_023",
+      "type": "vocabulary",
+      "question": "What does 'sycophant' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A person who acts obsequiously"
+        },
+        {
+          "id": "b",
+          "text": "A type of plant"
+        },
+        {
+          "id": "c",
+          "text": "A musical instrument"
+        },
+        {
+          "id": "d",
+          "text": "A mathematical term"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "A sycophant is a person who acts obsequiously toward someone important to gain advantage.",
+      "difficulty": "hard",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 15,
+      "timer_seconds": 22
+    },
+    {
+      "id": "vocab_024",
+      "type": "vocabulary",
+      "question": "What does 'quintessential' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Representing the most perfect example"
+        },
+        {
+          "id": "b",
+          "text": "Very small"
+        },
+        {
+          "id": "c",
+          "text": "Extremely rare"
+        },
+        {
+          "id": "d",
+          "text": "Completely useless"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Quintessential means representing the most perfect or typical example of something.",
+      "difficulty": "hard",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 15,
+      "timer_seconds": 22
+    },
+    {
+      "id": "vocab_025",
+      "type": "vocabulary",
+      "question": "What does 'gregarious' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fond of company"
+        },
+        {
+          "id": "b",
+          "text": "Preferring solitude"
+        },
+        {
+          "id": "c",
+          "text": "Very quiet"
+        },
+        {
+          "id": "d",
+          "text": "Extremely shy"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Gregarious means fond of company and sociable.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_026",
+      "type": "vocabulary",
+      "question": "What does 'inevitable' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Certain to happen"
+        },
+        {
+          "id": "b",
+          "text": "Impossible to occur"
+        },
+        {
+          "id": "c",
+          "text": "Very unlikely"
+        },
+        {
+          "id": "d",
+          "text": "Completely random"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Inevitable means certain to happen and unavoidable.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 10,
+      "timer_seconds": 18
+    },
+    {
+      "id": "vocab_027",
+      "type": "vocabulary",
+      "question": "What does 'pensive' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Engaged in deep thought"
+        },
+        {
+          "id": "b",
+          "text": "Very happy"
+        },
+        {
+          "id": "c",
+          "text": "Extremely fast"
+        },
+        {
+          "id": "d",
+          "text": "Completely silent"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Pensive means engaged in deep or serious thought.",
+      "difficulty": "medium",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_028",
+      "type": "vocabulary",
+      "question": "What does 'vindicate' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To clear of blame"
+        },
+        {
+          "id": "b",
+          "text": "To accuse falsely"
+        },
+        {
+          "id": "c",
+          "text": "To ignore completely"
+        },
+        {
+          "id": "d",
+          "text": "To make worse"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Vindicate means to clear someone of blame or suspicion.",
+      "difficulty": "hard",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 15,
+      "timer_seconds": 22
+    },
+    {
+      "id": "vocab_029",
+      "type": "vocabulary",
+      "question": "What does 'aplomb' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Self-confidence"
+        },
+        {
+          "id": "b",
+          "text": "Great fear"
+        },
+        {
+          "id": "c",
+          "text": "Extreme sadness"
+        },
+        {
+          "id": "d",
+          "text": "Physical strength"
+        }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Aplomb means self-confidence and assurance, especially in demanding situations.",
+      "difficulty": "hard",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 15,
+      "timer_seconds": 22
+    },
+    {
+      "id": "vocab_030",
+      "type": "vocabulary",
+      "question": "What does 'diligent' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lazy and careless"
+        },
+        {
+          "id": "b",
+          "text": "Hardworking and careful"
+        },
+        {
+          "id": "c",
+          "text": "Very fast"
+        },
+        {
+          "id": "d",
+          "text": "Extremely loud"
+        }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A diligent person shows care and effort in their work.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "english"
+      ],
+      "points": 10,
+      "timer_seconds": 18
+    },
+    {
+      "id": "puzzle_004",
+      "type": "puzzle",
+      "title": "Slide to solve: Cute Puppy",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/puppy.jpg",
+      "grid_size": 3,
+      "difficulty": "easy",
+      "tags": [
+        "puzzle",
+        "animals"
+      ],
+      "points": 20,
+      "timer_seconds": 40
+    },
+    {
+      "id": "puzzle_005",
+      "type": "puzzle",
+      "title": "Slide to solve: Tropical Paradise",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/tropical.jpg",
+      "grid_size": 3,
+      "difficulty": "easy",
+      "tags": [
+        "puzzle",
+        "nature"
+      ],
+      "points": 20,
+      "timer_seconds": 40
+    },
+    {
+      "id": "puzzle_006",
+      "type": "puzzle",
+      "title": "Slide to solve: Space Nebula",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/nebula.jpg",
+      "grid_size": 3,
+      "difficulty": "medium",
+      "tags": [
+        "puzzle",
+        "space"
+      ],
+      "points": 25,
+      "timer_seconds": 50
+    },
+    {
+      "id": "puzzle_007",
+      "type": "puzzle",
+      "title": "Slide to solve: Ancient Temple",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/temple.jpg",
+      "grid_size": 3,
+      "difficulty": "medium",
+      "tags": [
+        "puzzle",
+        "history"
+      ],
+      "points": 25,
+      "timer_seconds": 50
+    },
+    {
+      "id": "puzzle_008",
+      "type": "puzzle",
+      "title": "Slide to solve: Underwater World",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/underwater.jpg",
+      "grid_size": 3,
+      "difficulty": "medium",
+      "tags": [
+        "puzzle",
+        "nature"
+      ],
+      "points": 25,
+      "timer_seconds": 50
+    },
+    {
+      "id": "puzzle_009",
+      "type": "puzzle",
+      "title": "Slide to solve: Autumn Forest",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/autumn.jpg",
+      "grid_size": 3,
+      "difficulty": "easy",
+      "tags": [
+        "puzzle",
+        "nature"
+      ],
+      "points": 20,
+      "timer_seconds": 40
+    },
+    {
+      "id": "puzzle_010",
+      "type": "puzzle",
+      "title": "Slide to solve: Snowy Mountains",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/snowy.jpg",
+      "grid_size": 3,
+      "difficulty": "medium",
+      "tags": [
+        "puzzle",
+        "nature"
+      ],
+      "points": 25,
+      "timer_seconds": 50
+    },
+    {
+      "id": "puzzle_011",
+      "type": "puzzle",
+      "title": "Slide to solve: Desert Dunes",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/desert.jpg",
+      "grid_size": 4,
+      "difficulty": "hard",
+      "tags": [
+        "puzzle",
+        "nature"
+      ],
+      "points": 35,
+      "timer_seconds": 65
+    },
+    {
+      "id": "puzzle_012",
+      "type": "puzzle",
+      "title": "Slide to solve: Cherry Blossoms",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/cherry.jpg",
+      "grid_size": 3,
+      "difficulty": "easy",
+      "tags": [
+        "puzzle",
+        "nature"
+      ],
+      "points": 20,
+      "timer_seconds": 40
+    },
+    {
+      "id": "puzzle_013",
+      "type": "puzzle",
+      "title": "Slide to solve: Northern Lights",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/aurora.jpg",
+      "grid_size": 4,
+      "difficulty": "hard",
+      "tags": [
+        "puzzle",
+        "nature"
+      ],
+      "points": 35,
+      "timer_seconds": 65
+    },
+    {
+      "id": "puzzle_014",
+      "type": "puzzle",
+      "title": "Slide to solve: Cute Kitten",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/kitten.jpg",
+      "grid_size": 3,
+      "difficulty": "easy",
+      "tags": [
+        "puzzle",
+        "animals"
+      ],
+      "points": 20,
+      "timer_seconds": 40
+    },
+    {
+      "id": "puzzle_015",
+      "type": "puzzle",
+      "title": "Slide to solve: European Castle",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/castle.jpg",
+      "grid_size": 4,
+      "difficulty": "hard",
+      "tags": [
+        "puzzle",
+        "history"
+      ],
+      "points": 35,
+      "timer_seconds": 65
+    },
+    {
+      "id": "puzzle_016",
+      "type": "puzzle",
+      "title": "Slide to solve: Colorful Coral Reef",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/coral.jpg",
+      "grid_size": 3,
+      "difficulty": "medium",
+      "tags": [
+        "puzzle",
+        "nature"
+      ],
+      "points": 25,
+      "timer_seconds": 50
+    },
+    {
+      "id": "puzzle_017",
+      "type": "puzzle",
+      "title": "Slide to solve: Wild Tiger",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/tiger.jpg",
+      "grid_size": 3,
+      "difficulty": "medium",
+      "tags": [
+        "puzzle",
+        "animals"
+      ],
+      "points": 25,
+      "timer_seconds": 50
+    },
+    {
+      "id": "puzzle_018",
+      "type": "puzzle",
+      "title": "Slide to solve: Tokyo Skyline",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/tokyo.jpg",
+      "grid_size": 4,
+      "difficulty": "hard",
+      "tags": [
+        "puzzle",
+        "city"
+      ],
+      "points": 35,
+      "timer_seconds": 65
+    },
+    {
+      "id": "puzzle_019",
+      "type": "puzzle",
+      "title": "Slide to solve: Venice Canals",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/venice.jpg",
+      "grid_size": 3,
+      "difficulty": "medium",
+      "tags": [
+        "puzzle",
+        "city"
+      ],
+      "points": 25,
+      "timer_seconds": 50
+    },
+    {
+      "id": "puzzle_020",
+      "type": "puzzle",
+      "title": "Slide to solve: African Safari",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/safari.jpg",
+      "grid_size": 4,
+      "difficulty": "hard",
+      "tags": [
+        "puzzle",
+        "animals"
+      ],
+      "points": 35,
+      "timer_seconds": 65
+    },
+    {
+      "id": "puzzle_021",
+      "type": "puzzle",
+      "title": "Slide to solve: Starry Night Art",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/starry.jpg",
+      "grid_size": 3,
+      "difficulty": "medium",
+      "tags": [
+        "puzzle",
+        "art"
+      ],
+      "points": 25,
+      "timer_seconds": 50
+    },
+    {
+      "id": "puzzle_022",
+      "type": "puzzle",
+      "title": "Slide to solve: Great Wall of China",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/greatwall.jpg",
+      "grid_size": 4,
+      "difficulty": "hard",
+      "tags": [
+        "puzzle",
+        "history"
+      ],
+      "points": 35,
+      "timer_seconds": 65
+    },
+    {
+      "id": "puzzle_023",
+      "type": "puzzle",
+      "title": "Slide to solve: Rainbow Landscape",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/rainbow.jpg",
+      "grid_size": 3,
+      "difficulty": "easy",
+      "tags": [
+        "puzzle",
+        "nature"
+      ],
+      "points": 20,
+      "timer_seconds": 40
+    },
+    {
+      "id": "sotd_003",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Bedroom",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/bedroom_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/bedroom_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.25,
+          "y": 0.3,
+          "radius": 0.07
+        },
+        {
+          "x": 0.65,
+          "y": 0.5,
+          "radius": 0.07
+        },
+        {
+          "x": 0.4,
+          "y": 0.75,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_004",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Garden",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/garden_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/garden_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.2,
+          "y": 0.4,
+          "radius": 0.07
+        },
+        {
+          "x": 0.55,
+          "y": 0.25,
+          "radius": 0.07
+        },
+        {
+          "x": 0.75,
+          "y": 0.65,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_005",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Office Desk",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/office_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/office_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.35,
+          "y": 0.35,
+          "radius": 0.07
+        },
+        {
+          "x": 0.6,
+          "y": 0.55,
+          "radius": 0.07
+        },
+        {
+          "x": 0.45,
+          "y": 0.2,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_006",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Beach Scene",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/beach_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/beach_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.3,
+          "y": 0.45,
+          "radius": 0.07
+        },
+        {
+          "x": 0.7,
+          "y": 0.3,
+          "radius": 0.07
+        },
+        {
+          "x": 0.5,
+          "y": 0.7,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_007",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Park",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/park_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/park_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.28,
+          "y": 0.38,
+          "radius": 0.07
+        },
+        {
+          "x": 0.62,
+          "y": 0.52,
+          "radius": 0.07
+        },
+        {
+          "x": 0.48,
+          "y": 0.22,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_008",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Restaurant",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/restaurant_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/restaurant_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.32,
+          "y": 0.28,
+          "radius": 0.07
+        },
+        {
+          "x": 0.58,
+          "y": 0.48,
+          "radius": 0.07
+        },
+        {
+          "x": 0.42,
+          "y": 0.72,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_009",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Classroom",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/classroom_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/classroom_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.26,
+          "y": 0.42,
+          "radius": 0.07
+        },
+        {
+          "x": 0.64,
+          "y": 0.28,
+          "radius": 0.07
+        },
+        {
+          "x": 0.5,
+          "y": 0.68,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_010",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Zoo",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/zoo_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/zoo_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.22,
+          "y": 0.36,
+          "radius": 0.07
+        },
+        {
+          "x": 0.66,
+          "y": 0.54,
+          "radius": 0.07
+        },
+        {
+          "x": 0.44,
+          "y": 0.76,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_011",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Supermarket",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/supermarket_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/supermarket_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.34,
+          "y": 0.32,
+          "radius": 0.07
+        },
+        {
+          "x": 0.56,
+          "y": 0.56,
+          "radius": 0.07
+        },
+        {
+          "x": 0.46,
+          "y": 0.74,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_012",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Playground",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/playground_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/playground_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.24,
+          "y": 0.34,
+          "radius": 0.07
+        },
+        {
+          "x": 0.68,
+          "y": 0.52,
+          "radius": 0.07
+        },
+        {
+          "x": 0.52,
+          "y": 0.78,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_013",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Library",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/library_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/library_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.36,
+          "y": 0.26,
+          "radius": 0.07
+        },
+        {
+          "x": 0.54,
+          "y": 0.58,
+          "radius": 0.07
+        },
+        {
+          "x": 0.48,
+          "y": 0.72,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_014",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Bakery",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/bakery_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/bakery_b.jpg",
+      "diff_points": [
+        {
+          "x": 0.3,
+          "y": 0.38,
+          "radius": 0.07
+        },
+        {
+          "x": 0.6,
+          "y": 0.24,
+          "radius": 0.07
+        },
+        {
+          "x": 0.44,
+          "y": 0.66,
+          "radius": 0.07
+        }
+      ],
+      "difficulty": "hard",
+      "tags": [
+        "spot-the-difference"
+      ],
+      "points": 30,
+      "timer_seconds": 45
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "promoted_apps": [
+    {
+      "id": "app_1",
+      "name": "Your Other App",
+      "tagline": "Check out my other app on Google Play",
+      "icon_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/apps/app1_icon.png",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.yourcompany.app1",
+      "accent_color": "#7C5CFF"
+    }
+  ],
+  "items": [
+    {
+      "id": "quiz_geo_001",
+      "type": "quiz",
+      "question": "What is the capital of Australia?",
+      "options": [
+        { "id": "a", "text": "Sydney" },
+        { "id": "b", "text": "Melbourne" },
+        { "id": "c", "text": "Canberra" },
+        { "id": "d", "text": "Perth" }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Canberra was purpose-built as the capital in 1913, a compromise between rival cities Sydney and Melbourne.",
+      "difficulty": "medium",
+      "tags": ["geography"],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "quiz_science_002",
+      "type": "quiz",
+      "question": "How many bones are in the adult human body?",
+      "options": [
+        { "id": "a", "text": "196" },
+        { "id": "b", "text": "206" },
+        { "id": "c", "text": "216" },
+        { "id": "d", "text": "226" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Adults have 206 bones; babies are born with about 270 that fuse together over time.",
+      "difficulty": "medium",
+      "tags": ["science"],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "quiz_space_003",
+      "type": "quiz",
+      "question": "Which planet has the most moons?",
+      "options": [
+        { "id": "a", "text": "Jupiter" },
+        { "id": "b", "text": "Saturn" },
+        { "id": "c", "text": "Neptune" },
+        { "id": "d", "text": "Uranus" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "As of recent counts, Saturn has over 140 confirmed moons, edging out Jupiter.",
+      "difficulty": "medium",
+      "tags": ["space", "science"],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "quiz_history_004",
+      "type": "quiz",
+      "question": "In which year did World War II end?",
+      "options": [
+        { "id": "a", "text": "1943" },
+        { "id": "b", "text": "1945" },
+        { "id": "c", "text": "1947" },
+        { "id": "d", "text": "1950" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "WWII ended in 1945 with Japan's surrender in September, following Germany's surrender in May.",
+      "difficulty": "easy",
+      "tags": ["history"],
+      "points": 10,
+      "timer_seconds": 18
+    },
+    {
+      "id": "quiz_sports_005",
+      "type": "quiz",
+      "question": "How many players are on a standard soccer team on the field?",
+      "options": [
+        { "id": "a", "text": "9" },
+        { "id": "b", "text": "10" },
+        { "id": "c", "text": "11" },
+        { "id": "d", "text": "12" }
+      ],
+      "correct_option_id": "c",
+      "explanation": "Each team fields 11 players, including the goalkeeper.",
+      "difficulty": "easy",
+      "tags": ["sports"],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_001",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/japan.png",
+      "options": [
+        { "id": "a", "text": "China" },
+        { "id": "b", "text": "Japan" },
+        { "id": "c", "text": "South Korea" },
+        { "id": "d", "text": "Bangladesh" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Japan's flag, the Nisshoki, features a red circle representing the sun on a white background.",
+      "difficulty": "easy",
+      "tags": ["flags", "geography"],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_002",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/brazil.png",
+      "options": [
+        { "id": "a", "text": "Brazil" },
+        { "id": "b", "text": "Colombia" },
+        { "id": "c", "text": "Nigeria" },
+        { "id": "d", "text": "South Africa" }
+      ],
+      "correct_option_id": "a",
+      "explanation": "Brazil's flag features a green field with a yellow rhombus and a blue globe with stars representing its states.",
+      "difficulty": "easy",
+      "tags": ["flags", "geography"],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_003",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/canada.png",
+      "options": [
+        { "id": "a", "text": "Austria" },
+        { "id": "b", "text": "Canada" },
+        { "id": "c", "text": "Peru" },
+        { "id": "d", "text": "Switzerland" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Canada's flag features a red maple leaf, adopted in 1965.",
+      "difficulty": "easy",
+      "tags": ["flags", "geography"],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "flag_004",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/india.png",
+      "options": [
+        { "id": "a", "text": "Niger" },
+        { "id": "b", "text": "Ireland" },
+        { "id": "c", "text": "India" },
+        { "id": "d", "text": "Ivory Coast" }
+      ],
+      "correct_option_id": "c",
+      "explanation": "India's flag has saffron, white, and green bands with a navy blue Ashoka Chakra (wheel) at the center.",
+      "difficulty": "medium",
+      "tags": ["flags", "geography"],
+      "points": 10,
+      "timer_seconds": 15
+    },
+    {
+      "id": "emoji_001",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🕷️🧑‍🦱🏙️",
+      "answer": "Spiderman",
+      "hints": ["It's a Marvel superhero film", "Set in New York City"],
+      "difficulty": "easy",
+      "tags": ["movies"],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_002",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🌧️🌈",
+      "answer": "Rainbow",
+      "hints": ["Appears after rain", "Has seven colors"],
+      "difficulty": "easy",
+      "tags": ["nature"],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_003",
+      "type": "emoji_quiz",
+      "title": "Guess the movie",
+      "emoji": "🦁👑",
+      "answer": "Lion King",
+      "hints": ["Disney animated classic", "Set in the African savanna"],
+      "difficulty": "easy",
+      "tags": ["movies"],
+      "points": 15,
+      "timer_seconds": 25
+    },
+    {
+      "id": "emoji_004",
+      "type": "emoji_quiz",
+      "title": "Guess the word",
+      "emoji": "🔥🧑‍🚒",
+      "answer": "Firefighter",
+      "hints": ["A profession", "Puts out fires for a living"],
+      "difficulty": "easy",
+      "tags": ["professions"],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "emoji_005",
+      "type": "emoji_quiz",
+      "title": "Guess the phrase",
+      "emoji": "🍯🐝",
+      "answer": "Honey Bee",
+      "hints": ["Two words", "An insect and what it makes"],
+      "difficulty": "easy",
+      "tags": ["animals"],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_001",
+      "type": "vocabulary",
+      "question": "What does \"ephemeral\" mean?",
+      "options": [
+        { "id": "a", "text": "Lasting a very short time" },
+        { "id": "b", "text": "Extremely heavy" },
+        { "id": "c", "text": "Related to the sky" },
+        { "id": "d", "text": "Very loud" }
+      ],
+      "correct_option_id": "a",
+      "explanation": "\"Ephemeral\" comes from Greek \"ephemeros\" meaning lasting only a day.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "english"],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_002",
+      "type": "vocabulary",
+      "question": "What does \"ubiquitous\" mean?",
+      "options": [
+        { "id": "a", "text": "Rare and hard to find" },
+        { "id": "b", "text": "Present everywhere" },
+        { "id": "c", "text": "Ancient" },
+        { "id": "d", "text": "Extremely small" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "\"Ubiquitous\" describes something found everywhere at the same time, like smartphones today.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "english"],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_003",
+      "type": "vocabulary",
+      "question": "What does \"pragmatic\" mean?",
+      "options": [
+        { "id": "a", "text": "Overly emotional" },
+        { "id": "b", "text": "Dealing with things sensibly and realistically" },
+        { "id": "c", "text": "Related to dreams" },
+        { "id": "d", "text": "Extremely wealthy" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "A pragmatic person focuses on practical outcomes rather than theory or ideals.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "english"],
+      "points": 12,
+      "timer_seconds": 20
+    },
+    {
+      "id": "vocab_004",
+      "type": "vocabulary",
+      "question": "What does \"candid\" mean?",
+      "options": [
+        { "id": "a", "text": "Frank and honest" },
+        { "id": "b", "text": "Secretive" },
+        { "id": "c", "text": "Colorful" },
+        { "id": "d", "text": "Slow-moving" }
+      ],
+      "correct_option_id": "a",
+      "explanation": "\"Candid\" means truthful and straightforward, often used for unguarded photos too.",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "english"],
+      "points": 10,
+      "timer_seconds": 18
+    },
+    {
+      "id": "puzzle_001",
+      "type": "puzzle",
+      "title": "Slide to solve: Mountains",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/mountain.jpg",
+      "grid_size": 3,
+      "difficulty": "medium",
+      "tags": ["puzzle", "nature"],
+      "points": 25,
+      "timer_seconds": 50
+    },
+    {
+      "id": "puzzle_002",
+      "type": "puzzle",
+      "title": "Slide to solve: City Skyline",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/city.jpg",
+      "grid_size": 3,
+      "difficulty": "medium",
+      "tags": ["puzzle", "city"],
+      "points": 25,
+      "timer_seconds": 50
+    },
+    {
+      "id": "puzzle_003",
+      "type": "puzzle",
+      "title": "Slide to solve: Beach Sunset",
+      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/beach.jpg",
+      "grid_size": 4,
+      "difficulty": "hard",
+      "tags": ["puzzle", "nature"],
+      "points": 35,
+      "timer_seconds": 65
+    },
+    {
+      "id": "sotd_001",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Kitchen",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/kitchen_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/kitchen_b.jpg",
+      "diff_points": [
+        { "x": 0.22, "y": 0.35, "radius": 0.07 },
+        { "x": 0.68, "y": 0.55, "radius": 0.07 },
+        { "x": 0.45, "y": 0.78, "radius": 0.07 }
+      ],
+      "difficulty": "hard",
+      "tags": ["spot-the-difference"],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "sotd_002",
+      "type": "spot_the_difference",
+      "title": "Spot the 3 differences: Living Room",
+      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/livingroom_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/livingroom_b.jpg",
+      "diff_points": [
+        { "x": 0.30, "y": 0.40, "radius": 0.07 },
+        { "x": 0.60, "y": 0.25, "radius": 0.07 },
+        { "x": 0.50, "y": 0.70, "radius": 0.07 }
+      ],
+      "difficulty": "hard",
+      "tags": ["spot-the-difference"],
+      "points": 30,
+      "timer_seconds": 45
+    },
+    {
+      "id": "quiz_math_006",
+      "type": "quiz",
+      "question": "What is 15% of 200?",
+      "options": [
+        { "id": "a", "text": "20" },
+        { "id": "b", "text": "25" },
+        { "id": "c", "text": "30" },
+        { "id": "d", "text": "35" }
+      ],
+      "correct_option_id": "c",
+      "explanation": "15% of 200 = 0.15 × 200 = 30.",
+      "difficulty": "easy",
+      "tags": ["math"],
+      "points": 10,
+      "timer_seconds": 20
+    },
+    {
+      "id": "quiz_movies_007",
+      "type": "quiz",
+      "question": "Who directed the movie 'Inception'?",
+      "options": [
+        { "id": "a", "text": "Steven Spielberg" },
+        { "id": "b", "text": "Christopher Nolan" },
+        { "id": "c", "text": "James Cameron" },
+        { "id": "d", "text": "Quentin Tarantino" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Christopher Nolan wrote and directed Inception, released in 2010.",
+      "difficulty": "easy",
+      "tags": ["movies"],
+      "points": 10,
+      "timer_seconds": 18
+    },
+    {
+      "id": "flag_005",
+      "type": "flag_id",
+      "question": "Which country does this flag belong to?",
+      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/germany.png",
+      "options": [
+        { "id": "a", "text": "Belgium" },
+        { "id": "b", "text": "Germany" },
+        { "id": "c", "text": "Netherlands" },
+        { "id": "d", "text": "Romania" }
+      ],
+      "correct_option_id": "b",
+      "explanation": "Germany's flag has three horizontal bands: black, red, and gold, dating to the 1848 revolution.",
+      "difficulty": "medium",
+      "tags": ["flags", "geography"],
+      "points": 10,
+      "timer_seconds": 15
+    }
+  ]
+}
