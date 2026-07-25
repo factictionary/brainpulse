@@ -1,52 +1,69 @@
-name: Update index.json
+name: Update JSON Manifest
 
 on:
   push:
+    branches: [ main, master ]
     paths:
-      - 'data/**.json'
-  workflow_dispatch:
+      - '**.json'
 
 jobs:
-  update-index:
+  update-manifest:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4.2.2   # pinned — Node 24 compatible
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Regenerate index.json
+      - name: Setup Git
         run: |
-          python3 - << 'PYEOF'
-          import json
-          from pathlib import Path
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          data_dir = Path('data')
-          files = sorted(
-              p.name
-              for p in data_dir.glob('*.json')
-              if p.name != 'index.json'
-          )
+      - name: Generate index.json
+        run: |
+          REPO="${{ github.repository }}"
+          BRANCH="${{ github.ref_name }}"
+          BASE_URL="https://raw.githubusercontent.com/${REPO}/${BRANCH}"
 
-          index_path = data_dir / 'index.json'
-          index_path.write_text(
-              json.dumps(files, indent=2, ensure_ascii=False) + '\n'
-          )
+          # Find all JSON files except index.json itself
+          files=()
+          while IFS= read -r -d '' file; do
+            filename=$(basename "$file")
+            if [ "$filename" != "index.json" ]; then
+              files+=("$file")
+            fi
+          done < <(find . -name "*.json" -type f ! -path "./.git/*" ! -name "index.json" -print0 | sort -z)
 
-          print(f'index.json updated with {len(files)} file(s):')
-          for f in files:
-              print(f'  {f}')
-          PYEOF
+          # Build JSON array
+          json_files="["
+          first=true
+          for f in "${files[@]}"; do
+            if [ "$first" = true ]; then
+              first=false
+            else
+              json_files+=","
+            fi
+            # Remove leading ./
+            clean_path="${f#./}"
+            json_files+='{"filename":"'"$clean_path"'","url":"'"${BASE_URL}/${clean_path}"'"}'
+          done
+          json_files+="]"
+
+          # Write index.json with updated_at timestamp
+          echo "{"files":${json_files},"updated_at":"$(date -u +%Y-%m-%dT%H:%M:%SZ)"}" > index.json
+
+          # Pretty print
+          python3 -m json.tool index.json > index.tmp.json && mv index.tmp.json index.json
 
       - name: Commit and push if changed
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/index.json
-          # Only commit if index.json actually changed
-          git diff --cached --quiet && echo "No changes to index.json" || (
-            git commit -m "🤖 Auto-update index.json [skip ci]" &&
-            git push
-          )
+          if git diff --quiet HEAD -- index.json 2>/dev/null; then
+            echo "No changes to index.json"
+            exit 0
+          fi
+          git add index.json
+          git commit -m "chore: update index.json manifest"
+          git push
