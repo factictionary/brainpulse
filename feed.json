@@ -96,78 +96,6 @@
       "timer_seconds": 15
     },
     {
-      "id": "flag_001",
-      "type": "flag_id",
-      "question": "Which country does this flag belong to?",
-      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/japan.png",
-      "options": [
-        { "id": "a", "text": "China" },
-        { "id": "b", "text": "Japan" },
-        { "id": "c", "text": "South Korea" },
-        { "id": "d", "text": "Bangladesh" }
-      ],
-      "correct_option_id": "b",
-      "explanation": "Japan's flag, the Nisshoki, features a red circle representing the sun on a white background.",
-      "difficulty": "easy",
-      "tags": ["flags", "geography"],
-      "points": 10,
-      "timer_seconds": 15
-    },
-    {
-      "id": "flag_002",
-      "type": "flag_id",
-      "question": "Which country does this flag belong to?",
-      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/brazil.png",
-      "options": [
-        { "id": "a", "text": "Brazil" },
-        { "id": "b", "text": "Colombia" },
-        { "id": "c", "text": "Nigeria" },
-        { "id": "d", "text": "South Africa" }
-      ],
-      "correct_option_id": "a",
-      "explanation": "Brazil's flag features a green field with a yellow rhombus and a blue globe with stars representing its states.",
-      "difficulty": "easy",
-      "tags": ["flags", "geography"],
-      "points": 10,
-      "timer_seconds": 15
-    },
-    {
-      "id": "flag_003",
-      "type": "flag_id",
-      "question": "Which country does this flag belong to?",
-      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/canada.png",
-      "options": [
-        { "id": "a", "text": "Austria" },
-        { "id": "b", "text": "Canada" },
-        { "id": "c", "text": "Peru" },
-        { "id": "d", "text": "Switzerland" }
-      ],
-      "correct_option_id": "b",
-      "explanation": "Canada's flag features a red maple leaf, adopted in 1965.",
-      "difficulty": "easy",
-      "tags": ["flags", "geography"],
-      "points": 10,
-      "timer_seconds": 15
-    },
-    {
-      "id": "flag_004",
-      "type": "flag_id",
-      "question": "Which country does this flag belong to?",
-      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/india.png",
-      "options": [
-        { "id": "a", "text": "Niger" },
-        { "id": "b", "text": "Ireland" },
-        { "id": "c", "text": "India" },
-        { "id": "d", "text": "Ivory Coast" }
-      ],
-      "correct_option_id": "c",
-      "explanation": "India's flag has saffron, white, and green bands with a navy blue Ashoka Chakra (wheel) at the center.",
-      "difficulty": "medium",
-      "tags": ["flags", "geography"],
-      "points": 10,
-      "timer_seconds": 15
-    },
-    {
       "id": "emoji_001",
       "type": "emoji_quiz",
       "title": "Guess the movie",
@@ -394,23 +322,546 @@
       "points": 10,
       "timer_seconds": 18
     },
-    {
-      "id": "flag_005",
-      "type": "flag_id",
-      "question": "Which country does this flag belong to?",
-      "image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/flags/germany.png",
-      "options": [
-        { "id": "a", "text": "Belgium" },
-        { "id": "b", "text": "Germany" },
-        { "id": "c", "text": "Netherlands" },
-        { "id": "d", "text": "Romania" }
-      ],
-      "correct_option_id": "b",
-      "explanation": "Germany's flag has three horizontal bands: black, red, and gold, dating to the 1848 revolution.",
-      "difficulty": "medium",
-      "tags": ["flags", "geography"],
-      "points": 10,
-      "timer_seconds": 15
-    }
+  {
+    "id": "flag_001",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "China" },
+      { "id": "b", "text": "Japan" },
+      { "id": "c", "text": "South Korea" },
+      { "id": "d", "text": "Bangladesh" }
+    ],
+    "correct_option_id": "b",
+    "explanation": "Japan's flag, the Nisshoki, features a red circle representing the sun on a white background.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇯🇵"
+  },
+  {
+    "id": "flag_002",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Germany" },
+      { "id": "b", "text": "Belgium" },
+      { "id": "c", "text": "France" },
+      { "id": "d", "text": "Italy" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Germany's flag consists of three horizontal stripes of black, red, and gold.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇩🇪"
+  },
+  {
+    "id": "flag_003",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "United States" },
+      { "id": "b", "text": "United Kingdom" },
+      { "id": "c", "text": "Australia" },
+      { "id": "d", "text": "New Zealand" }
+    ],
+    "correct_option_id": "b",
+    "explanation": "The Union Jack features the crosses of St. George, St. Andrew, and St. Patrick.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇬🇧"
+  },
+  {
+    "id": "flag_004",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Canada" },
+      { "id": "b", "text": "Switzerland" },
+      { "id": "c", "text": "Denmark" },
+      { "id": "d", "text": "Norway" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Canada's flag features a red maple leaf in the center with red borders on each side.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇨🇦"
+  },
+  {
+    "id": "flag_005",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "India" },
+      { "id": "b", "text": "Ireland" },
+      { "id": "c", "text": "Italy" },
+      { "id": "d", "text": "Hungary" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "India's flag has horizontal stripes of saffron, white, and green with a blue Ashoka Chakra in the center.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇮🇳"
+  },
+  {
+    "id": "flag_006",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Brazil" },
+      { "id": "b", "text": "Argentina" },
+      { "id": "c", "text": "Uruguay" },
+      { "id": "d", "text": "Paraguay" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Brazil's flag features a green field with a yellow diamond containing a blue celestial globe with the motto 'Ordem e Progresso'.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇧🇷"
+  },
+  {
+    "id": "flag_007",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "South Africa" },
+      { "id": "b", "text": "Kenya" },
+      { "id": "c", "text": "Ghana" },
+      { "id": "d", "text": "Ethiopia" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "South Africa's flag has six colors arranged in a unique Y-shaped design, symbolizing the convergence of diverse cultures.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇿🇦"
+  },
+  {
+    "id": "flag_008",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Russia" },
+      { "id": "b", "text": "Netherlands" },
+      { "id": "c", "text": "Luxembourg" },
+      { "id": "d", "text": "Slovakia" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Russia's flag consists of three horizontal stripes of white, blue, and red.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇷🇺"
+  },
+  {
+    "id": "flag_009",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Australia" },
+      { "id": "b", "text": "Fiji" },
+      { "id": "c", "text": "Tuvalu" },
+      { "id": "d", "text": "New Zealand" }
+    ],
+    "correct_option_id": "d",
+    "explanation": "New Zealand's flag features the Southern Cross constellation on a blue background with the Union Jack in the canton.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇳🇿"
+  },
+  {
+    "id": "flag_010",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Egypt" },
+      { "id": "b", "text": "Iraq" },
+      { "id": "c", "text": "Syria" },
+      { "id": "d", "text": "Yemen" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Egypt's flag has horizontal stripes of red, white, and black with the Eagle of Saladin in the center.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇪🇬"
+  },
+  {
+    "id": "flag_011",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Spain" },
+      { "id": "b", "text": "Mexico" },
+      { "id": "c", "text": "Italy" },
+      { "id": "d", "text": "Portugal" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Spain's flag has horizontal stripes of red-yellow-red with the national coat of arms off-center to the hoist side.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇪🇸"
+  },
+  {
+    "id": "flag_012",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Sweden" },
+      { "id": "b", "text": "Norway" },
+      { "id": "c", "text": "Finland" },
+      { "id": "d", "text": "Iceland" }
+    ],
+    "correct_option_id": "c",
+    "explanation": "Finland's flag features a blue Nordic cross on a white background, representing its lakes and snow.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇫🇮"
+  },
+  {
+    "id": "flag_013",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Turkey" },
+      { "id": "b", "text": "Tunisia" },
+      { "id": "c", "text": "Pakistan" },
+      { "id": "d", "text": "Malaysia" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Turkey's flag features a red background with a white star and crescent moon.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇹🇷"
+  },
+  {
+    "id": "flag_014",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Argentina" },
+      { "id": "b", "text": "Uruguay" },
+      { "id": "c", "text": "Nicaragua" },
+      { "id": "d", "text": "El Salvador" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Argentina's flag has horizontal stripes of light blue and white with a golden Sun of May in the center.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇦🇷"
+  },
+  {
+    "id": "flag_015",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Greece" },
+      { "id": "b", "text": "Cyprus" },
+      { "id": "c", "text": "Malta" },
+      { "id": "d", "text": "San Marino" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Greece's flag features nine horizontal blue and white stripes with a white cross in the top-left canton.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇬🇷"
+  },
+  {
+    "id": "flag_016",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Saudi Arabia" },
+      { "id": "b", "text": "UAE" },
+      { "id": "c", "text": "Qatar" },
+      { "id": "d", "text": "Bahrain" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Saudi Arabia's flag features a green background with the Islamic creed and a sword beneath it.",
+    "difficulty": "hard",
+    "tags": ["flags", "geography"],
+    "points": 20,
+    "timer_seconds": 25,
+    "emoji": "🇸🇦"
+  },
+  {
+    "id": "flag_017",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Thailand" },
+      { "id": "b", "text": "Costa Rica" },
+      { "id": "c", "text": "North Korea" },
+      { "id": "d", "text": "France" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Thailand's flag has horizontal stripes of red, white, and blue (the blue stripe being twice as wide as the others).",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇹🇭"
+  },
+  {
+    "id": "flag_018",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Israel" },
+      { "id": "b", "text": "Greece" },
+      { "id": "c", "text": "Honduras" },
+      { "id": "d", "text": "Fiji" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Israel's flag features a blue Star of David between two horizontal blue stripes on a white background.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇮🇱"
+  },
+  {
+    "id": "flag_019",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Chile" },
+      { "id": "b", "text": "Cuba" },
+      { "id": "c", "text": "Puerto Rico" },
+      { "id": "d", "text": "Liberia" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Chile's flag has a white star on a blue square in the top-left, with one white stripe at the top and one red stripe at the bottom.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇨🇱"
+  },
+  {
+    "id": "flag_020",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Vietnam" },
+      { "id": "b", "text": "China" },
+      { "id": "c", "text": "Morocco" },
+      { "id": "d", "text": "Cambodia" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Vietnam's flag features a red background with a yellow five-pointed star in the center.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇻🇳"
+  },
+  {
+    "id": "flag_021",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Jamaica" },
+      { "id": "b", "text": "South Africa" },
+      { "id": "c", "text": "Trinidad" },
+      { "id": "d", "text": "Haiti" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Jamaica's flag is the only national flag that uses no red, white, or blue. It features black, gold, and green diagonal stripes.",
+    "difficulty": "hard",
+    "tags": ["flags", "geography"],
+    "points": 20,
+    "timer_seconds": 25,
+    "emoji": "🇯🇲"
+  },
+  {
+    "id": "flag_022",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Portugal" },
+      { "id": "b", "text": "Brazil" },
+      { "id": "c", "text": "Spain" },
+      { "id": "d", "text": "Mexico" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Portugal's flag features a green and red background with the national coat of arms in the center.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇵🇹"
+  },
+  {
+    "id": "flag_023",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Indonesia" },
+      { "id": "b", "text": "Monaco" },
+      { "id": "c", "text": "Poland" },
+      { "id": "d", "text": "Austria" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Indonesia's flag consists of two horizontal stripes of red (top) and white (bottom).",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇮🇩"
+  },
+  {
+    "id": "flag_024",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Nigeria" },
+      { "id": "b", "text": "Ireland" },
+      { "id": "c", "text": "Niger" },
+      { "id": "d", "text": "Italy" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Nigeria's flag features three vertical stripes of green, white, and green.",
+    "difficulty": "easy",
+    "tags": ["flags", "geography"],
+    "points": 10,
+    "timer_seconds": 15,
+    "emoji": "🇳🇬"
+  },
+  {
+    "id": "flag_025",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Philippines" },
+      { "id": "b", "text": "Taiwan" },
+      { "id": "c", "text": "Singapore" },
+      { "id": "d", "text": "Malaysia" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "The Philippines' flag features a sun with eight rays and three stars in a triangular field, with horizontal stripes of blue and red.",
+    "difficulty": "hard",
+    "tags": ["flags", "geography"],
+    "points": 20,
+    "timer_seconds": 25,
+    "emoji": "🇵🇭"
+  },
+  {
+    "id": "flag_026",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Mexico" },
+      { "id": "b", "text": "Italy" },
+      { "id": "c", "text": "Hungary" },
+      { "id": "d", "text": "Bulgaria" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Mexico's flag has vertical stripes of green, white, and red with the national coat of arms (eagle on a cactus) in the center.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇲🇽"
+  },
+  {
+    "id": "flag_027",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Colombia" },
+      { "id": "b", "text": "Venezuela" },
+      { "id": "c", "text": "Ecuador" },
+      { "id": "d", "text": "Panama" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Colombia's flag has horizontal stripes of yellow (top half), blue, and red.",
+    "difficulty": "medium",
+    "tags": ["flags", "geography"],
+    "points": 15,
+    "timer_seconds": 20,
+    "emoji": "🇨🇴"
+  },
+  {
+    "id": "flag_028",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Afghanistan" },
+      { "id": "b", "text": "Pakistan" },
+      { "id": "c", "text": "Iran" },
+      { "id": "d", "text": "Bangladesh" }
+    ],
+    "correct_option_id": "c",
+    "explanation": "Iran's flag has horizontal stripes of green, white, and red with the national emblem in the center and the Takbir written along the edges.",
+    "difficulty": "hard",
+    "tags": ["flags", "geography"],
+    "points": 20,
+    "timer_seconds": 25,
+    "emoji": "🇮🇷"
+  },
+  {
+    "id": "flag_029",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Kenya" },
+      { "id": "b", "text": "Ghana" },
+      { "id": "c", "text": "Cameroon" },
+      { "id": "d", "text": "Ethiopia" }
+    ],
+    "correct_option_id": "a",
+    "explanation": "Kenya's flag features horizontal stripes of black, red (with white borders), and green, with a Maasai shield and spears in the center.",
+    "difficulty": "hard",
+    "tags": ["flags", "geography"],
+    "points": 20,
+    "timer_seconds": 25,
+    "emoji": "🇰🇪"
+  },
+  {
+    "id": "flag_030",
+    "type": "flag_id",
+    "question": "Which country does this flag belong to?",
+    "options": [
+      { "id": "a", "text": "Romania" },
+      { "id": "b", "text": "Chad" },
+      { "id": "c", "text": "Moldova" },
+      { "id": "d", "text": "Andorra" }
+    ],
+    "correct_option_id": "b",
+    "explanation": "Chad's flag features vertical stripes of blue, yellow, and red, identical to Romania's flag except with slightly different shades.",
+    "difficulty": "hard",
+    "tags": ["flags", "geography"],
+    "points": 20,
+    "timer_seconds": 25,
+    "emoji": "🇹🇩"
+  }
+
   ]
 }
