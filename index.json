@@ -9,6 +9,10 @@
             "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/emoji_quiz.json"
         },
         {
+            "filename": "exercise.json",
+            "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/exercise.json"
+        },
+        {
             "filename": "feed.json",
             "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/feed.json"
         },
@@ -17,5 +21,5 @@
             "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/quiz_questions.json"
         }
     ],
-    "updated_at": "2026-07-26T11:14:09Z"
+    "updated_at": "2026-07-26T15:37:33Z"
 }
