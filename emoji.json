@@ -13,1502 +13,1702 @@
   {
     "id": "emoji_001",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🦁👑",
-    "answer": "The Lion King",
-    "hints": [
-      "Disney animated classic",
-      "Set in the African savanna"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "disney"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "The Lion King" },
+      { "id": "b", "text": "The Jungle Book" },
+      { "id": "c", "text": "The Little Mermaid" },
+      { "id": "d", "text": "Aladdin" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_002",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧙‍♂️💍",
-    "answer": "The Lord of the Rings",
-    "hints": [
-      "Epic fantasy trilogy",
-      "Features a magical ring"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "fantasy"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Harry Potter" },
+      { "id": "b", "text": "The Lord of the Rings" },
+      { "id": "c", "text": "Narnia" },
+      { "id": "d", "text": "The Hobbit" }
+    ],
+    "correct_option_id": "b"
   },
   {
     "id": "emoji_003",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🚀🌌",
-    "answer": "Star Wars",
-    "hints": [
-      "Space opera franchise",
-      "Features lightsabers and the Force"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "sci-fi"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Star Trek" },
+      { "id": "b", "text": "Star Wars" },
+      { "id": "c", "text": "Interstellar" },
+      { "id": "d", "text": "Guardians of the Galaxy" }
+    ],
+    "correct_option_id": "b"
   },
   {
     "id": "emoji_004",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🦇🃏",
-    "answer": "The Dark Knight",
-    "hints": [
-      "Batman movie",
-      "Features the Joker as the villain"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "superhero"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Batman Begins" },
+      { "id": "b", "text": "The Dark Knight" },
+      { "id": "c", "text": "Batman Forever" },
+      { "id": "d", "text": "Joker" }
+    ],
+    "correct_option_id": "b"
   },
   {
     "id": "emoji_005",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🕷️👨",
-    "answer": "Spider-Man",
-    "hints": [
-      "Marvel superhero",
-      "Gets powers from a radioactive spider"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "superhero"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Spider-Man" },
+      { "id": "b", "text": "Ant-Man" },
+      { "id": "c", "text": "The Amazing Spider-Man" },
+      { "id": "d", "text": "Spider-Man: No Way Home" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_006",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🍫🏭",
-    "answer": "Charlie and the Chocolate Factory",
-    "hints": [
-      "Based on a Roald Dahl book",
-      "Features a magical candy maker"
-    ],
     "difficulty": "easy",
     "tags": ["movies"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Willy Wonka and the Chocolate Factory" },
+      { "id": "b", "text": "Charlie and the Chocolate Factory" },
+      { "id": "c", "text": "Matilda" },
+      { "id": "d", "text": "The Great Glass Elevator" }
+    ],
+    "correct_option_id": "b"
   },
   {
     "id": "emoji_007",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "👻🔫",
-    "answer": "Ghostbusters",
-    "hints": [
-      "Comedy about paranormal investigators",
-      "Features the Stay Puft Marshmallow Man"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "comedy"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Ghostbusters" },
+      { "id": "b", "text": "The Haunted Mansion" },
+      { "id": "c", "text": "Beetlejuice" },
+      { "id": "d", "text": "Casper" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_008",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🦖🌴",
-    "answer": "Jurassic Park",
-    "hints": [
-      "Dinosaurs brought back to life",
-      "Set on a tropical island"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "sci-fi"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Jurassic World" },
+      { "id": "b", "text": "Jurassic Park" },
+      { "id": "c", "text": "The Lost World" },
+      { "id": "d", "text": "Godzilla" }
+    ],
+    "correct_option_id": "b"
   },
   {
     "id": "emoji_009",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🎪🐘",
-    "answer": "Dumbo",
-    "hints": [
-      "Disney animated classic",
-      "Features a flying elephant"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "disney"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Dumbo" },
+      { "id": "b", "text": "Bambi" },
+      { "id": "c", "text": "The Jungle Book" },
+      { "id": "d", "text": "Tarzan" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_010",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🏊🦈",
-    "answer": "Jaws",
-    "hints": [
-      "Steven Spielberg thriller",
-      "Features a great white shark"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "thriller"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Jaws" },
+      { "id": "b", "text": "The Meg" },
+      { "id": "c", "text": "47 Meters Down" },
+      { "id": "d", "text": "Sharknado" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_011",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "👽🛸",
-    "answer": "E.T. the Extra-Terrestrial",
-    "hints": [
-      "Steven Spielberg film",
-      "A boy befriends an alien"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "sci-fi"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "E.T. the Extra-Terrestrial" },
+      { "id": "b", "text": "Close Encounters of the Third Kind" },
+      { "id": "c", "text": "Independence Day" },
+      { "id": "d", "text": "The Day the Earth Stood Still" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_012",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧜‍♀️🏰",
-    "answer": "The Little Mermaid",
-    "hints": [
-      "Disney animated film",
-      "Underwater princess who wants to be human"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "disney"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "The Little Mermaid" },
+      { "id": "b", "text": "Frozen" },
+      { "id": "c", "text": "Moana" },
+      { "id": "d", "text": "Tangled" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_013",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🎄👪",
-    "answer": "Home Alone",
-    "hints": [
-      "Christmas comedy",
-      "A boy is left behind during the holidays"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "comedy"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Home Alone" },
+      { "id": "b", "text": "The Christmas Carol" },
+      { "id": "c", "text": "Elf" },
+      { "id": "d", "text": "The Grinch" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_014",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🏰🔮",
-    "answer": "Harry Potter and the Philosopher's Stone",
-    "hints": [
-      "Based on a JK Rowling book",
-      "Young wizard attends a magical school"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "fantasy"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Harry Potter" },
+      { "id": "b", "text": "The Chronicles of Narnia" },
+      { "id": "c", "text": "The Spiderwick Chronicles" },
+      { "id": "d", "text": "Percy Jackson" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_015",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🚗💨",
-    "answer": "Fast & Furious",
-    "hints": [
-      "Action franchise about street racing",
-      "Family and cars are the main themes"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "action"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Fast & Furious" },
+      { "id": "b", "text": "Gone in 60 Seconds" },
+      { "id": "c", "text": "Need for Speed" },
+      { "id": "d", "text": "The Transporter" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_016",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐠🌊",
-    "answer": "Finding Nemo",
-    "hints": [
-      "Pixar animated film",
-      "A clownfish searches for his son"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "animation"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Finding Nemo" },
+      { "id": "b", "text": "Finding Dory" },
+      { "id": "c", "text": "Shark Tale" },
+      { "id": "d", "text": "The Little Mermaid" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_017",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🤖❤️",
-    "answer": "Wall-E",
-    "hints": [
-      "Pixar film",
-      "A lonely robot on a deserted Earth"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "animation"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Wall-E" },
+      { "id": "b", "text": "Robots" },
+      { "id": "c", "text": "Big Hero 6" },
+      { "id": "d", "text": "The Iron Giant" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_018",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐉👸",
-    "answer": "Shrek",
-    "hints": [
-      "DreamWorks animated film",
-      "An ogre goes on a quest to rescue a princess"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "animation"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Shrek" },
+      { "id": "b", "text": "How to Train Your Dragon" },
+      { "id": "c", "text": "Dragonheart" },
+      { "id": "d", "text": "Mulan" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_019",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "⚓🚢",
-    "answer": "Titanic",
-    "hints": [
-      "James Cameron film",
-      "A tragic love story on a doomed ship"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "romance"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Titanic" },
+      { "id": "b", "text": "The Poseidon Adventure" },
+      { "id": "c", "text": "Master and Commander" },
+      { "id": "d", "text": "The Perfect Storm" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_020",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧟🌍",
-    "answer": "World War Z",
-    "hints": [
-      "Zombie apocalypse film",
-      "Brad Pitt stars as a UN investigator"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "horror"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "World War Z" },
+      { "id": "b", "text": "Zombieland" },
+      { "id": "c", "text": "28 Days Later" },
+      { "id": "d", "text": "I Am Legend" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_021",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🎸🎤",
-    "answer": "Bohemian Rhapsody",
-    "hints": [
-      "Biopic about a famous band",
-      "Features the lead singer of Queen"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "music"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Bohemian Rhapsody" },
+      { "id": "b", "text": "Rocketman" },
+      { "id": "c", "text": "Walk the Line" },
+      { "id": "d", "text": "Ray" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_022",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🌪️🏠",
-    "answer": "The Wizard of Oz",
-    "hints": [
-      "A tornado transports a girl to a magical land",
-      "Famous yellow brick road"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "fantasy"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "The Wizard of Oz" },
+      { "id": "b", "text": "Twister" },
+      { "id": "c", "text": "Oz the Great and Powerful" },
+      { "id": "d", "text": "Alice in Wonderland" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_023",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🔫🤠",
-    "answer": "The Good, the Bad and the Ugly",
-    "hints": [
-      "Classic spaghetti western",
-      "Clint Eastwood stars in this epic"
-    ],
     "difficulty": "hard",
     "tags": ["movies", "western"],
     "points": 25,
-    "timer_seconds": 35
+    "timer_seconds": 35,
+    "options": [
+      { "id": "a", "text": "The Good, the Bad and the Ugly" },
+      { "id": "b", "text": "Unforgiven" },
+      { "id": "c", "text": "Tombstone" },
+      { "id": "d", "text": "True Grit" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_024",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🕊️🔫",
-    "answer": "The Godfather",
-    "hints": [
-      "Classic mafia film",
-      "A horse head appears in a bed"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "crime"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Godfather" },
+      { "id": "b", "text": "Goodfellas" },
+      { "id": "c", "text": "Scarface" },
+      { "id": "d", "text": "The Departed" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_025",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧊🚢",
-    "answer": "Titanic",
-    "hints": [
-      "A ship hits an iceberg and sinks",
-      "Leonardo DiCaprio and Kate Winslet star"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "romance"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Titanic" },
+      { "id": "b", "text": "Ice Age" },
+      { "id": "c", "text": "The Day After Tomorrow" },
+      { "id": "d", "text": "Frozen" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_026",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "💍🔥",
-    "answer": "The Lord of the Rings: The Return of the King",
-    "hints": [
-      "Final installment of a fantasy trilogy",
-      "The ring is destroyed in Mount Doom"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "fantasy"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Lord of the Rings: Return of the King" },
+      { "id": "b", "text": "The Hobbit: The Battle of the Five Armies" },
+      { "id": "c", "text": "Harry Potter and the Goblet of Fire" },
+      { "id": "d", "text": "The Chronicles of Narnia" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_027",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧹🧙",
-    "answer": "Harry Potter",
-    "hints": [
-      "A young boy discovers he's a wizard",
-      "Attends Hogwarts School of Witchcraft and Wizardry"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "fantasy"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Harry Potter" },
+      { "id": "b", "text": "The Sorcerer's Apprentice" },
+      { "id": "c", "text": "The Worst Witch" },
+      { "id": "d", "text": "Kiki's Delivery Service" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_028",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "💂‍♂️🎩",
-    "answer": "Mary Poppins",
-    "hints": [
-      "Disney musical classic",
-      "A magical nanny arrives with a carpet bag"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "disney"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Mary Poppins" },
+      { "id": "b", "text": "The Sound of Music" },
+      { "id": "c", "text": "Chitty Chitty Bang Bang" },
+      { "id": "d", "text": "Nanny McPhee" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_029",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🏹🌲",
-    "answer": "Robin Hood",
-    "hints": [
-      "Disney animated classic",
-      "A fox robs from the rich to give to the poor"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "disney"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Robin Hood" },
+      { "id": "b", "text": "The Jungle Book" },
+      { "id": "c", "text": "Tarzan" },
+      { "id": "d", "text": "Pocahontas" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_030",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐺👧",
-    "answer": "Little Red Riding Hood",
-    "hints": [
-      "Fairy tale about a girl and a wolf",
-      "Features a grandmother"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "fairytale"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Little Red Riding Hood" },
+      { "id": "b", "text": "Red Riding Hood" },
+      { "id": "c", "text": "The Wolf" },
+      { "id": "d", "text": "Hoodwinked" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_031",
     "type": "emoji_quiz",
-    "title": "Guess the TV Show",
+    "title": "Guess the TV show",
     "emoji": "📺💊",
-    "answer": "Breaking Bad",
-    "hints": [
-      "A high school teacher turns to making drugs",
-      "Features a character called Heisenberg"
-    ],
     "difficulty": "medium",
     "tags": ["tv", "drama"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Breaking Bad" },
+      { "id": "b", "text": "Narcos" },
+      { "id": "c", "text": "The Wire" },
+      { "id": "d", "text": "Ozark" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_032",
     "type": "emoji_quiz",
-    "title": "Guess the TV Show",
+    "title": "Guess the movie",
     "emoji": "🦸‍♂️🦸‍♀️",
-    "answer": "The Incredibles",
-    "hints": [
-      "Pixar animated film",
-      "A family of superheroes"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "animation"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "The Incredibles" },
+      { "id": "b", "text": "Megamind" },
+      { "id": "c", "text": "Despicable Me" },
+      { "id": "d", "text": "The Super Mario Bros. Movie" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_033",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🚕🥋",
-    "answer": "The Karate Kid",
-    "hints": [
-      "A young boy learns martial arts",
-      "Features the famous 'wax on, wax off' technique"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "sports"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Karate Kid" },
+      { "id": "b", "text": "Never Back Down" },
+      { "id": "c", "text": "Cobra Kai" },
+      { "id": "d", "text": "Kickboxer" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_034",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐕🕺",
-    "answer": "Bolt",
-    "hints": [
-      "Disney animated film",
-      "A dog who thinks he has superpowers"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "disney"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Bolt" },
+      { "id": "b", "text": "Air Bud" },
+      { "id": "c", "text": "Underdog" },
+      { "id": "d", "text": "The Secret Life of Pets" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_035",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "👨‍👦🌌",
-    "answer": "Interstellar",
-    "hints": [
-      "Christopher Nolan sci-fi film",
-      "A father travels through a wormhole to save humanity"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "sci-fi"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Interstellar" },
+      { "id": "b", "text": "Contact" },
+      { "id": "c", "text": "The Martian" },
+      { "id": "d", "text": "Gravity" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_036",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐭👨‍🍳",
-    "answer": "Ratatouille",
-    "hints": [
-      "Pixar animated film",
-      "A rat dreams of becoming a chef"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "animation"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Ratatouille" },
+      { "id": "b", "text": "The Chef" },
+      { "id": "c", "text": "Cloudy with a Chance of Meatballs" },
+      { "id": "d", "text": "Babe" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_037",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🦸‍♂️🔨",
-    "answer": "Thor",
-    "hints": [
-      "Marvel superhero",
-      "God of thunder wielding a magical hammer"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "superhero"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Thor" },
+      { "id": "b", "text": "The Avengers" },
+      { "id": "c", "text": "Captain America" },
+      { "id": "d", "text": "Iron Man" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_038",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🦹‍♀️🐱",
-    "answer": "Catwoman",
-    "hints": [
-      "DC anti-hero",
-      "A woman with cat-like agility and a leather suit"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "superhero"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Catwoman" },
+      { "id": "b", "text": "Black Panther" },
+      { "id": "c", "text": "Wonder Woman" },
+      { "id": "d", "text": "Batman Returns" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_039",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧜‍♂️🏝️",
-    "answer": "Aquaman",
-    "hints": [
-      "DC superhero",
-      "King of the Seven Seas"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "superhero"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Aquaman" },
+      { "id": "b", "text": "The Little Mermaid" },
+      { "id": "c", "text": "The Shape of Water" },
+      { "id": "d", "text": "Waterworld" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_040",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🌳🏃",
-    "answer": "The Jungle Book",
-    "hints": [
-      "A boy raised by wolves in the jungle",
-      "Features a bear named Baloo"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "disney"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "The Jungle Book" },
+      { "id": "b", "text": "Tarzan" },
+      { "id": "c", "text": "George of the Jungle" },
+      { "id": "d", "text": "The Legend of Tarzan" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_041",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "👽🐶",
-    "answer": "Men in Black",
-    "hints": [
-      "Sci-fi comedy about secret agents",
-      "They monitor alien activity on Earth"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "sci-fi"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Men in Black" },
+      { "id": "b", "text": "E.T." },
+      { "id": "c", "text": "The X-Files" },
+      { "id": "d", "text": "Mars Attacks!" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_042",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🗽🦅",
-    "answer": "Captain America: The First Avenger",
-    "hints": [
-      "Marvel superhero",
-      "A WWII soldier becomes a super-soldier"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "superhero"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Captain America: The First Avenger" },
+      { "id": "b", "text": "The Avengers" },
+      { "id": "c", "text": "Captain Marvel" },
+      { "id": "d", "text": "Independence Day" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_043",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🏎️🔥",
-    "answer": "Mad Max: Fury Road",
-    "hints": [
-      "Post-apocalyptic action film",
-      "Features a rusty car chasing through the desert"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "action"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Mad Max: Fury Road" },
+      { "id": "b", "text": "The Fast and the Furious" },
+      { "id": "c", "text": "Death Race" },
+      { "id": "d", "text": "The Road Warrior" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_044",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🎵🕺",
-    "answer": "Dirty Dancing",
-    "hints": [
-      "Classic romantic drama",
-      "Features the famous lift scene"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "romance"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Dirty Dancing" },
+      { "id": "b", "text": "Step Up" },
+      { "id": "c", "text": "Grease" },
+      { "id": "d", "text": "Saturday Night Fever" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_045",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐧🎹",
-    "answer": "Happy Feet",
-    "hints": [
-      "Animated film about a dancing penguin",
-      "Features a penguin who loves to tap dance"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "animation"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Happy Feet" },
+      { "id": "b", "text": "Surf's Up" },
+      { "id": "c", "text": "March of the Penguins" },
+      { "id": "d", "text": "Penguins of Madagascar" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_046",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "👩‍🦰🔫",
-    "answer": "The Hunger Games",
-    "hints": [
-      "A dystopian future where teens fight to the death",
-      "Features a bow and arrow-wielding protagonist"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "sci-fi"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Hunger Games" },
+      { "id": "b", "text": "Divergent" },
+      { "id": "c", "text": "Maze Runner" },
+      { "id": "d", "text": "The Giver" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_047",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐲🏯",
-    "answer": "Mulan",
-    "hints": [
-      "Disney animated film",
-      "A young woman disguises herself as a soldier"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "disney"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Mulan" },
+      { "id": "b", "text": "Crouching Tiger, Hidden Dragon" },
+      { "id": "c", "text": "The Last Emperor" },
+      { "id": "d", "text": "Kung Fu Panda" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_048",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐦🎶",
-    "answer": "The Sound of Music",
-    "hints": [
-      "Classic musical",
-      "A nun becomes a governess for a family of seven children"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "musical"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Sound of Music" },
+      { "id": "b", "text": "Mary Poppins" },
+      { "id": "c", "text": "The King and I" },
+      { "id": "d", "text": "My Fair Lady" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_049",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🌹👹",
-    "answer": "Beauty and the Beast",
-    "hints": [
-      "Disney animated classic",
-      "A young woman falls in love with a cursed prince"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "disney"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Beauty and the Beast" },
+      { "id": "b", "text": "Sleeping Beauty" },
+      { "id": "c", "text": "Cinderella" },
+      { "id": "d", "text": "The Princess and the Frog" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_050",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🎩🐰",
-    "answer": "Alice in Wonderland",
-    "hints": [
-      "A girl falls down a rabbit hole",
-      "Features a mad hatter and a talking cat"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "fantasy"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Alice in Wonderland" },
+      { "id": "b", "text": "The Wizard of Oz" },
+      { "id": "c", "text": "Peter Pan" },
+      { "id": "d", "text": "The Chronicles of Narnia" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_051",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🏴‍☠️⚓",
-    "answer": "Pirates of the Caribbean",
-    "hints": [
-      "Disney franchise about swashbuckling pirates",
-      "Features Captain Jack Sparrow"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "adventure"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Pirates of the Caribbean" },
+      { "id": "b", "text": "Treasure Island" },
+      { "id": "c", "text": "Hook" },
+      { "id": "d", "text": "The Sea Beast" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_052",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧑‍🤝‍🧑🚗",
-    "answer": "Thelma & Louise",
-    "hints": [
-      "A road trip movie with a dramatic ending",
-      "Two women on the run from the law"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "drama"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Thelma & Louise" },
+      { "id": "b", "text": "The Last Ride" },
+      { "id": "c", "text": "The Motorcycle Diaries" },
+      { "id": "d", "text": "Easy Rider" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_053",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🤵🔫",
-    "answer": "James Bond",
-    "hints": [
-      "Franchise about a British secret agent",
-      "Also known as 007"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "spy"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "James Bond" },
+      { "id": "b", "text": "Mission Impossible" },
+      { "id": "c", "text": "The Bourne Identity" },
+      { "id": "d", "text": "Kingsman" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_054",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐵🍌",
-    "answer": "Planet of the Apes",
-    "hints": [
-      "Apes have taken over the world",
-      "Features a famous line: 'Take your stinking paws off me'"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "sci-fi"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Planet of the Apes" },
+      { "id": "b", "text": "King Kong" },
+      { "id": "c", "text": "Kong: Skull Island" },
+      { "id": "d", "text": "Project X" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_055",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧟‍♂️🧟‍♀️",
-    "answer": "Zombieland",
-    "hints": [
-      "Comedy horror film about a zombie apocalypse",
-      "Features a set of rules for surviving"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "horror"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Zombieland" },
+      { "id": "b", "text": "World War Z" },
+      { "id": "c", "text": "28 Days Later" },
+      { "id": "d", "text": "The Walking Dead" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_056",
     "type": "emoji_quiz",
-    "title": "Guess the TV Show",
+    "title": "Guess the TV show",
     "emoji": "👨‍👩‍👧‍👦🏠",
-    "answer": "Modern Family",
-    "hints": [
-      "A mockumentary-style comedy",
-      "Features three different families"
-    ],
     "difficulty": "medium",
     "tags": ["tv", "comedy"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Modern Family" },
+      { "id": "b", "text": "The Simpsons" },
+      { "id": "c", "text": "Friends" },
+      { "id": "d", "text": "The Brady Bunch" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_057",
     "type": "emoji_quiz",
-    "title": "Guess the TV Show",
+    "title": "Guess the TV show",
     "emoji": "👨‍🍳🔪",
-    "answer": "Hell's Kitchen",
-    "hints": [
-      "Reality cooking show",
-      "Features a shouting British chef"
-    ],
     "difficulty": "medium",
     "tags": ["tv", "cooking"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Hell's Kitchen" },
+      { "id": "b", "text": "MasterChef" },
+      { "id": "c", "text": "Top Chef" },
+      { "id": "d", "text": "Kitchen Nightmares" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_058",
     "type": "emoji_quiz",
-    "title": "Guess the TV Show",
+    "title": "Guess the TV show",
     "emoji": "🧑‍⚕️🏥",
-    "answer": "Grey's Anatomy",
-    "hints": [
-      "Medical drama about a group of doctors",
-      "Features the Seattle Grace Hospital"
-    ],
     "difficulty": "medium",
     "tags": ["tv", "medical"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Grey's Anatomy" },
+      { "id": "b", "text": "House" },
+      { "id": "c", "text": "ER" },
+      { "id": "d", "text": "The Good Doctor" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_059",
     "type": "emoji_quiz",
-    "title": "Guess the TV Show",
+    "title": "Guess the TV show",
     "emoji": "🕵️‍♂️🔍",
-    "answer": "Sherlock Holmes",
-    "hints": [
-      "A brilliant detective solves crimes",
-      "His companion is Dr. Watson"
-    ],
     "difficulty": "easy",
     "tags": ["tv", "mystery"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Sherlock Holmes" },
+      { "id": "b", "text": "Murder, She Wrote" },
+      { "id": "c", "text": "Columbo" },
+      { "id": "d", "text": "Poirot" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_060",
     "type": "emoji_quiz",
-    "title": "Guess the TV Show",
+    "title": "Guess the TV show",
     "emoji": "🚔👮",
-    "answer": "Brooklyn Nine-Nine",
-    "hints": [
-      "Police comedy set in New York",
-      "Features a detective who loves pranks"
-    ],
     "difficulty": "medium",
     "tags": ["tv", "comedy"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Brooklyn Nine-Nine" },
+      { "id": "b", "text": "The Office" },
+      { "id": "c", "text": "Parks and Recreation" },
+      { "id": "d", "text": "Police Squad!" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_061",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🏰👸",
-    "answer": "Cinderella",
-    "hints": [
-      "A young woman goes to a ball with a fairy godmother",
-      "Features a glass slipper"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "disney"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Cinderella" },
+      { "id": "b", "text": "Sleeping Beauty" },
+      { "id": "c", "text": "Snow White" },
+      { "id": "d", "text": "Rapunzel" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_062",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐙🏴‍☠️",
-    "answer": "Pirates of the Caribbean: Dead Man's Chest",
-    "hints": [
-      "Captain Jack Sparrow searches for a heart",
-      "Features the Kraken"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "adventure"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Pirates of the Caribbean: Dead Man's Chest" },
+      { "id": "b", "text": "20,000 Leagues Under the Sea" },
+      { "id": "c", "text": "The SpongeBob Movie" },
+      { "id": "d", "text": "Sinbad: Legend of the Seven Seas" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_063",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🌿🏹",
-    "answer": "The Hunger Games: Catching Fire",
-    "hints": [
-      "Second installment of the dystopian series",
-      "The arena is set in a jungle"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "sci-fi"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Hunger Games: Catching Fire" },
+      { "id": "b", "text": "The Hunger Games: Mockingjay" },
+      { "id": "c", "text": "Divergent" },
+      { "id": "d", "text": "The Maze Runner" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_064",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐺🌕",
-    "answer": "Twilight",
-    "hints": [
-      "A girl falls in love with a vampire",
-      "Features a pack of werewolves"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "romance"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Twilight" },
+      { "id": "b", "text": "The Vampire Diaries" },
+      { "id": "c", "text": "Underworld" },
+      { "id": "d", "text": "The Wolfman" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_065",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🌪️🧹",
-    "answer": "The Wizard of Oz",
-    "hints": [
-      "A tornado carries a girl away",
-      "She follows a yellow brick road"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "fantasy"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "The Wizard of Oz" },
+      { "id": "b", "text": "Twister" },
+      { "id": "c", "text": "The Hurricane" },
+      { "id": "d", "text": "The Perfect Storm" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_066",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🎄🦌",
-    "answer": "Rudolph the Red-Nosed Reindeer",
-    "hints": [
-      "A reindeer with a glowing red nose",
-      "Saves Christmas for Santa"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "christmas"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Rudolph the Red-Nosed Reindeer" },
+      { "id": "b", "text": "Frosty the Snowman" },
+      { "id": "c", "text": "The Polar Express" },
+      { "id": "d", "text": "The Christmas Chronicles" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_067",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🌊🐢",
-    "answer": "Finding Dory",
-    "hints": [
-      "Pixar film about a forgetful fish",
-      "Features a blue tang fish on a journey"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "animation"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Finding Dory" },
+      { "id": "b", "text": "Finding Nemo" },
+      { "id": "c", "text": "Moana" },
+      { "id": "d", "text": "The Sea Beast" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_068",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧙‍♂️🏰",
-    "answer": "Harry Potter and the Chamber of Secrets",
-    "hints": [
-      "Second Harry Potter film",
-      "Features a giant snake named Basilisk"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "fantasy"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Harry Potter and the Chamber of Secrets" },
+      { "id": "b", "text": "Harry Potter and the Sorcerer's Stone" },
+      { "id": "c", "text": "Harry Potter and the Prisoner of Azkaban" },
+      { "id": "d", "text": "Harry Potter and the Goblet of Fire" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_069",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🚀🐒",
-    "answer": "Space Chimps",
-    "hints": [
-      "Animated film about monkeys in space",
-      "A group of chimps go on a space mission"
-    ],
     "difficulty": "hard",
     "tags": ["movies", "animation"],
     "points": 25,
-    "timer_seconds": 35
+    "timer_seconds": 35,
+    "options": [
+      { "id": "a", "text": "Space Chimps" },
+      { "id": "b", "text": "Planet of the Apes" },
+      { "id": "c", "text": "The Monkey King" },
+      { "id": "d", "text": "Space Jam" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_070",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐉⚔️",
-    "answer": "How to Train Your Dragon",
-    "hints": [
-      "A young Viking befriends a dragon",
-      "Features a Night Fury named Toothless"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "animation"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "How to Train Your Dragon" },
+      { "id": "b", "text": "Dragonheart" },
+      { "id": "c", "text": "Eragon" },
+      { "id": "d", "text": "The Dragon Prince" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_071",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧝♂️🏹",
-    "answer": "Legolas: Lord of the Rings",
-    "hints": [
-      "Elf with incredible archery skills",
-      "Part of the Fellowship of the Ring"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "fantasy"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Legolas: Lord of the Rings" },
+      { "id": "b", "text": "The Hobbit" },
+      { "id": "c", "text": "The Chronicles of Narnia" },
+      { "id": "d", "text": "Willow" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_072",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐢🥋",
-    "answer": "Teenage Mutant Ninja Turtles",
-    "hints": [
-      "Four mutated turtles fight crime",
-      "They are named after Renaissance artists"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "superhero"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Teenage Mutant Ninja Turtles" },
+      { "id": "b", "text": "Kung Fu Panda" },
+      { "id": "c", "text": "The Karate Kid" },
+      { "id": "d", "text": "Kung Fu Hustle" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_073",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧑‍✈️✈️",
-    "answer": "Top Gun",
-    "hints": [
-      "A fighter pilot competes to be the best",
-      "Features the song 'Take My Breath Away'"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "action"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Top Gun" },
+      { "id": "b", "text": "Flight" },
+      { "id": "c", "text": "Air Force One" },
+      { "id": "d", "text": "Stealth" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_074",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🏹👸",
-    "answer": "Brave",
-    "hints": [
-      "Pixar film about a Scottish princess",
-      "Aim to change her fate"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "animation"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Brave" },
+      { "id": "b", "text": "Mulan" },
+      { "id": "c", "text": "Merida" },
+      { "id": "d", "text": "The Princess and the Frog" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_075",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐝🍯",
-    "answer": "Winnie the Pooh",
-    "hints": [
-      "A honey-loving bear",
-      "Friends with Piglet, Eeyore, and Tigger"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "disney"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Winnie the Pooh" },
+      { "id": "b", "text": "The Bee Movie" },
+      { "id": "c", "text": "Antz" },
+      { "id": "d", "text": "A Bug's Life" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_076",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🚗🤖",
-    "answer": "Transformers",
-    "hints": [
-      "Robots that disguise themselves as vehicles",
-      "Autobots vs Decepticons"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "sci-fi"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Transformers" },
+      { "id": "b", "text": "The Transformers: The Movie" },
+      { "id": "c", "text": "Bumblebee" },
+      { "id": "d", "text": "Robot Cars" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_077",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "👾🎮",
-    "answer": "Ready Player One",
-    "hints": [
-      "A virtual reality treasure hunt",
-      "Based on a sci-fi novel by Ernest Cline"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "sci-fi"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Ready Player One" },
+      { "id": "b", "text": "Tron" },
+      { "id": "c", "text": "The Matrix" },
+      { "id": "d", "text": "Wreck-It Ralph" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_078",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🤵💼",
-    "answer": "The Kingsman",
-    "hints": [
-      "A secret spy organization",
-      "Features a gentlemanly code of conduct"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "spy"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Kingsman" },
+      { "id": "b", "text": "James Bond" },
+      { "id": "c", "text": "Mission Impossible" },
+      { "id": "d", "text": "The Man from U.N.C.L.E." }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_079",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🎯🏹",
-    "answer": "The Hunger Games: Mockingjay",
-    "hints": [
-      "Third installment of the series",
-      "The rebellion rises against the Capitol"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "sci-fi"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Hunger Games: Mockingjay" },
+      { "id": "b", "text": "The Hunger Games: Catching Fire" },
+      { "id": "c", "text": "Divergent" },
+      { "id": "d", "text": "Insurgent" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_080",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧛‍♂️🧛‍♀️",
-    "answer": "Dracula",
-    "hints": [
-      "Classic horror villain",
-      "Vampire who drinks human blood"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "horror"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Dracula" },
+      { "id": "b", "text": "Twilight" },
+      { "id": "c", "text": "Interview with the Vampire" },
+      { "id": "d", "text": "Van Helsing" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_081",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "👨‍👧🐻",
-    "answer": "The Revenant",
-    "hints": [
-      "A man survives a bear attack",
-      "Set in the American wilderness"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "drama"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Revenant" },
+      { "id": "b", "text": "The Bear" },
+      { "id": "c", "text": "Into the Wild" },
+      { "id": "d", "text": "Grizzly Man" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_082",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🕷️👨‍🦰",
-    "answer": "Spider-Man: No Way Home",
-    "hints": [
-      "Multiverse adventure",
-      "Features three generations of Spider-Men"
-    ],
     "difficulty": "hard",
     "tags": ["movies", "superhero"],
     "points": 25,
-    "timer_seconds": 35
+    "timer_seconds": 35,
+    "options": [
+      { "id": "a", "text": "Spider-Man: No Way Home" },
+      { "id": "b", "text": "Spider-Man: Far From Home" },
+      { "id": "c", "text": "Spider-Man: Homecoming" },
+      { "id": "d", "text": "The Amazing Spider-Man 2" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_083",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🤖🏠",
-    "answer": "Big Hero 6",
-    "hints": [
-      "A boy and his healthcare robot",
-      "Based on a Marvel superhero team"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "animation"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Big Hero 6" },
+      { "id": "b", "text": "Robots" },
+      { "id": "c", "text": "The Iron Giant" },
+      { "id": "d", "text": "Wall-E" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_084",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🏜️🏎️",
-    "answer": "The Fast and the Furious",
-    "hints": [
-      "Street racing franchise",
-      "Features high-octane car chases"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "action"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "The Fast and the Furious" },
+      { "id": "b", "text": "2 Fast 2 Furious" },
+      { "id": "c", "text": "Fast Five" },
+      { "id": "d", "text": "Tokyo Drift" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_085",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🌕🐺",
-    "answer": "Werewolf",
-    "hints": [
-      "A person turns into a wolf during a full moon",
-      "Classic horror creature"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "horror"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Werewolf" },
+      { "id": "b", "text": "The Wolfman" },
+      { "id": "c", "text": "Underworld" },
+      { "id": "d", "text": "Dog Soldiers" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_086",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐧🎸",
-    "answer": "Surf's Up",
-    "hints": [
-      "Animated film about surfing penguins",
-      "Features penguins riding waves"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "animation"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Surf's Up" },
+      { "id": "b", "text": "Happy Feet" },
+      { "id": "c", "text": "Penguins of Madagascar" },
+      { "id": "d", "text": "March of the Penguins" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_087",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧙‍♀️🐱",
-    "answer": "Kiki's Delivery Service",
-    "hints": [
-      "Studio Ghibli film",
-      "A young witch and her cat"
-    ],
     "difficulty": "hard",
     "tags": ["movies", "anime"],
     "points": 25,
-    "timer_seconds": 35
+    "timer_seconds": 35,
+    "options": [
+      { "id": "a", "text": "Kiki's Delivery Service" },
+      { "id": "b", "text": "My Neighbor Totoro" },
+      { "id": "c", "text": "Spirited Away" },
+      { "id": "d", "text": "Howl's Moving Castle" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_088",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐉🔥",
-    "answer": "Dragonheart",
-    "hints": [
-      "A dragon bonds with a knight",
-      "Features a dragon named Draco"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "fantasy"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Dragonheart" },
+      { "id": "b", "text": "How to Train Your Dragon" },
+      { "id": "c", "text": "Eragon" },
+      { "id": "d", "text": "The Dragon Pearl" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_089",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🎪🤡",
-    "answer": "It",
-    "hints": [
-      "A killer clown terrorizes a town",
-      "Based on Stephen King's novel"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "horror"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "It" },
+      { "id": "b", "text": "Joker" },
+      { "id": "c", "text": "The Dark Knight" },
+      { "id": "d", "text": "Batman" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_090",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐦🎭",
-    "answer": "The Birds",
-    "hints": [
-      "Alfred Hitchcock thriller",
-      "Birds suddenly attack a small town"
-    ],
     "difficulty": "hard",
     "tags": ["movies", "thriller"],
     "points": 25,
-    "timer_seconds": 35
+    "timer_seconds": 35,
+    "options": [
+      { "id": "a", "text": "The Birds" },
+      { "id": "b", "text": "Birdman" },
+      { "id": "c", "text": "Bird Box" },
+      { "id": "d", "text": "The Crow" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_091",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🏝️🏐",
-    "answer": "Cast Away",
-    "hints": [
-      "A man stranded on a desert island",
-      "Features a volleyball named Wilson"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "drama"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Cast Away" },
+      { "id": "b", "text": "Life of Pi" },
+      { "id": "c", "text": "Survivor" },
+      { "id": "d", "text": "The Beach" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_092",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐺👩",
-    "answer": "Red Riding Hood",
-    "hints": [
-      "A girl and a wolf in the woods",
-      "Fairy tale adaptation"
-    ],
     "difficulty": "easy",
     "tags": ["movies", "fairytale"],
     "points": 15,
-    "timer_seconds": 25
+    "timer_seconds": 25,
+    "options": [
+      { "id": "a", "text": "Red Riding Hood" },
+      { "id": "b", "text": "Little Red Riding Hood" },
+      { "id": "c", "text": "The Wolf" },
+      { "id": "d", "text": "Hoodwinked" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_093",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🚂❄️",
-    "answer": "The Polar Express",
-    "hints": [
-      "A magical train journey to the North Pole",
-      "Features a bell that still rings for believers"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "christmas"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Polar Express" },
+      { "id": "b", "text": "The Christmas Train" },
+      { "id": "c", "text": "The Snowman" },
+      { "id": "d", "text": "The Christmas Chronicles" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_094",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "👻🏠",
-    "answer": "The Haunted Mansion",
-    "hints": [
-      "A family moves into a haunted house",
-      "Based on the Disney theme park ride"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "disney"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Haunted Mansion" },
+      { "id": "b", "text": "Ghostbusters" },
+      { "id": "c", "text": "The House with a Clock in Its Walls" },
+      { "id": "d", "text": "Monster House" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_095",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🤖🚫",
-    "answer": "I, Robot",
-    "hints": [
-      "A detective investigates robots in a futuristic city",
-      "Based on Isaac Asimov's book"
-    ],
     "difficulty": "hard",
     "tags": ["movies", "sci-fi"],
     "points": 25,
-    "timer_seconds": 35
+    "timer_seconds": 35,
+    "options": [
+      { "id": "a", "text": "I, Robot" },
+      { "id": "b", "text": "RoboCop" },
+      { "id": "c", "text": "The Terminator" },
+      { "id": "d", "text": "AI Artificial Intelligence" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_096",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🦋🎭",
-    "answer": "The Butterfly Effect",
-    "hints": [
-      "A man changes his past and alters the future",
-      "Features Ashton Kutcher in a dramatic role"
-    ],
     "difficulty": "hard",
     "tags": ["movies", "sci-fi"],
     "points": 25,
-    "timer_seconds": 35
+    "timer_seconds": 35,
+    "options": [
+      { "id": "a", "text": "The Butterfly Effect" },
+      { "id": "b", "text": "The Butterfly" },
+      { "id": "c", "text": "The Time Traveler's Wife" },
+      { "id": "d", "text": "Predestination" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_097",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "⚽🐧",
-    "answer": "The Mighty Ducks",
-    "hints": [
-      "A group of kids play ice hockey",
-      "Features a team of misfits"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "sports"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Mighty Ducks" },
+      { "id": "b", "text": "Ice Age" },
+      { "id": "c", "text": "The Penguins of Madagascar" },
+      { "id": "d", "text": "Happy Feet" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_098",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🐘🏰",
-    "answer": "The Elephant Queen",
-    "hints": [
-      "A documentary about a matriarch elephant",
-      "Nature documentary set in Africa"
-    ],
     "difficulty": "hard",
     "tags": ["movies", "documentary"],
     "points": 25,
-    "timer_seconds": 35
+    "timer_seconds": 35,
+    "options": [
+      { "id": "a", "text": "The Elephant Queen" },
+      { "id": "b", "text": "Dumbo" },
+      { "id": "c", "text": "The White Elephant" },
+      { "id": "d", "text": "The Jungle Book" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_099",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🎸👨‍🎤",
-    "answer": "Yesterday",
-    "hints": [
-      "A man wakes up to find no one remembers The Beatles",
-      "He becomes a famous musician"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "music"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "Yesterday" },
+      { "id": "b", "text": "Bohemian Rhapsody" },
+      { "id": "c", "text": "Rocketman" },
+      { "id": "d", "text": "A Star Is Born" }
+    ],
+    "correct_option_id": "a"
   },
   {
     "id": "emoji_100",
     "type": "emoji_quiz",
-    "title": "Guess the Movie",
+    "title": "Guess the movie",
     "emoji": "🧙‍♂️⚡",
-    "answer": "The Sorcerer's Apprentice",
-    "hints": [
-      "A boy learns magic from an ancient sorcerer",
-      "Features magical battles in New York"
-    ],
     "difficulty": "medium",
     "tags": ["movies", "fantasy"],
     "points": 20,
-    "timer_seconds": 30
+    "timer_seconds": 30,
+    "options": [
+      { "id": "a", "text": "The Sorcerer's Apprentice" },
+      { "id": "b", "text": "Harry Potter" },
+      { "id": "c", "text": "The Magicians" },
+      { "id": "d", "text": "The Incredible Burt Wonderstone" }
+    ],
+    "correct_option_id": "a"
   }
- ]
+]
 }
