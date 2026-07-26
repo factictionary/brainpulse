@@ -1,0 +1,236 @@
+{
+    "promoted_apps": [
+        {
+            "id": "app_1",
+            "name": "Your Other App",
+            "tagline": "Check out my other app on Google Play",
+            "icon_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/apps/app1_icon.png",
+            "play_store_url": "https://play.google.com/store/apps/details?id=com.yourcompany.app1",
+            "accent_color": "#7C5CFF"
+        }
+    ],
+    "items": [
+        {
+            "id": "breathe_001",
+            "type": "breathing_exercise",
+            "title": "Box Breathing",
+            "steps": [
+                {
+                    "label": "Inhale",
+                    "seconds": 4,
+                    "instruction": "Breathe in slowly through your nose"
+                },
+                {
+                    "label": "Hold",
+                    "seconds": 4,
+                    "instruction": "Hold gently, no strain"
+                },
+                {
+                    "label": "Exhale",
+                    "seconds": 4,
+                    "instruction": "Breathe out slowly through your mouth"
+                },
+                {
+                    "label": "Hold",
+                    "seconds": 4,
+                    "instruction": "Rest before the next breath"
+                }
+            ],
+            "cycles": 4,
+            "tags": [
+                "wellness",
+                "breathing"
+            ],
+            "points": 0
+        },
+        {
+            "id": "breathe_002",
+            "type": "breathing_exercise",
+            "title": "4-7-8 Relaxing Breath",
+            "steps": [
+                {
+                    "label": "Inhale",
+                    "seconds": 4,
+                    "instruction": "Breathe in quietly through your nose"
+                },
+                {
+                    "label": "Hold",
+                    "seconds": 7,
+                    "instruction": "Hold your breath"
+                },
+                {
+                    "label": "Exhale",
+                    "seconds": 8,
+                    "instruction": "Exhale completely through your mouth"
+                }
+            ],
+            "cycles": 3,
+            "tags": [
+                "wellness",
+                "breathing"
+            ],
+            "points": 0
+        },
+        {
+            "id": "eye_001",
+            "type": "eye_exercise",
+            "title": "20-20-20 Rule",
+            "steps": [
+                {
+                    "label": "Look at something far away",
+                    "seconds": 20,
+                    "instruction": "Find an object at least 20 feet away and focus on it"
+                }
+            ],
+            "cycles": 1,
+            "tags": [
+                "wellness",
+                "eyes"
+            ],
+            "points": 0
+        },
+        {
+            "id": "eye_002",
+            "type": "eye_exercise",
+            "title": "Eye Direction Stretch",
+            "steps": [
+                {
+                    "label": "Look left",
+                    "seconds": 5
+                },
+                {
+                    "label": "Look right",
+                    "seconds": 5
+                },
+                {
+                    "label": "Look up",
+                    "seconds": 5
+                },
+                {
+                    "label": "Look down",
+                    "seconds": 5
+                },
+                {
+                    "label": "Blink slowly",
+                    "seconds": 5,
+                    "instruction": "Close your eyes gently for a moment"
+                }
+            ],
+            "cycles": 2,
+            "tags": [
+                "wellness",
+                "eyes"
+            ],
+            "points": 0
+        },
+        {
+            "id": "eye_003",
+            "type": "eye_exercise",
+            "title": "Near and Far Focus",
+            "steps": [
+                {
+                    "label": "Focus near",
+                    "seconds": 8,
+                    "instruction": "Focus on your thumb held at arm's length"
+                },
+                {
+                    "label": "Focus far",
+                    "seconds": 8,
+                    "instruction": "Shift focus to something across the room"
+                }
+            ],
+            "cycles": 3,
+            "tags": [
+                "wellness",
+                "eyes"
+            ],
+            "points": 0
+        },
+        {
+            "id": "stretch_001",
+            "type": "desk_stretch",
+            "title": "Neck & Shoulder Release",
+            "steps": [
+                {
+                    "label": "Neck tilt left",
+                    "seconds": 15,
+                    "instruction": "Gently tilt your head toward your left shoulder"
+                },
+                {
+                    "label": "Neck tilt right",
+                    "seconds": 15,
+                    "instruction": "Gently tilt your head toward your right shoulder"
+                },
+                {
+                    "label": "Shoulder rolls",
+                    "seconds": 15,
+                    "instruction": "Roll both shoulders backward slowly"
+                },
+                {
+                    "label": "Chin tuck",
+                    "seconds": 15,
+                    "instruction": "Pull your chin gently back to align your neck"
+                }
+            ],
+            "tags": [
+                "wellness",
+                "stretch"
+            ],
+            "points": 0
+        },
+        {
+            "id": "stretch_002",
+            "type": "desk_stretch",
+            "title": "Wrist & Forearm Stretch",
+            "steps": [
+                {
+                    "label": "Wrist flex",
+                    "seconds": 15,
+                    "instruction": "Extend one arm, gently pull fingers back"
+                },
+                {
+                    "label": "Wrist extend",
+                    "seconds": 15,
+                    "instruction": "Extend one arm, gently pull fingers down"
+                },
+                {
+                    "label": "Switch hands",
+                    "seconds": 15,
+                    "instruction": "Repeat both stretches on the other hand"
+                }
+            ],
+            "tags": [
+                "wellness",
+                "stretch"
+            ],
+            "points": 0
+        },
+        {
+            "id": "stretch_003",
+            "type": "desk_stretch",
+            "title": "Seated Spinal Twist",
+            "steps": [
+                {
+                    "label": "Twist right",
+                    "seconds": 15,
+                    "instruction": "Sit tall, gently twist your torso to the right"
+                },
+                {
+                    "label": "Twist left",
+                    "seconds": 15,
+                    "instruction": "Sit tall, gently twist your torso to the left"
+                },
+                {
+                    "label": "Sit up straight",
+                    "seconds": 10,
+                    "instruction": "Reset posture, shoulders back, chin level"
+                }
+            ],
+            "tags": [
+                "wellness",
+                "stretch"
+            ],
+            "points": 0
+        }
+    ]
+}
