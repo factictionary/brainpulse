@@ -4,8 +4,8 @@
       "id": "app_1",
       "name": "Your Other App",
       "tagline": "Check out my other app on Google Play",
-      "icon_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/apps/app1_icon.png",
-      "play_store_url": "https://play.google.com/store/apps/details?id=com.yourcompany.app1",
+      "icon_url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/images/apps/app1_icon.png",
+      "play_store_url": "https://play.google.com/store/apps/details?id=in.factictionary.mind_bites",
       "accent_color": "#7C5CFF"
     }
   ],
@@ -164,44 +164,11 @@
       "timer_seconds": 18
     },
     {
-      "id": "puzzle_001",
-      "type": "puzzle",
-      "title": "Slide to solve: Mountains",
-      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/mountain.jpg",
-      "grid_size": 3,
-      "difficulty": "medium",
-      "tags": ["puzzle", "nature"],
-      "points": 25,
-      "timer_seconds": 50
-    },
-    {
-      "id": "puzzle_002",
-      "type": "puzzle",
-      "title": "Slide to solve: City Skyline",
-      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/city.jpg",
-      "grid_size": 3,
-      "difficulty": "medium",
-      "tags": ["puzzle", "city"],
-      "points": 25,
-      "timer_seconds": 50
-    },
-    {
-      "id": "puzzle_003",
-      "type": "puzzle",
-      "title": "Slide to solve: Beach Sunset",
-      "puzzle_image_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/puzzles/beach.jpg",
-      "grid_size": 4,
-      "difficulty": "hard",
-      "tags": ["puzzle", "nature"],
-      "points": 35,
-      "timer_seconds": 65
-    },
-    {
       "id": "sotd_001",
       "type": "spot_the_difference",
       "title": "Spot the 3 differences: Kitchen",
-      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/kitchen_a.jpg",
-      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/kitchen_b.jpg",
+      "image_a_url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/images/sotd/kitchen_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/images/sotd/kitchen_b.jpg",
       "diff_points": [
         { "x": 0.22, "y": 0.35, "radius": 0.07 },
         { "x": 0.68, "y": 0.55, "radius": 0.07 },
@@ -216,8 +183,8 @@
       "id": "sotd_002",
       "type": "spot_the_difference",
       "title": "Spot the 3 differences: Living Room",
-      "image_a_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/livingroom_a.jpg",
-      "image_b_url": "https://raw.githubusercontent.com/your-user/streamquiz-content/main/images/sotd/livingroom_b.jpg",
+      "image_a_url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/images/sotd/livingroom_a.jpg",
+      "image_b_url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/images/sotd/livingroom_b.jpg",
       "diff_points": [
         { "x": 0.30, "y": 0.40, "radius": 0.07 },
         { "x": 0.60, "y": 0.25, "radius": 0.07 },
