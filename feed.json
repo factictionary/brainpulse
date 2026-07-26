@@ -96,66 +96,6 @@
       "timer_seconds": 15
     },
     {
-      "id": "emoji_001",
-      "type": "emoji_quiz",
-      "title": "Guess the movie",
-      "emoji": "🕷️🧑‍🦱🏙️",
-      "answer": "Spiderman",
-      "hints": ["It's a Marvel superhero film", "Set in New York City"],
-      "difficulty": "easy",
-      "tags": ["movies"],
-      "points": 15,
-      "timer_seconds": 25
-    },
-    {
-      "id": "emoji_002",
-      "type": "emoji_quiz",
-      "title": "Guess the word",
-      "emoji": "🌧️🌈",
-      "answer": "Rainbow",
-      "hints": ["Appears after rain", "Has seven colors"],
-      "difficulty": "easy",
-      "tags": ["nature"],
-      "points": 10,
-      "timer_seconds": 20
-    },
-    {
-      "id": "emoji_003",
-      "type": "emoji_quiz",
-      "title": "Guess the movie",
-      "emoji": "🦁👑",
-      "answer": "Lion King",
-      "hints": ["Disney animated classic", "Set in the African savanna"],
-      "difficulty": "easy",
-      "tags": ["movies"],
-      "points": 15,
-      "timer_seconds": 25
-    },
-    {
-      "id": "emoji_004",
-      "type": "emoji_quiz",
-      "title": "Guess the word",
-      "emoji": "🔥🧑‍🚒",
-      "answer": "Firefighter",
-      "hints": ["A profession", "Puts out fires for a living"],
-      "difficulty": "easy",
-      "tags": ["professions"],
-      "points": 10,
-      "timer_seconds": 20
-    },
-    {
-      "id": "emoji_005",
-      "type": "emoji_quiz",
-      "title": "Guess the phrase",
-      "emoji": "🍯🐝",
-      "answer": "Honey Bee",
-      "hints": ["Two words", "An insect and what it makes"],
-      "difficulty": "easy",
-      "tags": ["animals"],
-      "points": 10,
-      "timer_seconds": 20
-    },
-    {
       "id": "vocab_001",
       "type": "vocabulary",
       "question": "What does \"ephemeral\" mean?",
