@@ -225,9 +225,9 @@
       "timer_seconds": 20,
       "options": [
         { "id": "a", "text": "Catfish" },
-        { "id": "b", "text": "Catfish" },
-        { "id": "c", "text": "Catfish" },
-        { "id": "d", "text": "Catfish" }
+        { "id": "b", "text": "Dog Whistle" },
+        { "id": "c", "text": "Fishcat" },
+        { "id": "d", "text": "Cat" }
       ],
       "correct_option_id": "a"
     },

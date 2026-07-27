@@ -166,7 +166,7 @@
     {
       "id": "sotd_001",
       "type": "spot_the_difference",
-      "title": "Spot the 3 differences: Kitchen",
+      "title": "Spot the differences",
       "image_a_url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/images/sotd/kitchen_a.jpg",
       "image_b_url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/images/sotd/kitchen_b.jpg",
       "diff_points": [
@@ -182,7 +182,7 @@
     {
       "id": "sotd_002",
       "type": "spot_the_difference",
-      "title": "Spot the 3 differences: Living Room",
+      "title": "Spot the differences",
       "image_a_url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/images/sotd/livingroom_a.jpg",
       "image_b_url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/images/sotd/livingroom_b.jpg",
       "diff_points": [
