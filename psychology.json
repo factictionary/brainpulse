@@ -1,0 +1,834 @@
+{
+  "items": [
+    {
+      "id": "fact_list_hi_001",
+      "type": "fact_card",
+      "title": "आँखों की भाषा सीखो",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "जो आपकी आँखों में देखकर बात करे, वो सच में \"ईमानदार\" है।",
+          "highlight": "ईमानदार"
+        },
+        {
+          "text": "पुतलियाँ अचानक बड़ी हों तो समझो आपमें उसकी \"रुचि\" बढ़ गई है।",
+          "highlight": "रुचि"
+        },
+        {
+          "text": "बार-बार पलकें झपकाना \"बेचैनी\", \"झूठ\" या \"छुपाव\" का संकेत है।",
+          "highlight": "बेचैनी"
+        },
+        {
+          "text": "बात करते समय नज़रें बार-बार नीचे जाना \"शर्म\" या \"अपराधबोध\" दिखाता है।",
+          "highlight": "अपराधबोध"
+        },
+        {
+          "text": "ऊपर दाईं तरफ देखना \"रचना\" है, ऊपर बाईं तरफ \"याद\" है।",
+          "highlight": "याद"
+        }
+      ],
+      "tags": ["body_language", "eyes", "psychology", "hindi"],
+      "points": 0,
+      "topic": "body_language",
+      "source_name": "Traditional body language wisdom"
+    },
+    {
+      "id": "fact_list_hi_002",
+      "type": "fact_card",
+      "title": "हाथों के राज़",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "खुले हाथ \"ईमानदारी\" और \"विश्वास\" की निशानी हैं।",
+          "highlight": "ईमानदारी"
+        },
+        {
+          "text": "हाथ जेब में छुपाना \"कुछ छुपाने\" या \"असहजता\" का संकेत है।",
+          "highlight": "असहजता"
+        },
+        {
+          "text": "उँगलियाँ चटकाना दिखावटी \"आत्मविश्वास\" की पहचान है।",
+          "highlight": "आत्मविश्वास"
+        },
+        {
+          "text": "गर्दन पीछे हाथ रखना \"शक्ति\" और \"प्रभुत्व\" दिखाता है।",
+          "highlight": "शक्ति"
+        },
+        {
+          "text": "हाथ मिलाते समय ऊपर खींचे तो \"कंट्रोल\" चाहता है वो।",
+          "highlight": "कंट्रोल"
+        }
+      ],
+      "tags": ["body_language", "hands", "psychology", "hindi"],
+      "points": 0,
+      "topic": "body_language",
+      "source_name": "Traditional body language wisdom"
+    },
+    {
+      "id": "fact_list_hi_003",
+      "type": "fact_card",
+      "title": "चेहरे के भाव पढ़ो",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "असली हँसी \"आँखों\" से शुरू होती है, नकली सिर्फ \"होंठों\" तक रहती है।",
+          "highlight": "आँखों"
+        },
+        {
+          "text": "माथे पर हाथ रखना \"उलझन\", \"परेशानी\" या \"भूलने\" का संकेत है।",
+          "highlight": "उलझन"
+        },
+        {
+          "text": "नाक छूना \"अस्वीकृति\", \"शंका\" या \"असहमति\" दिखाता है।",
+          "highlight": "शंका"
+        },
+        {
+          "text": "होंठ काटना \"बेचैनी\", \"डर\" या \"आत्मविश्वास की कमी\" दिखाता है।",
+          "highlight": "डर"
+        },
+        {
+          "text": "भौंहें 1-2 सेकंड ऊपर उठना \"झूठ\" या \"अचरज\" की पहचान है।",
+          "highlight": "झूठ"
+        }
+      ],
+      "tags": ["body_language", "face", "expressions", "hindi"],
+      "points": 0,
+      "topic": "body_language",
+      "source_name": "Traditional body language wisdom"
+    },
+    {
+      "id": "fact_list_hi_004",
+      "type": "fact_card",
+      "title": "शरीर की मुद्रा का रहस्य",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "सीधे कंधों के साथ खड़ा होना \"आत्मविश्वास\" और \"मजबूती\" दिखाता है।",
+          "highlight": "मजबूती"
+        },
+        {
+          "text": "कंधे झुकाना \"थकान\", \"हार\" या \"उदासी\" का संकेत है।",
+          "highlight": "उदासी"
+        },
+        {
+          "text": "पैर चौड़े करके खड़ा होना \"ताकत\" और \"प्रभुत्व\" जताता है।",
+          "highlight": "प्रभुत्व"
+        },
+        {
+          "text": "बैठे-बैठे पैर हिलाना \"बेचैनी\" या \"जाने की जल्दी\" बताता है।",
+          "highlight": "बेचैनी"
+        },
+        {
+          "text": "दीवार से टिककर खड़ा होना \"थकान\" या \"असहजता\" दिखाता है।",
+          "highlight": "थकान"
+        }
+      ],
+      "tags": ["body_language", "posture", "psychology", "hindi"],
+      "points": 0,
+      "topic": "body_language",
+      "source_name": "Traditional body language wisdom"
+    },
+    {
+      "id": "fact_list_hi_005",
+      "type": "fact_card",
+      "title": "पैर बोलते हैं सबसे ज़्यादा",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "पैर जिस तरफ हों, \"रुचि\" और \"ध्यान\" उसी तरफ है।",
+          "highlight": "ध्यान"
+        },
+        {
+          "text": "पैर बार-बार हिलाना \"बेचैनी\", \"ऊब\" या \"जाने की इच्छा\" दिखाता है।",
+          "highlight": "ऊब"
+        },
+        {
+          "text": "पैर अंदर की तरफ रखना \"आत्मविश्वास की कमी\" या \"डर\" दिखाता है।",
+          "highlight": "डर"
+        },
+        {
+          "text": "पंजों पर खड़ा होना \"उत्सुकता\" या \"उत्तेजना\" का संकेत है।",
+          "highlight": "उत्तेजना"
+        },
+        {
+          "text": "पैर क्रॉस करके बैठना \"बंद रवैया\" या \"आराम\" दिखाता है।",
+          "highlight": "बंद रवैया"
+        }
+      ],
+      "tags": ["body_language", "feet", "psychology", "hindi"],
+      "points": 0,
+      "topic": "body_language",
+      "source_name": "Traditional body language wisdom"
+    },
+    {
+      "id": "fact_list_hi_006",
+      "type": "fact_card",
+      "title": "हाथ मिलाने का विज्ञान",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "मजबूत और सीधा \"हाथ\" मिलाना \"विश्वसनीयता\" और \"ईमानदारी\" दिखाता है।",
+          "highlight": "ईमानदारी"
+        },
+        {
+          "text": "कमज़ोर हाथ मिलाना \"डर\", \"हीनभावना\" या \"कमज़ोर इरादे\" बताता है।",
+          "highlight": "हीनभावना"
+        },
+        {
+          "text": "हाथ को अपनी तरफ खींचना \"कंट्रोल\" और \"प्रभुत्व\" की भावना है।",
+          "highlight": "प्रभुत्व"
+        },
+        {
+          "text": "हाथ को दूसरे की तरफ झुकाना \"विनम्रता\" या \"अधीनता\" दिखाता है।",
+          "highlight": "विनम्रता"
+        },
+        {
+          "text": "दोनों हाथों से मिलाना \"दिखावटी प्रेम\" या \"असली सम्मान\" का संकेत है।",
+          "highlight": "सम्मान"
+        }
+      ],
+      "tags": ["body_language", "handshake", "psychology", "hindi"],
+      "points": 0,
+      "topic": "body_language",
+      "source_name": "Traditional body language wisdom"
+    },
+    {
+      "id": "fact_list_hi_007",
+      "type": "fact_card",
+      "title": "आवाज़ में छुपा राज़",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "तेज़ और ऊँची आवाज़ \"आत्मविश्वास\" या \"गुस्से\" की निशानी है।",
+          "highlight": "गुस्सा"
+        },
+        {
+          "text": "धीमी आवाज़ \"रहस्य\", \"डर\" या \"आत्मविश्वास की कमी\" दिखाती है।",
+          "highlight": "रहस्य"
+        },
+        {
+          "text": "बार-बार गला साफ़ करना \"झूठ\" या \"बेचैनी\" का पक्का संकेत है।",
+          "highlight": "झूठ"
+        },
+        {
+          "text": "बहुत तेज़ बोलना \"बेचैनी\" या \"बहानेबाज़ी\" की पहचान है।",
+          "highlight": "बहानेबाज़ी"
+        },
+        {
+          "text": "आवाज़ का ऊपर-नीचे जाना \"उत्तेजना\" या \"झूठ\" दोनों हो सकता है।",
+          "highlight": "उत्तेजना"
+        }
+      ],
+      "tags": ["body_language", "voice", "psychology", "hindi"],
+      "points": 0,
+      "topic": "body_language",
+      "source_name": "Traditional body language wisdom"
+    },
+    {
+      "id": "fact_list_hi_008",
+      "type": "fact_card",
+      "title": "माइक्रो एक्सप्रेशन के रहस्य",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "इंसान का असली चेहरा सिर्फ \"1/25 सेकंड\" के लिए दिखता है।",
+          "highlight": "1/25 सेकंड"
+        },
+        {
+          "text": "असली मुस्कान 1 सेकंड से ज़्यादा \"रहती\" है, नकली जल्दी \"बुझ\" जाती है।",
+          "highlight": "बुझ"
+        },
+        {
+          "text": "एक तरफ का होंट खींचना \"घृणा\" या \"अस्वीकृति\" दिखाता है।",
+          "highlight": "घृणा"
+        },
+        {
+          "text": "नाक की हल्की सिकुड़न \"असहमति\" या \"शंका\" की पहचान है।",
+          "highlight": "असहमति"
+        },
+        {
+          "text": "आँख का सिकुड़ना \"गुस्सा\", \"शंका\" या \"ध्यान\" का सूक्ष्म संकेत है।",
+          "highlight": "ध्यान"
+        }
+      ],
+      "tags": ["psychology", "micro_expressions", "hindi"],
+      "points": 0,
+      "topic": "psychology",
+      "source_name": "Traditional body language wisdom"
+    },
+    {
+      "id": "fact_list_hi_009",
+      "type": "fact_card",
+      "title": "दूरी और स्पर्श की भाषा",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "18 इंच से कम दूरी \"अंतरंगता\" और \"प्यार\" की निशानी है।",
+          "highlight": "अंतरंगता"
+        },
+        {
+          "text": "4 फीट की दूरी \"दोस्ती\" और \"आराम\" की पहचान है।",
+          "highlight": "दोस्ती"
+        },
+        {
+          "text": "12 फीट से ज़्यादा दूरी \"अजनबी\" या \"औपचारिकता\" दिखाती है।",
+          "highlight": "अजनबी"
+        },
+        {
+          "text": "कंधे पर हाथ रखना \"दोस्ती\", \"सहारा\" या \"भरोसा\" दिखाता है।",
+          "highlight": "भरोसा"
+        },
+        {
+          "text": "पीठ पर थपकी \"प्रोत्साहन\" और \"स्नेह\" की निशानी है।",
+          "highlight": "स्नेह"
+        }
+      ],
+      "tags": ["body_language", "space", "touch", "hindi"],
+      "points": 0,
+      "topic": "body_language",
+      "source_name": "Traditional body language wisdom"
+    },
+    {
+      "id": "fact_list_hi_010",
+      "type": "fact_card",
+      "title": "मिररिंग और जुड़ाव",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "जो आपकी \"नकल\" करे, वो आपसे \"प्यार\" या \"जुड़ाव\" रखता है।",
+          "highlight": "नकल"
+        },
+        {
+          "text": "एक जैसे बैठना \"सहमति\", \"जुड़ाव\" और \"तालमेल\" दिखाता है।",
+          "highlight": "तालमेल"
+        },
+        {
+          "text": "एक साथ \"हँसना\" दो लोगों के बीच गहरे \"जुड़ाव\" की निशानी है।",
+          "highlight": "जुड़ाव"
+        },
+        {
+          "text": "आपकी बातों की शैली अपनाना \"सम्मान\" या \"प्रेम\" दिखाता है।",
+          "highlight": "प्रेम"
+        },
+        {
+          "text": "दर्पण व्यवहार \"सहानुभूति\", \"समझ\" और \"अपनापन\" का संकेत है।",
+          "highlight": "अपनापन"
+        }
+      ],
+      "tags": ["psychology", "mirroring", "relationships", "hindi"],
+      "points": 0,
+      "topic": "psychology",
+      "source_name": "Traditional body language wisdom"
+    },
+    {
+      "id": "fact_list_hi_011",
+      "type": "fact_card",
+      "title": "झूठ पहचानो पल भर में",
+      "language": "hi",
+      "facts": [
+        {"text": "झूठ बोलते वक़्त नाक \"फड़कती\" है, गौर से देखो।", "highlight": "फड़कती"},
+        {"text": "झूठा इंसान \"आँखें\" ज़्यादा झपकाता है।", "highlight": "आँखें"},
+        {"text": "\"बहुत\" विस्तार से बताना झूठ का \"बचाव\" है।", "highlight": "बचाव"},
+        {"text": "झूठ बोलते वक़्त गला \"सूख\" जाता है।", "highlight": "सूख"},
+        {"text": "झूठा \"मुस्कुरा\" कर बात \"ख़त्म\" करना चाहता है।", "highlight": "ख़त्म"}
+      ],
+      "tags": ["lie_detection", "psychology", "hindi"],
+      "points": 0,
+      "topic": "lie_detection",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_012",
+      "type": "fact_card",
+      "title": "प्यार के अनकहे इशारे",
+      "language": "hi",
+      "facts": [
+        {"text": "जो \"बात\" करने का \"बहाना\" ढूँढे, वो \"प्यार\" करता है।", "highlight": "प्यार"},
+        {"text": "आपको \"याद\" करके मैसेज करना \"प्रेम\" की निशानी है।", "highlight": "प्रेम"},
+        {"text": "\"आँखों\" में चमक असली \"प्यार\" की पहचान है।", "highlight": "प्यार"},
+        {"text": "\"छोटी\" चीज़ों पर \"ध्यान\" देना सच्चे प्यार की निशानी है।", "highlight": "ध्यान"},
+        {"text": "आपकी \"बात\" याद रखने वाला \"प्यार\" करता है।", "highlight": "प्यार"}
+      ],
+      "tags": ["love", "relationships", "hindi"],
+      "points": 0,
+      "topic": "love",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_013",
+      "type": "fact_card",
+      "title": "धोखेबाज़ की पहचान",
+      "language": "hi",
+      "facts": [
+        {"text": "\"बहुत\" अच्छा बोलने वाला अंदर से \"धोखेबाज़\" होता है।", "highlight": "धोखेबाज़"},
+        {"text": "\"कसमें\" खाकर \"भरोसा\" माँगने वाले से सावधान रहो।", "highlight": "भरोसा"},
+        {"text": "\"फ़ायदा\" पहुँचाने वाला पहले \"नुकसान\" पहुँचाता है।", "highlight": "नुकसान"},
+        {"text": "\"रहस्यमयी\" इंसान से हमेशा \"दूरी\" बनाए रखो।", "highlight": "दूरी"},
+        {"text": "\"आँसू\" दिखाकर \"माफी\" माँगने वाला फिर वही गलती करेगा।", "highlight": "माफी"}
+      ],
+      "tags": ["fraud", "psychology", "hindi"],
+      "points": 0,
+      "topic": "fraud_detection",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_014",
+      "type": "fact_card",
+      "title": "गुस्से के छुपे लक्षण",
+      "language": "hi",
+      "facts": [
+        {"text": "\"नाक\" के पंख फड़कना \"गुस्से\" की पहली निशानी है।", "highlight": "गुस्से"},
+        {"text": "\"जबड़ा\" भिंचना \"दबा हुआ\" क्रोध दिखाता है।", "highlight": "क्रोध"},
+        {"text": "\"आँखें\" छोटी होना \"क्रोध\" का स्पष्ट संकेत है।", "highlight": "क्रोध"},
+        {"text": "\"मुट्ठी\" भींचना \"हिंसक\" विचारों की पहचान है।", "highlight": "हिंसक"},
+        {"text": "\"साँसें\" भारी होना \"दबा\" गुस्सा दिखाता है।", "highlight": "दबा"}
+      ],
+      "tags": ["anger", "emotions", "hindi"],
+      "points": 0,
+      "topic": "emotions",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_015",
+      "type": "fact_card",
+      "title": "डर के सूक्ष्म संकेत",
+      "language": "hi",
+      "facts": [
+        {"text": "\"पलकें\" तेज़ झपकना \"डर\" या \"चिंता\" की निशानी है।", "highlight": "डर"},
+        {"text": "\"हाथ\" काँपना \"भय\" या \"ठंड\" का संकेत है।", "highlight": "भय"},
+        {"text": "\"साँसें\" तेज़ चलना \"भय\" या \"घबराहट\" दिखाता है।", "highlight": "घबराहट"},
+        {"text": "\"शरीर\" पीछे खींचना \"असुरक्षा\" की भावना है।", "highlight": "असुरक्षा"},
+        {"text": "\"आवाज़\" काँपना \"डर\" या \"रोमांच\" दोनों हो सकता है।", "highlight": "रोमांच"}
+      ],
+      "tags": ["fear", "emotions", "hindi"],
+      "points": 0,
+      "topic": "emotions",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_016",
+      "type": "fact_card",
+      "title": "विश्वास की असली पहचान",
+      "language": "hi",
+      "facts": [
+        {"text": "आँखों में \"सीधे\" देखना \"विश्वास\" की पहली निशानी है।", "highlight": "विश्वास"},
+        {"text": "\"खुले\" हाथ \"भरोसेमंद\" इंसान की पहचान हैं।", "highlight": "भरोसेमंद"},
+        {"text": "\"वादे\" समय पर \"निभाना\" असली \"भरोसा\" है।", "highlight": "भरोसा"},
+        {"text": "आपकी \"बात\" याद रखना \"विश्वास\" की निशानी है।", "highlight": "विश्वास"},
+        {"text": "\"कमज़ोरी\" दिखाने वाला \"सच्चा\" दोस्त होता है।", "highlight": "सच्चा"}
+      ],
+      "tags": ["trust", "friendship", "hindi"],
+      "points": 0,
+      "topic": "trust",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_017",
+      "type": "fact_card",
+      "title": "आत्मविश्वास बनाम घमंड",
+      "language": "hi",
+      "facts": [
+        {"text": "\"आत्मविश्वासी\" सबकी \"बात\" सुनता है, \"घमंडी\" सिर्फ अपनी।", "highlight": "घमंडी"},
+        {"text": "\"कमज़ोरों\" की \"मदद\" करना असली \"ताकत\" है।", "highlight": "ताकत"},
+        {"text": "\"गलती\" मानने वाला \"बड़ा\" इंसान होता है।", "highlight": "बड़ा"},
+        {"text": "दूसरों को \"नीचा\" दिखाने वाला अंदर से \"कमज़ोर\" होता है।", "highlight": "कमज़ोर"},
+        {"text": "\"शांत\" रहकर \"जीत\" हासिल करना असली \"आत्मविश्वास\" है।", "highlight": "आत्मविश्वास"}
+      ],
+      "tags": ["confidence", "psychology", "hindi"],
+      "points": 0,
+      "topic": "confidence",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_018",
+      "type": "fact_card",
+      "title": "Narcissism के 5 लक्षण",
+      "language": "hi",
+      "facts": [
+        {"text": "\"तारीफ़\" की \"भूख\" narcissism की पहली निशानी है।", "highlight": "भूख"},
+        {"text": "दूसरों के \"दर्द\" में \"खुशी\" दिखाना \"नार्सिसिज़्म\" है।", "highlight": "नार्सिसिज़्म"},
+        {"text": "\"नियंत्रण\" की \"ज़िद\" narcissistic इंसान की पहचान है।", "highlight": "ज़िद"},
+        {"text": "\"अहंकार\" में \"डूबा\" इंसान कभी \"माफी\" नहीं माँगता।", "highlight": "माफी"},
+        {"text": "\"सहानुभूति\" की \"कमी\" narcissism का सबसे बड़ा \"लक्षण\" है।", "highlight": "लक्षण"}
+      ],
+      "tags": ["narcissism", "psychology", "hindi"],
+      "points": 0,
+      "topic": "narcissism",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_019",
+      "type": "fact_card",
+      "title": "मित्र और शत्रु की पहचान",
+      "language": "hi",
+      "facts": [
+        {"text": "\"सफलता\" पर \"ईर्ष्या\" करे तो समझो \"शत्रु\" है।", "highlight": "शत्रु"},
+        {"text": "\"मुसीबत\" में \"साथ\" दे वो \"सच्चा\" दोस्त है।", "highlight": "सच्चा"},
+        {"text": "\"पीठ\" पीछे \"बुराई\" करने वाला \"दुश्मन\" है।", "highlight": "दुश्मन"},
+        {"text": "\"आलोचना\" \"सकारात्मक\" हो तो \"मित्र\" है।", "highlight": "मित्र"},
+        {"text": "\"चुप\" रहकर \"समझाने\" वाला \"असली\" दोस्त है।", "highlight": "असली"}
+      ],
+      "tags": ["friendship", "enemies", "hindi"],
+      "points": 0,
+      "topic": "relationships",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_020",
+      "type": "fact_card",
+      "title": "आकर्षण के अनसुने नियम",
+      "language": "hi",
+      "facts": [
+        {"text": "\"आवाज़\" का \"लहजा\" आकर्षण का \"पहला\" कारण है।", "highlight": "पहला"},
+        {"text": "\"मुस्कान\" की \"गर्माहट\" दिल \"जीत\" लेती है।", "highlight": "जीत"},
+        {"text": "\"बात\" करने का \"अंदाज़\" पहला \"प्रभाव\" छोड़ता है।", "highlight": "प्रभाव"},
+        {"text": "\"आँखों\" का \"संवाद\" सबसे \"गहरा\" आकर्षण है।", "highlight": "गहरा"},
+        {"text": "\"आत्मविश्वास\" सबसे \"शक्तिशाली\" आकर्षण है।", "highlight": "शक्तिशाली"}
+      ],
+      "tags": ["attraction", "psychology", "hindi"],
+      "points": 0,
+      "topic": "attraction",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_021",
+      "type": "fact_card",
+      "title": "मुस्कान के 5 प्रकार",
+      "language": "hi",
+      "facts": [
+        {"text": "असली हँसी \"आँखों\" तक पहुँचती है, नकली \"होंठों\" पर रुकती है।", "highlight": "आँखों"},
+        {"text": "\"शर्म\" की मुस्कान में नज़रें \"नीचे\" जाती हैं।", "highlight": "नीचे"},
+        {"text": "\"व्यंग्य\" की मुस्कान एक तरफ \"होंठ\" उठाती है।", "highlight": "होंठ"},
+        {"text": "\"दिखावटी\" मुस्कान में \"गाल\" नहीं उठते।", "highlight": "गाल"},
+        {"text": "\"असली\" हँसी में \"झुर्रियाँ\" आँखों के पास बनती हैं।", "highlight": "झुर्रियाँ"}
+      ],
+      "tags": ["smile", "emotions", "hindi"],
+      "points": 0,
+      "topic": "emotions",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_022",
+      "type": "fact_card",
+      "title": "बैठने की कला से जानो इंसान",
+      "language": "hi",
+      "facts": [
+        {"text": "पूरी \"कुर्सी\" पर बैठना \"आत्मविश्वास\" दिखाता है।", "highlight": "आत्मविश्वास"},
+        {"text": "किनारे पर बैठना \"जाने\" की \"तैयारी\" दिखाता है।", "highlight": "तैयारी"},
+        {"text": "पैर \"ऊपर\" करके बैठना \"आराम\" की \"इच्छा\" दिखाता है।", "highlight": "इच्छा"},
+        {"text": "\"झुककर\" बैठना \"रुचि\" या \"सम्मान\" की निशानी है।", "highlight": "सम्मान"},
+        {"text": "फैलकर बैठना \"प्रभुत्व\" जताने की \"कोशिश\" है।", "highlight": "कोशिश"}
+      ],
+      "tags": ["posture", "sitting", "hindi"],
+      "points": 0,
+      "topic": "body_language",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_023",
+      "type": "fact_card",
+      "title": "चलने की भाषा",
+      "language": "hi",
+      "facts": [
+        {"text": "\"तेज़\" चाल \"आत्मविश्वास\" या \"जल्दबाज़ी\" दिखाती है।", "highlight": "जल्दबाज़ी"},
+        {"text": "\"धीमी\" चाल \"थकान\" या \"उदासी\" की निशानी है।", "highlight": "उदासी"},
+        {"text": "\"लंबे-लंबे\" कदम \"प्रभुत्व\" और \"ऊर्जा\" दिखाते हैं।", "highlight": "ऊर्जा"},
+        {"text": "\"छोटे\" कदम \"डर\" या \"हिचकिचाहट\" बताते हैं।", "highlight": "हिचकिचाहट"},
+        {"text": "\"कंधे\" पीछे करके चलना \"आत्मविश्वास\" की पहचान है।", "highlight": "आत्मविश्वास"}
+      ],
+      "tags": ["walking", "posture", "hindi"],
+      "points": 0,
+      "topic": "body_language",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_024",
+      "type": "fact_card",
+      "title": "Dark Psychology की दुनिया",
+      "language": "hi",
+      "facts": [
+        {"text": "\"तारीफ़\" से \"नियंत्रण\" करना dark psychology की \"चाल\" है।", "highlight": "चाल"},
+        {"text": "\"डर\" दिखाकर \"आज्ञाकारी\" बनाना manipulation है।", "highlight": "manipulation"},
+        {"text": "\"अपराधबोध\" भरकर \"काम\" लेना \"शोषण\" है।", "highlight": "शोषण"},
+        {"text": "\"चुप्पी\" का \"डर\" दिखाकर \"बात\" निकलवाना manipulation है।", "highlight": "manipulation"},
+        {"text": "\"इनाम\" का \"लालच\" देकर गलत \"काम\" करवाना dark psychology है।", "highlight": "psychology"}
+      ],
+      "tags": ["dark_psychology", "manipulation", "hindi"],
+      "points": 0,
+      "topic": "dark_psychology",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_025",
+      "type": "fact_card",
+      "title": "Manipulation की 5 तरकीबें",
+      "language": "hi",
+      "facts": [
+        {"text": "\"मजबूरी\" दिखाकर \"दया\" लेना manipulation की \"पहली\" तरकीब है।", "highlight": "पहली"},
+        {"text": "\"तुलना\" कराकर \"ईर्ष्या\" जगाना \"हेरफेर\" है।", "highlight": "हेरफेर"},
+        {"text": "\"सच\" बोलने वाला \"झूठा\" दिखाया जाए तो वो manipulation है।", "highlight": "manipulation"},
+        {"text": "\"भावनाओं\" को \"हथियार\" बनाना \"भावनात्मक शोषण\" है।", "highlight": "शोषण"},
+        {"text": "\"अस्वीकृति\" का \"डर\" दिखाकर \"कंट्रोल\" करना manipulation है।", "highlight": "कंट्रोल"}
+      ],
+      "tags": ["manipulation", "psychology", "hindi"],
+      "points": 0,
+      "topic": "manipulation",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_026",
+      "type": "fact_card",
+      "title": "मन पढ़ने की कला",
+      "language": "hi",
+      "facts": [
+        {"text": "\"पुतली\" बड़ी हो तो समझो \"रुचि\" या \"उत्तेजना\" है।", "highlight": "उत्तेजना"},
+        {"text": "\"होंठ\" अंदर खींचना \"आत्मविश्वास\" की \"कमी\" बताता है।", "highlight": "कमी"},
+        {"text": "\"कंधे\" ऊपर खींचना \"अनिश्चितता\" या \"तनाव\" दिखाता है।", "highlight": "तनाव"},
+        {"text": "\"गर्दन\" खुजलाना \"असहजता\" या \"शंका\" का संकेत है।", "highlight": "शंका"},
+        {"text": "\"सिर\" झुकाना \"सम्मान\" या \"हार\" मानने की निशानी है।", "highlight": "हार"}
+      ],
+      "tags": ["mind_reading", "psychology", "hindi"],
+      "points": 0,
+      "topic": "mind_reading",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_027",
+      "type": "fact_card",
+      "title": "Persuasion के 5 हथियार",
+      "language": "hi",
+      "facts": [
+        {"text": "\"कमी\" दिखाना persuasion की \"पहली\" तरकीब है।", "highlight": "पहली"},
+        {"text": "\"सामाजिक\" प्रमाण देना \"भरोसा\" बनाता है।", "highlight": "भरोसा"},
+        {"text": "\"छोटी\" शुरुआत \"बड़ी\" सहमति लाती है।", "highlight": "सहमति"},
+        {"text": "\"पसंद\" की \"नकल\" करके \"जुड़ाव\" बनता है।", "highlight": "जुड़ाव"},
+        {"text": "\"विरोधाभास\" से \"ध्यान\" खींचना persuasion की \"कला\" है।", "highlight": "कला"}
+      ],
+      "tags": ["persuasion", "psychology", "hindi"],
+      "points": 0,
+      "topic": "persuasion",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_028",
+      "type": "fact_card",
+      "title": "Subconscious Mind के राज़",
+      "language": "hi",
+      "facts": [
+        {"text": "दिमाग का \"95%\" हिस्सा \"subconscious\" है।", "highlight": "subconscious"},
+        {"text": "\"सपने\" subconscious के \"संदेश\" होते हैं।", "highlight": "संदेश"},
+        {"text": "\"आदतें\" subconscious से \"चलती\" हैं।", "highlight": "चलती"},
+        {"text": "\"पहला\" impression \"7 सेकंड\" में बन जाता है।", "highlight": "बन"},
+        {"text": "Subconscious \"दोहराव\" से सीखता है।", "highlight": "सीखता"}
+      ],
+      "tags": ["subconscious", "psychology", "hindi"],
+      "points": 0,
+      "topic": "subconscious",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_029",
+      "type": "fact_card",
+      "title": "फ़ैसले लेने का मनोविज्ञान",
+      "language": "hi",
+      "facts": [
+        {"text": "\"थके\" होने पर गलत \"फ़ैसले\" लेते हैं हम।", "highlight": "फ़ैसले"},
+        {"text": "\"भूख\" में लिया गया \"फ़ैसला\" गलत होता है।", "highlight": "गलत"},
+        {"text": "\"ज़्यादा\" विकल्प होने पर \"उलझन\" बढ़ती है।", "highlight": "उलझन"},
+        {"text": "\"भावना\" से लिया \"फ़ैसला\" \"पछतावा\" देता है।", "highlight": "पछतावा"},
+        {"text": "\"रात\" को सोने से पहले का \"फ़ैसला\" सबसे \"सही\" होता है।", "highlight": "सही"}
+      ],
+      "tags": ["decision_making", "psychology", "hindi"],
+      "points": 0,
+      "topic": "decision_making",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_030",
+      "type": "fact_card",
+      "title": "आदतों का विज्ञान",
+      "language": "hi",
+      "facts": [
+        {"text": "नई \"आदत\" बनाने में \"21\" दिन लगते हैं।", "highlight": "21"},
+        {"text": "\"सुबह\" की आदतें \"सबसे\" मजबूत होती हैं।", "highlight": "मजबूत"},
+        {"text": "\"दोहराव\" से \"आदत\" बनती है।", "highlight": "बनती"},
+        {"text": "\"इनाम\" से आदत \"मजबूत\" होती है।", "highlight": "मजबूत"},
+        {"text": "\"वातावरण\" आदत को \"नियंत्रित\" करता है।", "highlight": "नियंत्रित"}
+      ],
+      "tags": ["habits", "psychology", "hindi"],
+      "points": 0,
+      "topic": "habits",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_031",
+      "type": "fact_card",
+      "title": "याददाश्त के चमत्कार",
+      "language": "hi",
+      "facts": [
+        {"text": "\"रात\" को सोने से पहले पढ़ो तो \"याद\" रहता है।", "highlight": "याद"},
+        {"text": "\"लिखने\" से \"याद\" \"मजबूत\" होती है।", "highlight": "मजबूत"},
+        {"text": "\"चित्र\" \"शब्दों\" से ज़्यादा \"याद\" रहते हैं।", "highlight": "याद"},
+        {"text": "\"दोहराव\" से \"याद\" \"स्थायी\" बनती है।", "highlight": "स्थायी"},
+        {"text": "\"भावना\" से जुड़ी \"याद\" \"कभी\" नहीं भूलती।", "highlight": "भूलती"}
+      ],
+      "tags": ["memory", "psychology", "hindi"],
+      "points": 0,
+      "topic": "memory",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_032",
+      "type": "fact_card",
+      "title": "भावनात्मक बुद्धि की 5 बातें",
+      "language": "hi",
+      "facts": [
+        {"text": "अपनी \"भावनाओं\" को \"पहचानना\" पहला कदम है।", "highlight": "पहचानना"},
+        {"text": "\"दूसरों\" की \"भावना\" समझना \"EQ\" है।", "highlight": "EQ"},
+        {"text": "\"गुस्से\" पर \"काबू\" \"बुद्धिमानी\" की निशानी है।", "highlight": "बुद्धिमानी"},
+        {"text": "\"सहानुभूति\" से \"रिश्ते\" \"मजबूत\" होते हैं।", "highlight": "मजबूत"},
+        {"text": "\"आलोचना\" सुनकर \"सीखना\" \"परिपक्वता\" है।", "highlight": "परिपक्वता"}
+      ],
+      "tags": ["emotional_intelligence", "psychology", "hindi"],
+      "points": 0,
+      "topic": "emotional_intelligence",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_033",
+      "type": "fact_card",
+      "title": "तनाव के संकेत पहचानो",
+      "language": "hi",
+      "facts": [
+        {"text": "\"कंधों\" का \"ऊपर\" उठना \"तनाव\" की पहली निशानी है।", "highlight": "तनाव"},
+        {"text": "\"जबड़ा\" भींचना \"दबा हुआ\" तनाव दिखाता है।", "highlight": "तनाव"},
+        {"text": "\"साँस\" \"ऊपर\" से चलना \"तनाव\" का संकेत है।", "highlight": "तनाव"},
+        {"text": "\"नाखून\" चबाना \"छुपा हुआ\" तनाव है।", "highlight": "तनाव"},
+        {"text": "\"नींद\" न आना \"मानसिक\" थकान की पहचान है।", "highlight": "थकान"}
+      ],
+      "tags": ["stress", "psychology", "hindi"],
+      "points": 0,
+      "topic": "stress",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_034",
+      "type": "fact_card",
+      "title": "चिंता (Anxiety) के संकेत",
+      "language": "hi",
+      "facts": [
+        {"text": "\"पैर\" हिलाना \"चिंता\" की \"निशानी\" है।", "highlight": "निशानी"},
+        {"text": "\"हाथ\" रगड़ना \"बेचैनी\" दिखाता है।", "highlight": "बेचैनी"},
+        {"text": "\"नज़रें\" इधर-उधर जाना \"घबराहट\" की पहचान है।", "highlight": "घबराहट"},
+        {"text": "\"आवाज़\" काँपना \"चिंता\" का स्पष्ट संकेत है।", "highlight": "चिंता"},
+        {"text": "\"पसीना\" आना \"डर\" या \"तनाव\" दोनों हो सकता है।", "highlight": "तनाव"}
+      ],
+      "tags": ["anxiety", "psychology", "hindi"],
+      "points": 0,
+      "topic": "anxiety",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_035",
+      "type": "fact_card",
+      "title": "उदासी की पहचान",
+      "language": "hi",
+      "facts": [
+        {"text": "\"आँखों\" की \"चमक\" कम होना \"उदासी\" दिखाता है।", "highlight": "उदासी"},
+        {"text": "\"कंधे\" \"झुक\" जाना \"निराशा\" की निशानी है।", "highlight": "निराशा"},
+        {"text": "\"आवाज़\" \"धीमी\" होना \"उदास\" मन की पहचान है।", "highlight": "उदास"},
+        {"text": "\"मुस्कान\" \"मेहनत\" से आना \"छुपी उदासी\" है।", "highlight": "छुपी"},
+        {"text": "\"अकेले\" रहने की \"इच्छा\" \"अवसाद\" का संकेत है।", "highlight": "अवसाद"}
+      ],
+      "tags": ["sadness", "emotions", "hindi"],
+      "points": 0,
+      "topic": "emotions",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_036",
+      "type": "fact_card",
+      "title": "खुशी के असली संकेत",
+      "language": "hi",
+      "facts": [
+        {"text": "असली \"खुशी\" में \"आँखें\" चमकती हैं।", "highlight": "चमकती"},
+        {"text": "\"हँसी\" में \"पेट\" हिलना \"असली\" खुशी है।", "highlight": "असली"},
+        {"text": "\"कदम\" \"हल्के\" होना \"खुश\" मन की पहचान है।", "highlight": "खुश"},
+        {"text": "\"ऊर्जा\" \"बढ़\" जाना \"सकारात्मकता\" की निशानी है।", "highlight": "सकारात्मकता"},
+        {"text": "दूसरों से \"बात\" करने की \"इच्छा\" खुशी दिखाती है।", "highlight": "खुशी"}
+      ],
+      "tags": ["happiness", "emotions", "hindi"],
+      "points": 0,
+      "topic": "emotions",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_037",
+      "type": "fact_card",
+      "title": "ईर्ष्या (Jealousy) के संकेत",
+      "language": "hi",
+      "facts": [
+        {"text": "\"तुलना\" करना \"ईर्ष्या\" की \"पहली\" निशानी है।", "highlight": "पहली"},
+        {"text": "दूसरों की \"तारीफ़\" से \"परेशानी\" \"ईर्ष्या\" है।", "highlight": "ईर्ष्या"},
+        {"text": "\"बुराई\" करना \"छुपी\" ईर्ष्या की पहचान है।", "highlight": "छुपी"},
+        {"text": "\"सफलता\" पर \"ताने\" मारना \"डर\" और \"ईर्ष्या\" दिखाता है।", "highlight": "ईर्ष्या"},
+        {"text": "\"नकल\" करना \"ईर्ष्या\" का \"सबसे\" बड़ा \"संकेत\" है।", "highlight": "संकेत"}
+      ],
+      "tags": ["jealousy", "emotions", "hindi"],
+      "points": 0,
+      "topic": "emotions",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_038",
+      "type": "fact_card",
+      "title": "घमंड बनाम आत्मविश्वास",
+      "language": "hi",
+      "facts": [
+        {"text": "\"घमंडी\" दूसरों को \"नीचा\" दिखाता है।", "highlight": "नीचा"},
+        {"text": "\"आत्मविश्वासी\" \"ऊपर\" उठाता है सबको।", "highlight": "ऊपर"},
+        {"text": "\"अहंकारी\" \"गलती\" \"स्वीकार\" नहीं करता।", "highlight": "स्वीकार"},
+        {"text": "\"विनम्र\" इंसान \"अंदर\" से \"मजबूत\" होता है।", "highlight": "मजबूत"},
+        {"text": "\"शेखी\" बघारने वाला अंदर से \"कमज़ोर\" होता है।", "highlight": "कमज़ोर"}
+      ],
+      "tags": ["ego", "pride", "hindi"],
+      "points": 0,
+      "topic": "ego",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_039",
+      "type": "fact_card",
+      "title": "Childhood Trauma के निशान",
+      "language": "hi",
+      "facts": [
+        {"text": "\"अकेलापन\" \"पसंद\" करना trauma की \"निशानी\" हो सकती है।", "highlight": "निशानी"},
+        {"text": "\"छूने\" से \"डर\" लगना childhood trauma दिखाता है।", "highlight": "trauma"},
+        {"text": "\"रिश्तों\" में \"भरोसा\" न करना trauma का \"असर\" है।", "highlight": "असर"},
+        {"text": "\"गुस्सा\" \"ज़्यादा\" आना \"अनसुलझे\" trauma की पहचान है।", "highlight": "पहचान"},
+        {"text": "\"नींद\" में \"बेचैनी\" childhood trauma दिखा सकती है।", "highlight": "trauma"}
+      ],
+      "tags": ["trauma", "psychology", "hindi"],
+      "points": 0,
+      "topic": "trauma",
+      "source_name": "Traditional psychology wisdom"
+    },
+    {
+      "id": "fact_list_hi_040",
+      "type": "fact_card",
+      "title": "Attachment Styles की पहचान",
+      "language": "hi",
+      "facts": [
+        {"text": "\"सुरक्षित\" लोग \"आसानी\" से \"भरोसा\" करते हैं।", "highlight": "भरोसा"},
+        {"text": "\"चिंतित\" लोग \"बार-बार\" \"प्यार\" माँगते हैं।", "highlight": "प्यार"},
+        {"text": "\"दूर\" रहने वाले \"अकेले\" रहना \"पसंद\" करते हैं।", "highlight": "पसंद"},
+        {"text": "\"अव्यवस्थित\" लोग \"प्यार\" और \"डर\" दोनों जीते हैं।", "highlight": "डर"},
+        {"text": "बचपन का \"पालन-पोषण\" \"attachment\" तय करता है।", "highlight": "attachment"}
+      ],
+      "tags": ["attachment", "relationships", "hindi"],
+      "points": 0,
+      "topic": "attachment",
+      "source_name": "Traditional psychology wisdom"
+    }
+  ]
+}
