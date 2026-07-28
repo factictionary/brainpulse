@@ -736,7 +736,161 @@
     "points": 20,
     "timer_seconds": 25,
     "emoji": "🇹🇩"
-  }
+  },
+    {
+      "id": "fact_list_hi_001",
+      "type": "fact_card",
+      "title": "लोगों को पहचानो",
+      "language": "hi",
+      "facts": [
+        {
+          "text": "जो बहुत ज़्यादा \"कसमें\" खाता है समझ जाओ वो झूठा है।",
+          "highlight": "कसमें"
+        },
+        {
+          "text": "जो हर बात पर \"हंसता\" है वो अंदर से बहुत अकेला है।",
+          "highlight": "हंसता"
+        },
+        {
+          "text": "जो नज़रें नीचे करके बात करे वो कुछ \"छुपा\" रहा है।",
+          "highlight": "छुपा"
+        },
+        {
+          "text": "जो ज़्यादा \"गुस्सा\" करता है उसे असलियत में \"प्यार\" की तलाश है।",
+          "highlight": "गुस्सा"
+        },
+        {
+          "text": "इंसान की \"आँखें\" कभी झूठ नहीं बोलतीं, बस पढ़ना सीखो।",
+          "highlight": "आँखें"
+        }
+      ],
+      "tags": [
+        "psychology",
+        "facts",
+        "hindi"
+      ],
+      "points": 0,
+      "topic": "psychology",
+      "source_name": "Traditional folk psychology wisdom (needs a real citation before publishing)"
+    },
+    {
+      "id": "fact_list_en_001",
+      "type": "fact_card",
+      "title": "Read People Better",
+      "language": "en",
+      "facts": [
+        {
+          "text": "Someone who over-explains without being asked is often hiding something.",
+          "highlight": "over-explains"
+        },
+        {
+          "text": "People who laugh at everything are often masking deep loneliness.",
+          "highlight": "masking"
+        },
+        {
+          "text": "Avoiding eye contact during a conversation often signals discomfort or dishonesty.",
+          "highlight": "eye contact"
+        },
+        {
+          "text": "The angriest people are often the ones craving connection the most.",
+          "highlight": "craving connection"
+        }
+      ],
+      "tags": [
+        "psychology",
+        "facts"
+      ],
+      "points": 0,
+      "topic": "psychology",
+      "source_name": "Traditional folk psychology wisdom (needs a real citation before publishing)"
+    },
+    {
+      "id": "fact_single_en_001",
+      "type": "fact_card",
+      "title": "Did You Know",
+      "language": "en",
+      "question": "Your brain uses about 20% of your body's total energy, despite being only 2% of your body weight.",
+      "tags": [
+        "facts",
+        "science"
+      ],
+      "points": 0,
+      "topic": "health",
+      "source_name": "Herculano-Houzel, S. (2012) — brain energy consumption research, Journal of Comparative Neurology"
+    },
+    {
+      "id": "fact_single_hi_001",
+      "type": "fact_card",
+      "title": "क्या आप जानते हैं",
+      "language": "hi",
+      "question": "इंसान का दिमाग शरीर के कुल वज़न का सिर्फ 2% होता है, फिर भी यह शरीर की 20% ऊर्जा इस्तेमाल करता है।",
+      "tags": [
+        "facts",
+        "science",
+        "hindi"
+      ],
+      "points": 0,
+      "topic": "health",
+      "source_name": "Herculano-Houzel, S. (2012) — brain energy consumption research, Journal of Comparative Neurology"
+    },
+    {
+      "id": "fact_single_en_002",
+      "type": "fact_card",
+      "title": "Did You Know",
+      "language": "en",
+      "question": "Honey never spoils — archaeologists have found 3,000-year-old honey in Egyptian tombs that was still edible.",
+      "tags": [
+        "facts",
+        "food"
+      ],
+      "points": 0,
+      "topic": "health",
+      "source_name": "National Honey Board — shelf-stability of honey due to low moisture/high acidity"
+    },
+    {
+      "id": "fact_finance_001",
+      "type": "fact_card",
+      "title": "Money Tip",
+      "topic": "finance",
+      "language": "en",
+      "question": "The '50/30/20' rule suggests putting 50% of income toward needs, 30% toward wants, and 20% toward savings and debt repayment.",
+      "source_name": "Elizabeth Warren & Amelia Warren Tyagi, \"All Your Worth\" (2005)",
+      "tags": [
+        "finance",
+        "budgeting"
+      ],
+      "points": 0
+    },
+    {
+      "id": "fact_finance_002",
+      "type": "fact_card",
+      "title": "Money Tip",
+      "topic": "finance",
+      "language": "en",
+      "question": "Compound interest means your investment returns start earning their own returns over time — starting even small contributions early often outperforms larger contributions started later.",
+      "source_name": "U.S. Securities and Exchange Commission, Investor.gov",
+      "source_url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/power-compounding",
+      "tags": [
+        "finance",
+        "investing"
+      ],
+      "points": 0
+    },
+    {
+      "id": "fact_finance_003",
+      "type": "fact_card",
+      "title": "Money Tip",
+      "topic": "finance",
+      "language": "en",
+      "question": "Most financial experts recommend keeping 3-6 months of essential expenses in an emergency fund before investing aggressively.",
+      "source_name": "Consumer Financial Protection Bureau",
+      "source_url": "https://www.consumerfinance.gov/",
+      "tags": [
+        "finance",
+        "savings"
+      ],
+      "points": 0
+    }
 
   ]
 }
