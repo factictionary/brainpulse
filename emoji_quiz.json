@@ -266,23 +266,6 @@
       "correct_option_id": "a"
     },
     {
-      "id": "emoji_016",
-      "type": "emoji_quiz",
-      "title": "Guess the compound word",
-      "emoji": "🐉🪰",
-      "difficulty": "easy",
-      "tags": ["compound", "animals"],
-      "points": 10,
-      "timer_seconds": 20,
-      "options": [
-        { "id": "a", "text": "Dragonfly" },
-        { "id": "b", "text": "Dragonfly" },
-        { "id": "c", "text": "Dragonfly" },
-        { "id": "d", "text": "Dragonfly" }
-      ],
-      "correct_option_id": "a"
-    },
-    {
       "id": "emoji_017",
       "type": "emoji_quiz",
       "title": "Guess the compound word",
@@ -344,9 +327,9 @@
       "timer_seconds": 20,
       "options": [
         { "id": "a", "text": "Shellfish" },
-        { "id": "b", "text": "Shellfish" },
-        { "id": "c", "text": "Shellfish" },
-        { "id": "d", "text": "Shellfish" }
+        { "id": "b", "text": "Jellyfish" },
+        { "id": "c", "text": "Catfish" },
+        { "id": "d", "text": "Dogfish" }
       ],
       "correct_option_id": "a"
     },
@@ -383,23 +366,6 @@
         { "id": "d", "text": "Gecko" }
       ],
       "correct_option_id": "b"
-    },
-    {
-      "id": "emoji_023",
-      "type": "emoji_quiz",
-      "title": "Guess the compound word",
-      "emoji": "🍯🐝",
-      "difficulty": "easy",
-      "tags": ["compound", "animals"],
-      "points": 10,
-      "timer_seconds": 20,
-      "options": [
-        { "id": "a", "text": "Honeybee" },
-        { "id": "b", "text": "Honeybee" },
-        { "id": "c", "text": "Honeybee" },
-        { "id": "d", "text": "Honeybee" }
-      ],
-      "correct_option_id": "a"
     },
     {
       "id": "emoji_024",
@@ -616,7 +582,7 @@
       "timer_seconds": 20,
       "options": [
         { "id": "a", "text": "Hot Dog" },
-        { "id": "b", "text": "Hot Dogs" },
+        { "id": "b", "text": "Pizza" },
         { "id": "c", "text": "Sausage" },
         { "id": "d", "text": "Frankfurter" }
       ],
@@ -633,7 +599,7 @@
       "timer_seconds": 20,
       "options": [
         { "id": "a", "text": "Salad" },
-        { "id": "b", "text": "Salads" },
+        { "id": "b", "text": "Fruits" },
         { "id": "c", "text": "Vegetable" },
         { "id": "d", "text": "Greens" }
       ],
@@ -768,7 +734,7 @@
       "points": 10,
       "timer_seconds": 20,
       "options": [
-        { "id": "a", "text": "Carrot" },
+        { "id": "a", "text": "Shallot" },
         { "id": "b", "text": "Carrots" },
         { "id": "c", "text": "Vegetable" },
         { "id": "d", "text": "Garden" }
