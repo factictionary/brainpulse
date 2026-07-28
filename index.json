@@ -11,11 +11,7 @@
         {
             "filename": "psychology.json",
             "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/psychology.json"
-        },
-        {
-            "filename": "quiz_questions.json",
-            "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/quiz_questions.json"
         }
     ],
-    "updated_at": "2026-07-28T13:06:42Z"
+    "updated_at": "2026-07-28T13:09:11Z"
 }
