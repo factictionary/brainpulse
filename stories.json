@@ -1,0 +1,51 @@
+{
+  "stories": [
+    {
+      "id": "story_001",
+      "title": "The Churning of the Ocean",
+      "category": "mythology",
+      "language": "en",
+      "cover_image_url": "https://raw.githubusercontent.com/your-user/your-repo/main/stories/images/story_001_cover.jpg",
+      "source_name": "Adapted from the Samudra Manthan legend, Hindu mythology",
+      "full_text": "Long ago, the Devas and Asuras agreed to churn the cosmic ocean of milk to release Amrita, the nectar of immortality. Using Mount Mandara as a churning rod and the great serpent Vasuki as a rope, they pulled together — gods on one side, demons on the other — for what seemed an eternity.\n\nAs the ocean churned, wonders and terrors rose from its depths: the poison Halahala, which Shiva swallowed to save creation, turning his throat blue forever. Then came Kamadhenu, the wish-granting cow, followed by Airavata, the great white elephant, and finally Dhanvantari, bearing the pot of Amrita itself.\n\nWhat followed was a struggle between light and shadow, but the tale endures as a reminder: even the greatest treasures are born only through shared, painstaking effort — and the wisdom to endure what the process demands.",
+      "tags": ["mythology", "hindu", "creation"]
+    },
+    {
+      "id": "story_002",
+      "title": "The Boy Who Cried Wolf",
+      "category": "fable",
+      "language": "en",
+      "panels": [
+        {
+          "text": "A young shepherd boy grew bored watching his flock alone on the hillside. One day, for amusement, he ran toward the village shouting, \"Wolf! Wolf! The sheep are being chased!\"",
+          "image_url": "https://raw.githubusercontent.com/your-user/your-repo/main/stories/images/story_002_panel1.jpg"
+        },
+        {
+          "text": "The villagers dropped their work and rushed up the hill to help him. But when they arrived, they found nothing — no wolf, just the boy laughing at their alarm.",
+          "image_url": "https://raw.githubusercontent.com/your-user/your-repo/main/stories/images/story_002_panel2.jpg"
+        },
+        {
+          "text": "He played the same trick again a few days later, and again the villagers came running, only to be fooled once more. Their patience began to wear thin.",
+          "image_url": "https://raw.githubusercontent.com/your-user/your-repo/main/stories/images/story_002_panel3.jpg"
+        },
+        {
+          "text": "Then one evening, a real wolf crept in among the sheep. Terrified, the boy ran toward the village screaming, \"Wolf! Wolf!\" — but this time, no one came. They assumed it was another trick, and the flock scattered.",
+          "image_url": "https://raw.githubusercontent.com/your-user/your-repo/main/stories/images/story_002_panel4.jpg"
+        },
+        {
+          "text": "The moral endures across cultures and centuries: a liar's truth is doubted, even when it matters most.",
+          "image_url": "https://raw.githubusercontent.com/your-user/your-repo/main/stories/images/story_002_panel5.jpg"
+        }
+      ],
+      "tags": ["fable", "aesop", "morals"]
+    },
+    {
+      "id": "story_003_hi",
+      "title": "गणेश जी का जन्म",
+      "category": "mythology",
+      "language": "hi",
+      "full_text": "एक बार माता पार्वती ने स्नान के लिए जाते समय अपने शरीर के उबटन से एक बालक की मूर्ति बनाई और उसमें प्राण डाल दिए। उन्होंने उस बालक को द्वार पर पहरा देने को कहा और किसी को भी अंदर न आने देने का आदेश दिया।\n\nजब भगवान शिव वहां पहुंचे, तो बालक ने उन्हें रोक दिया, यह न जानते हुए कि वे स्वयं पार्वती के पति हैं। क्रोधित होकर शिव ने अपने त्रिशूल से बालक का सिर काट दिया।\n\nजब पार्वती को यह पता चला, तो वे अत्यंत दुखी हुईं। शिव ने तुरंत आदेश दिया कि जो भी प्राणी सबसे पहले मिले, उसका सिर लाकर बालक पर लगाया जाए। एक हाथी का सिर लाया गया, और इस प्रकार गणेश जी का पुनर्जन्म हुआ — विघ्नहर्ता और प्रथम पूज्य देवता के रूप में।",
+      "tags": ["mythology", "hindu", "ganesha"]
+    }
+  ]
+}
