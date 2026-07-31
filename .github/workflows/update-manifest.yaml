@@ -1,4 +1,4 @@
-name: Update JSON Manifest
+name: Update JSON Manifests
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-manifest:
+  update-manifests:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -24,7 +24,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Generate index.json
+      - name: Generate index.json (root folder)
         run: |
           REPO="${{ github.repository }}"
           BRANCH="${{ github.ref_name }}"
@@ -34,7 +34,7 @@ jobs:
           echo '{"files": [' > index.json
           
           first=true
-          # Find all JSON files except index.json itself
+          # Find all JSON files except index.json itself and exclude stories folder
           while IFS= read -r -d '' file; do
             filename=$(basename "$file")
             if [ "$filename" != "index.json" ]; then
@@ -50,7 +50,7 @@ jobs:
               escaped_url=$(printf '%s' "${BASE_URL}/${clean_path}" | sed 's/"/\\"/g')
               echo '  {"filename": "'"$escaped_filename"'", "url": "'"$escaped_url"'"}' >> index.json
             fi
-          done < <(find . -name "*.json" -type f ! -path "./.git/*" ! -name "index.json" -print0 | sort -z)
+          done < <(find . -name "*.json" -type f ! -path "./.git/*" ! -name "index.json" ! -path "./stories/*" -print0 | sort -z)
 
           # Close the files array and add updated_at
           echo '],' >> index.json
@@ -63,54 +63,112 @@ jobs:
           echo "Generated index.json:"
           cat index.json
 
+      - name: Generate stories/library.json (stories manifest)
+        run: |
+          REPO="${{ github.repository }}"
+          BRANCH="${{ github.ref_name }}"
+          BASE_URL="https://raw.githubusercontent.com/${REPO}/${BRANCH}"
+          
+          # Create stories directory if it doesn't exist
+          mkdir -p stories
+          
+          # Start building JSON
+          echo '{"files": [' > stories/library.json
+          
+          first=true
+          # Find all JSON files in stories folder except library.json itself
+          while IFS= read -r -d '' file; do
+            filename=$(basename "$file")
+            if [ "$filename" != "library.json" ]; then
+              # Remove leading ./
+              clean_path="${file#./}"
+              if [ "$first" = true ]; then
+                first=false
+              else
+                echo ',' >> stories/library.json
+              fi
+              # Escape any special characters in filename and url
+              escaped_filename=$(printf '%s' "$clean_path" | sed 's/"/\\"/g')
+              escaped_url=$(printf '%s' "${BASE_URL}/${clean_path}" | sed 's/"/\\"/g')
+              echo '  {"filename": "'"$escaped_filename"'", "url": "'"$escaped_url"'"}' >> stories/library.json
+            fi
+          done < <(find stories -name "*.json" -type f ! -path "./stories/library.json" -print0 | sort -z)
+
+          # Close the files array and add updated_at
+          echo '],' >> stories/library.json
+          echo '  "updated_at": "'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"' >> stories/library.json
+          echo '}' >> stories/library.json
+
+          # Validate and pretty print
+          python3 -m json.tool stories/library.json > stories/library.tmp.json && mv stories/library.tmp.json stories/library.json
+          
+          echo "Generated stories/library.json:"
+          cat stories/library.json
+          
+          echo "Total story files: $(jq '.files | length' stories/library.json)"
+
       - name: Commit and push if changed
         run: |
-          # Check if index.json exists
+          # Check if files exist
           if [ ! -f "index.json" ]; then
             echo "ERROR: index.json was not generated"
             exit 1
           fi
+          if [ ! -f "stories/library.json" ]; then
+            echo "ERROR: stories/library.json was not generated"
+            exit 1
+          fi
 
           # Check if there are changes to commit
-          if git status --porcelain | grep -q "index.json"; then
-            echo "Changes detected in index.json"
+          if git status --porcelain | grep -qE "index.json|stories/library.json"; then
+            echo "Changes detected in manifests"
             
-            # Add the file
-            git add index.json
+            # Add the files
+            git add index.json stories/library.json
             
             # Check if we're on main or master branch
             CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
             echo "Current branch: $CURRENT_BRANCH"
             
             # Commit changes
-            git commit -m "chore: update index.json manifest [skip ci]"
+            git commit -m "chore: update json manifests [skip ci]"
             
             # Push with force-with-lease to avoid conflicts
             git push --force-with-lease origin $CURRENT_BRANCH
             
-            echo "Successfully committed and pushed index.json"
+            echo "Successfully committed and pushed manifests"
           else
-            echo "No changes to index.json"
+            echo "No changes to manifests"
           fi
 
       - name: Verify push
         run: |
-          # Verify the file exists in the repo after push
-          echo "Current directory contents after push:"
-          ls -la
-          echo "Checking if index.json exists:"
+          # Verify index.json
+          echo "=== Checking index.json ==="
           if [ -f "index.json" ]; then
             echo "✅ index.json exists locally"
+            echo "Files in index: $(jq '.files | length' index.json)"
             echo "Contents:"
             cat index.json
           else
             echo "❌ index.json not found locally"
           fi
           
+          # Verify stories/library.json
+          echo "=== Checking stories/library.json ==="
+          if [ -f "stories/library.json" ]; then
+            echo "✅ stories/library.json exists locally"
+            echo "Files in library: $(jq '.files | length' stories/library.json)"
+            echo "Contents:"
+            cat stories/library.json
+          else
+            echo "❌ stories/library.json not found locally"
+          fi
+          
           # Check git status
-          echo "Git status:"
+          echo "=== Git status ==="
           git status
           
           # Check git log
-          echo "Last commit:"
+          echo "=== Last commit ==="
           git log -1 --oneline
