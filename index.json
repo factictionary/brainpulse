@@ -9,17 +9,9 @@
             "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/exercise.json"
         },
         {
-            "filename": "kids_stories.json",
-            "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/kids_stories.json"
-        },
-        {
-            "filename": "mythological_stories.json",
-            "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/mythological_stories.json"
-        },
-        {
             "filename": "psychology.json",
             "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/psychology.json"
         }
     ],
-    "updated_at": "2026-07-31T14:08:24Z"
+    "updated_at": "2026-07-31T14:58:06Z"
 }
