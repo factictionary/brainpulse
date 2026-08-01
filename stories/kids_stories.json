@@ -1,7 +1,7 @@
 {
   "stories": [
     {
-      "id": "story_001_hi",
+      "id": "kids_001_hi",
       "title": "सिंह और चूहा - मित्रता का फल",
       "category": "fable",
       "language": "hi",
@@ -10,7 +10,7 @@
       "image_prompt": "A majestic lion sleeping under a large banyan tree in a lush green forest. A tiny mouse is playfully running on the lion's body. The scene is set in an Indian forest with bright sunlight filtering through the leaves. The lion has a peaceful expression, and the mouse looks tiny and mischievous. The background has thick trees, vines, and colorful flowers. Warm, natural lighting, hyper-realistic style."
     },
     {
-      "id": "story_002_hi",
+      "id": "kids_002_hi",
       "title": "बन्दर और मगरमच्छ - विश्वासघात",
       "category": "fable",
       "language": "hi",
@@ -19,7 +19,7 @@
       "image_prompt": "A large, ancient tree with sweet fruits on the bank of a river. A monkey is sitting on a branch holding a fruit, and a crocodile is in the water looking up at him. The river is clear and flowing. The scene is in a dense Indian forest with vibrant green foliage, sunlight reflecting on the water. The monkey looks intelligent and playful, while the crocodile appears calm but cunning. Hyper-realistic, detailed forest background."
     },
     {
-      "id": "story_003_hi",
+      "id": "kids_003_hi",
       "title": "मूर्ख ब्राह्मण और तीन ठग",
       "category": "fable",
       "language": "hi",
@@ -28,7 +28,7 @@
       "image_prompt": "A traditional village road in India with dust and small houses on both sides. A brahmin wearing a dhoti is carrying a goat on his shoulders. Three clever-looking men in simple clothes are standing at different distances, whispering and scheming. The goat looks calm and alive. The brahmin looks confused and doubtful. The scene is set in bright daylight with golden hour lighting, realistic Indian rural backdrop."
     },
     {
-      "id": "story_004_hi",
+      "id": "kids_004_hi",
       "title": "सुनहरे अंडे वाली हंस",
       "category": "fable",
       "language": "hi",
@@ -37,7 +37,7 @@
       "image_prompt": "A poor farmer's hut in a village with a thatched roof. The farmer is standing holding a dead hen, looking shocked and regretful. On the ground, there are scattered grains and seeds. In the background, a basket of golden eggs is shown (the farmer's imagination). The farmer looks greedy and disappointed. The scene has a rural Indian backdrop with a mud house, haystack, and a dull sky. Hyper-realistic, emotional expression."
     },
     {
-      "id": "story_005_hi",
+      "id": "kids_005_hi",
       "title": "लोमड़ी और कौआ",
       "category": "fable",
       "language": "hi",
@@ -46,7 +46,7 @@
       "image_prompt": "A large tree with branches in a forest. A black crow is sitting on a branch with a piece of white cheese in its beak. A clever orange fox is standing below, looking up at the crow with a cunning smile. The crow looks proud and is about to sing. The background is a forest with greenery. Bright sunlight filtering through trees, hyper-realistic animals."
     },
     {
-      "id": "story_006_hi",
+      "id": "kids_006_hi",
       "title": "खरगोश और कछुआ",
       "category": "fable",
       "language": "hi",
@@ -55,7 +55,7 @@
       "image_prompt": "A forest path winding through trees. A white rabbit is sleeping under a large tree, looking relaxed and overconfident. A tortoise is slowly walking along the path, approaching the finish line. Various forest animals like deer, squirrels, and birds are watching. The sky is clear blue. Bright sunny day, hyper-realistic, detailed forest background."
     },
     {
-      "id": "story_007_hi",
+      "id": "kids_007_hi",
       "title": "गधे और बाज़ारू का खाल",
       "category": "fable",
       "language": "hi",
@@ -64,7 +64,7 @@
       "image_prompt": "A donkey wearing a lion's skin walking through a forest with a proud expression. Other animals like deer and rabbits are hiding behind trees, looking terrified. The donkey's long ears are clearly visible and look out of place. A hunter is hiding behind a bush with a bow, watching the donkey. Dense forest, bright sunlight, hyper-realistic."
     },
     {
-      "id": "story_008_hi",
+      "id": "kids_008_hi",
       "title": "ठग और ब्राह्मणी",
       "category": "fable",
       "language": "hi",
@@ -73,7 +73,7 @@
       "image_prompt": "A royal court in an ancient Indian kingdom. A king is sitting on a grand throne with a crown and royal robes. Two women are standing before him - one is a poor brahmin woman holding a child, and the other is a cunning-looking man disguised as a woman. The king looks wise and thoughtful. The brahmin woman looks terrified and tearful, pleading for her child. The court has pillars, guards, and a grand architecture. Hyper-realistic."
     },
     {
-      "id": "story_009_hi",
+      "id": "kids_009_hi",
       "title": "सोना और साँप",
       "category": "fable",
       "language": "hi",
@@ -82,7 +82,7 @@
       "image_prompt": "A village hut with a large banyan tree in the courtyard. A farmer is holding a stick, trying to hit a snake near a bowl of milk. The snake is poised to strike back. A few gold coins are scattered near the bowl. The scene is in a rural Indian setting with mud walls, a thatched roof, and a bright sunny sky. The farmer looks greedy, the snake looks dangerous. Hyper-realistic."
     },
     {
-      "id": "story_010_hi",
+      "id": "kids_010_hi",
       "title": "मछुआरा और उसकी पत्नी",
       "category": "fable",
       "language": "hi",
@@ -91,7 +91,7 @@
       "image_prompt": "An old, crumbling hut by the sea shore. A poor fisherman and his angry wife are standing outside. In the background, a huge palace is visible but fading away like a mirage. The sea is rough and dark clouds are gathering. The wife looks greedy and dissatisfied, the fisherman looks sad and tired. Hyper-realistic with dramatic sky and sea."
     },
     {
-      "id": "story_011_hi",
+      "id": "kids_011_hi",
       "title": "शेर और खरगोश",
       "category": "fable",
       "language": "hi",
@@ -100,7 +100,7 @@
       "image_prompt": "A deep well in a forest with a lion looking into it, seeing his own reflection and roaring in anger. A tiny rabbit is standing behind the lion, looking clever and relieved. The well has moss around it. Forest trees, greenery, bright daylight. The lion looks furious and confused, the rabbit looks smart. Hyper-realistic."
     },
     {
-      "id": "story_012_hi",
+      "id": "kids_012_hi",
       "title": "बकरी और बाघ",
       "category": "fable",
       "language": "hi",
@@ -109,7 +109,7 @@
       "image_prompt": "A goat's hut in a forest. The goat is closing the door, trapping a huge tiger inside. The tiger looks angry and confused. Other forest animals like deer, rabbits, and birds are gathering outside, ready to help. The scene is in a jungle with trees and bushes. The goat looks brave and clever, the tiger looks trapped. Hyper-realistic."
     },
     {
-      "id": "story_013_hi",
+      "id": "kids_013_hi",
       "title": "खरगोश और हाथी",
       "category": "fable",
       "language": "hi",
@@ -118,7 +118,7 @@
       "image_prompt": "A huge elephant is trapped in a pit with its feet stuck. A small rabbit is standing nearby, looking very clever and satisfied. Other forest animals like monkeys and birds are watching from trees. The pit is covered with branches and leaves. The elephant looks helpless and embarrassed, the rabbit looks proud. Dense forest with sunlight filtering through. Hyper-realistic."
     },
     {
-      "id": "story_014_hi",
+      "id": "kids_014_hi",
       "title": "बिल्ली और चिड़िया",
       "category": "fable",
       "language": "hi",
@@ -127,7 +127,7 @@
       "image_prompt": "A tree with a nest on a branch. A bird is sitting on the nest, looking scared. A cat is climbing the tree with a sly expression. The bird's chicks are peeping out of the nest. The cat looks hungry and cunning. The scene is in a garden with flowers and greenery. Bright sunny day. Hyper-realistic."
     },
     {
-      "id": "story_015_hi",
+      "id": "kids_015_hi",
       "title": "गधे और बिल्ली का विवाद",
       "category": "fable",
       "language": "hi",
@@ -136,7 +136,7 @@
       "image_prompt": "A courtyard with a traditional Indian house in the background. A donkey and a cat are standing face to face, arguing. The donkey looks strong and a bit arrogant, the cat looks proud. The house owner is watching from the doorway. A few pots and farm tools are scattered around. Bright daylight, rural Indian setting. Hyper-realistic."
     },
     {
-      "id": "story_016_hi",
+      "id": "kids_016_hi",
       "title": "सियार और मुर्गी",
       "category": "fable",
       "language": "hi",
@@ -145,7 +145,7 @@
       "image_prompt": "A farmyard with a high platform where a hen is sitting with her chicks, looking down at a hungry fox. The fox is standing below, looking frustrated and hungry. There are a few scattered grains on the ground. A wooden fence in the background. Bright daylight, rural setting. The hen looks protective and clever, the fox looks defeated. Hyper-realistic."
     },
     {
-      "id": "story_017_hi",
+      "id": "kids_017_hi",
       "title": "कछुआ और उड़ने वाली हंस",
       "category": "fable",
       "language": "hi",
@@ -154,7 +154,7 @@
       "image_prompt": "Two white swans are flying in the blue sky, holding a stick in their beaks. A tortoise is hanging from the stick, holding it with its mouth. Below is a village with houses and people looking up and pointing. The tortoise looks angry and is about to open its mouth. The sky is clear blue, soft clouds. Hyper-realistic."
     },
     {
-      "id": "story_018_hi",
+      "id": "kids_018_hi",
       "title": "मेंढक और बैल",
       "category": "fable",
       "language": "hi",
@@ -163,7 +163,7 @@
       "image_prompt": "A pond in a grassland. A huge ox is drinking water. A small frog is nearby, trying to inflate itself to look bigger. The frog's body is bloated and about to burst. Other frogs are watching with worried expressions. The ox looks calm and unaware. Bright daylight, green grass, blue sky. Hyper-realistic."
     },
     {
-      "id": "story_019_hi",
+      "id": "kids_019_hi",
       "title": "चींटी और टिड्डा",
       "category": "fable",
       "language": "hi",
@@ -172,7 +172,7 @@
       "image_prompt": "A summer landscape with a field of wild grass. An ant is carrying a grain, working hard. A grasshopper is sitting on a blade of grass, playing a tiny violin, looking carefree. The sun is shining brightly. In the background, a snow-covered winter landscape is visible (future scene). Contrast between summer and winter. Hyper-realistic."
     },
     {
-      "id": "story_020_hi",
+      "id": "kids_020_hi",
       "title": "बन्दर और मछली",
       "category": "fable",
       "language": "hi",
@@ -181,7 +181,7 @@
       "image_prompt": "A monkey sitting on a tree branch by a river, holding a fish out of water, placing it on a dry leaf. The fish is gasping for breath. The monkey looks confused but well-meaning. A parrot is sitting nearby, looking angry and trying to warn the monkey. The river is flowing peacefully. Bright sunlight, lush greenery. Hyper-realistic."
     },
     {
-      "id": "story_021_hi",
+      "id": "kids_021_hi",
       "title": "दो बिल्लियाँ और एक बन्दर",
       "category": "fable",
       "language": "hi",
@@ -190,7 +190,7 @@
       "image_prompt": "Two cats are looking at a monkey. The monkey is eating pieces of bread, sitting on a stone. The cats look disappointed and regretful. A few bread crumbs are scattered around. The scene is in a village lane with small houses and a dirt road. Bright daylight. The monkey looks greedy, the cats look sad. Hyper-realistic."
     },
     {
-      "id": "story_022_hi",
+      "id": "kids_022_hi",
       "title": "कौआ और कोयल",
       "category": "fable",
       "language": "hi",
@@ -199,7 +199,7 @@
       "image_prompt": "A black crow is sitting on a branch next to a beautiful grey cuckoo. The cuckoo is singing with its beak open, looking melodious. The crow is trying to sing, looking frustrated. The tree has green leaves and flowers. Bright forest background, sunlight. Hyper-realistic."
     },
     {
-      "id": "story_023_hi",
+      "id": "kids_023_hi",
       "title": "तीन मछलियाँ",
       "category": "fable",
       "language": "hi",
@@ -208,7 +208,7 @@
       "image_prompt": "A clear pond with three fish. Two fish are swimming away through a small water channel. One fish is still in the pond, ignoring a net being cast by fishermen on the bank. The fishermen are holding a net. The pond has lotus flowers and green surroundings. Bright daylight. The wise fish look alert, the foolish fish looks carefree. Hyper-realistic."
     },
     {
-      "id": "story_024_hi",
+      "id": "kids_024_hi",
       "title": "हाथी और चूहे",
       "category": "fable",
       "language": "hi",
@@ -217,7 +217,7 @@
       "image_prompt": "A huge elephant is lying down in the forest, looking distressed. Hundreds of tiny mice are swarming around the elephant's trunk. The elephant is crying. The mice look determined and united. Forest with tall trees, moonlight filtering through. Night scene with a moonlit sky. Hyper-realistic."
     },
     {
-      "id": "story_025_hi",
+      "id": "kids_025_hi",
       "title": "गधे और खाल",
       "category": "fable",
       "language": "hi",
@@ -226,7 +226,7 @@
       "image_prompt": "A donkey wearing a lion's skin is walking through a forest. His long ears are clearly visible sticking out. A few animals are hiding behind bushes and trees, looking confused. The donkey is trying to roar but making a funny sound. Bright daylight, green forest. Hyper-realistic."
     },
     {
-      "id": "story_026_hi",
+      "id": "kids_026_hi",
       "title": "सियार और लाल गुलाब",
       "category": "fable",
       "language": "hi",
@@ -235,7 +235,7 @@
       "image_prompt": "A fox is sitting in a garden, holding a red rose in its paw. The fox has a pained expression, with a thorn stuck in its mouth. The garden has many beautiful red roses and green leaves. A few other animals are looking from outside the garden. Bright sunlight, colorful garden. Hyper-realistic."
     },
     {
-      "id": "story_027_hi",
+      "id": "kids_027_hi",
       "title": "बन्दर और मगरमच्छ की बेटी",
       "category": "fable",
       "language": "hi",
@@ -244,7 +244,7 @@
       "image_prompt": "A monkey is sitting on a tree branch by a river. A crocodile is in the water below, looking guilty and annoyed. The monkey is laughing. The river is flowing. The tree has sweet fruits. Bright daylight, green forest. Hyper-realistic."
     },
     {
-      "id": "story_028_hi",
+      "id": "kids_028_hi",
       "title": "चार मित्र",
       "category": "fable",
       "language": "hi",
@@ -253,7 +253,7 @@
       "image_prompt": "A deer is trapped in a hunter's net in the forest. A mouse is biting the net. A tortoise is nearby, ready to help. A crow is perched on a branch, keeping watch. A hunter is approaching with a stick. Forest with trees, sunlight, greenery. All animals look determined and cooperative. Hyper-realistic."
     },
     {
-      "id": "story_029_hi",
+      "id": "kids_029_hi",
       "title": "साँप और मेंढक",
       "category": "fable",
       "language": "hi",
@@ -262,7 +262,7 @@
       "image_prompt": "An old snake is lying near a pond, looking weak. A frog is approaching with a leaf filled with water. The snake looks cunning. The pond has lotus flowers and green grass. Bright daylight. The frog looks innocent, the snake looks deceitful. Hyper-realistic."
     },
     {
-      "id": "story_030_hi",
+      "id": "kids_030_hi",
       "title": "गधा और बैल",
       "category": "fable",
       "language": "hi",
@@ -271,7 +271,7 @@
       "image_prompt": "A donkey and an ox are standing in a farmyard. The donkey looks tired and regretful. The ox looks calm and healthy. A farmer is standing nearby, looking confused. Farm tools and a cart are in the background. Rural Indian setting, bright sunlight. Hyper-realistic."
     },
     {
-      "id": "story_031_hi",
+      "id": "kids_031_hi",
       "title": "बिल्ली और पक्षी",
       "category": "fable",
       "language": "hi",
@@ -280,7 +280,7 @@
       "image_prompt": "A cat sitting under a tree, looking up hungrily at a bird on a branch. The bird is looking down, about to fly away. The cat looks cunning and disappointed. The tree has green leaves and flowers. Bright sunlight, garden background. Hyper-realistic."
     },
     {
-      "id": "story_032_hi",
+      "id": "kids_032_hi",
       "title": "मछली और तोता",
       "category": "fable",
       "language": "hi",
@@ -289,7 +289,7 @@
       "image_prompt": "A parrot flying with a fish in its beak over a forest. Below, a hunter is aiming at them with a bow and arrow. The fish looks calm, the parrot looks determined. Sky is blue with clouds. The forest below is green. Hyper-realistic, action shot."
     },
     {
-      "id": "story_033_hi",
+      "id": "kids_033_hi",
       "title": "चूहा और बिल्ली की दोस्ती",
       "category": "fable",
       "language": "hi",
@@ -298,7 +298,7 @@
       "image_prompt": "A kitchen with a mouse hole. A cat is trying to catch a mouse that is escaping into the hole. The cat looks hungry and angry. The mouse looks scared but clever. Utensils and a stove in the background. Bright daylight, village house setting. Hyper-realistic."
     },
     {
-      "id": "story_034_hi",
+      "id": "kids_034_hi",
       "title": "हाथी और बन्दर",
       "category": "fable",
       "language": "hi",
@@ -307,7 +307,7 @@
       "image_prompt": "An elephant is using its trunk to throw water on a forest fire. A monkey is sitting on a tree branch, looking grateful and apologetic. The fire is in the background. Bright daylight, smoky sky. Hyper-realistic, dramatic scene."
     },
     {
-      "id": "story_035_hi",
+      "id": "kids_035_hi",
       "title": "चोर और साँप",
       "category": "fable",
       "language": "hi",
@@ -316,7 +316,7 @@
       "image_prompt": "A thief is running away from a house with a bag full of gold jewelry. An old snake is lying in the path, looking at the thief with wise eyes. The village street is moonlit. Houses with thatched roofs are in the background. Night scene, moonlight, hyper-realistic."
     },
     {
-      "id": "story_036_hi",
+      "id": "kids_036_hi",
       "title": "मकड़ी और मधुमक्खी",
       "category": "fable",
       "language": "hi",
@@ -325,7 +325,7 @@
       "image_prompt": "A garden with flowers. A spider is repairing a broken web. A bee is collecting honey from a flower. A beehive is hanging on a tree. The garden has bright flowers, butterflies, and sunshine. Hyper-realistic."
     },
     {
-      "id": "story_037_hi",
+      "id": "kids_037_hi",
       "title": "कछुआ और खरगोश - दूसरी दौड़",
       "category": "fable",
       "language": "hi",
@@ -334,7 +334,7 @@
       "image_prompt": "A hilly landscape with a winding path. A rabbit is stumbling and falling down the hill. A tortoise is rolling inside its shell, reaching the bottom first. Trees, rocks, and greenery are all around. Bright sunny day. Hyper-realistic."
     },
     {
-      "id": "story_038_hi",
+      "id": "kids_038_hi",
       "title": "बन्दर और सियार",
       "category": "fable",
       "language": "hi",
@@ -343,7 +343,7 @@
       "image_prompt": "A monkey sitting on a tree branch. A jackal is standing below, looking up hungrily. The monkey is eating a fruit, looking clever. The jackal looks cunning and frustrated. Dense forest with trees and vines. Bright sunlight. Hyper-realistic."
     },
     {
-      "id": "story_039_hi",
+      "id": "kids_039_hi",
       "title": "साँप और चींटी",
       "category": "fable",
       "language": "hi",
@@ -352,7 +352,7 @@
       "image_prompt": "A snake is writhing in pain on the ground. A tiny ant is on the snake's body, biting it. The snake looks angry and helpless. Forest floor with grass and leaves. Bright daylight. Hyper-realistic."
     },
     {
-      "id": "story_040_hi",
+      "id": "kids_040_hi",
       "title": "चंद्रमा और मेंढक",
       "category": "fable",
       "language": "hi",
@@ -361,7 +361,7 @@
       "image_prompt": "A frog is jumping towards the moon in the night sky. A tortoise is sitting nearby, looking at the frog. The moon is big and bright. The pond is in the background with lotus flowers. Night scene with stars. Hyper-realistic."
     },
     {
-      "id": "story_041_hi",
+      "id": "kids_041_hi",
       "title": "गधे की दोस्ती",
       "category": "fable",
       "language": "hi",
@@ -370,7 +370,7 @@
       "image_prompt": "A donkey and a deer are running through the forest. A hunter is chasing them with a bow and arrow. The donkey looks determined, the deer looks scared. Forest with tall trees and bushes. Bright sunlight. Hyper-realistic."
     },
     {
-      "id": "story_042_hi",
+      "id": "kids_042_hi",
       "title": "बंदर और फल",
       "category": "fable",
       "language": "hi",
@@ -379,7 +379,7 @@
       "image_prompt": "A monkey is looking up at a very tall tree with ripe fruits. The monkey has injuries from falling. A crow is sitting on a lower branch, giving advice. Bright daylight, forest background. Hyper-realistic."
     },
     {
-      "id": "story_043_hi",
+      "id": "kids_043_hi",
       "title": "चूहा और शेरनी",
       "category": "fable",
       "language": "hi",
@@ -388,7 +388,7 @@
       "image_prompt": "A lioness is trapped in a net. A small mouse is biting the net to free her. The lioness looks grateful, the mouse looks determined. Forest with trees and vines. Bright sunlight. Hyper-realistic."
     },
     {
-      "id": "story_044_hi",
+      "id": "kids_044_hi",
       "title": "सियार का सपना",
       "category": "fable",
       "language": "hi",
@@ -397,7 +397,7 @@
       "image_prompt": "A jackal is sleeping under a tree, dreaming. In the dream bubble, animals are bowing to him as king. A parrot is sitting nearby, looking at him. Forest background, bright sunlight. Hyper-realistic."
     },
     {
-      "id": "story_045_hi",
+      "id": "kids_045_hi",
       "title": "चिड़िया और पेड़",
       "category": "fable",
       "language": "hi",
@@ -406,7 +406,7 @@
       "image_prompt": "A bird is attacking a man who is cutting a tree with an axe. The tree is partially cut. The bird looks brave, the man looks scared. Forest background, bright sunlight. Hyper-realistic."
     },
     {
-      "id": "story_046_hi",
+      "id": "kids_046_hi",
       "title": "मकड़ी और मच्छर",
       "category": "fable",
       "language": "hi",
@@ -415,7 +415,7 @@
       "image_prompt": "A mosquito is trapped in a spider's web. The spider is approaching. The mosquito looks scared, the spider looks calm. Web glistening in sunlight. Garden background, bright day. Hyper-realistic."
     },
     {
-      "id": "story_047_hi",
+      "id": "kids_047_hi",
       "title": "बिल्ली और दूध",
       "category": "fable",
       "language": "hi",
@@ -424,7 +424,7 @@
       "image_prompt": "A cat is stuck with its head in a pot. The pot is broken on the ground. Milk is spilling. The cat looks scared, trying to get out. Kitchen setting, bright daylight. Hyper-realistic."
     },
     {
-      "id": "story_048_hi",
+      "id": "kids_048_hi",
       "title": "घोड़ा और गधा",
       "category": "fable",
       "language": "hi",
@@ -433,7 +433,7 @@
       "image_prompt": "A horse is carrying a heavy load while a donkey lies on the ground, tired. The farmer is standing nearby. The horse looks tired and regretful. Farmyard, bright sunlight. Hyper-realistic."
     },
     {
-      "id": "story_049_hi",
+      "id": "kids_049_hi",
       "title": "मुर्गी और बाज़",
       "category": "fable",
       "language": "hi",
@@ -442,7 +442,7 @@
       "image_prompt": "A hawk is flying with a hen in its claws. Villagers are throwing stones at the hawk. The hen looks scared, the hawk looks fierce. Village setting, bright sunlight. Hyper-realistic."
     },
     {
-      "id": "story_050_hi",
+      "id": "kids_050_hi",
       "title": "मछली और पानी का बुलबुला",
       "category": "fable",
       "language": "hi",
