@@ -5,9 +5,13 @@
             "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/stories/kids_stories.json"
         },
         {
+            "filename": "stories/mysteries.json",
+            "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/stories/mysteries.json"
+        },
+        {
             "filename": "stories/mythological_stories.json",
             "url": "https://raw.githubusercontent.com/factictionary/brainpulse/main/stories/mythological_stories.json"
         }
     ],
-    "updated_at": "2026-08-01T08:34:07Z"
+    "updated_at": "2026-08-02T08:38:16Z"
 }
